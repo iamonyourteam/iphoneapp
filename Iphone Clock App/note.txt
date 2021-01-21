@@ -1,0 +1,4 @@
+push - add to end
+pop - remove from end
+shift - remove from start
+unshift - add to start

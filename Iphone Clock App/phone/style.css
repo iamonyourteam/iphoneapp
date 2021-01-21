@@ -1,0 +1,624 @@
+
+ /* /////////////////////////////////////// */
+/* ///  Phone styles & global styles  //// */
+/*///////////////////////////////////// */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lato', sans-serif;
+}
+
+.phone {
+    float: left;
+    width: 40vh;
+    height: 80vh;
+    background-color: rgb(10, 10, 10);
+    color: white;
+    
+    border-radius: 5%;
+    border: 13px solid rgb(0, 0, 0);
+    position: relative;
+    overflow: hidden;
+    box-sizing:content-box; 
+    overflow: hidden;
+
+    
+}
+.screen {
+    position: relative;
+    float: left;
+    height: 100%;
+    width: 100%;
+    float: left;   
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+/* Top Navigation */
+.top {
+    float: left;
+    width: 100%;
+    height: 20px;
+    
+}
+#time {
+    padding-left: 12px;
+    padding-top: 5px;
+    float:left;
+    width: 25%;   
+}
+#notch {
+    float: left;
+    width: 50%;
+    height: calc(90vh - 87vh);
+    border-radius: 0% 0% 12% 12%;
+    background-color: black;
+}
+#rightTop {
+    padding-top: 5px;
+    float:  left;
+    width: 25%;   
+}
+#rightTop ul {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+#rightTop li{
+    float: left;
+    margin: 0px;
+    padding: 2px;
+    display: inline;
+    width: 33%;
+    height: 100%;
+    list-style: none;
+}
+#rightTop object {
+    float: left;
+    width: 15px;
+    height: 15px;
+}
+#main {
+    float: left;
+    width: 100%;
+ 
+}
+/* Bottom Navigation      */
+.worldclock{
+    display: none;
+}
+.alarm{
+    display: none;
+}
+.stopwatch{
+    display: inherit;
+}
+.timer{
+    display: none;
+}
+#bottomButtons{
+        height: 40px;
+        width: 100%;
+        display: flex;
+        flex-wrap: nowrap;
+}   
+.nav{
+       flex-grow: 1;
+
+        height: 100%;
+
+    }
+.nav button :hover {
+        cursor: pointer;
+    }
+.nav button {
+
+        width: 100%;
+        height: 100%;
+        background-color: transparent;
+        border: none;
+        color: rgb(179, 179, 179);
+        font-size: .6em;       
+    }
+.nav svg {
+
+       padding-bottom: 2px;
+        width: 100%;
+        height:25px;
+        fill: rgb(179, 179, 179);
+    }
+    #icon { 
+        fill: rgb(255, 161, 19);
+    }    
+    #stopwatch, #stopwatchicon{
+        fill: rgb(255, 161, 19);
+        color: rgb(255, 161, 19);
+    } 
+    #oval {
+        height: 4px;
+        background: rgb(255, 255, 255);
+        margin: 20px 120px;
+        border-radius: 20px;
+    }
+  
+    
+ /* ///////////////////////  */
+/*/// World Clock Styles//// */
+/* ////////////////////// */
+
+
+
+
+ /* ///////////////////////  */
+/*///   Alarm Styles  //// */
+/* ////////////////////// */
+
+
+
+    
+ /* ///////////////////////  */
+/*/// StopWatch Styles//// */
+/* ////////////////////// */
+
+#counter {
+    text-align: center;
+    margin-top: 45%;
+    margin-bottom: 40%;
+    font-size: 3.5em;
+}
+
+/* container for both buttons */
+.b_button{
+width: 100%;
+display:flex;
+position: relative;
+z-index: 10;
+
+
+}
+/* left and right stopwatch buttons */
+.c_button{
+margin: auto;
+}
+.c_button :hover {
+    cursor: pointer;
+}
+#reset, #lap, #start, #stop,#start_Timer,#cancel_Timer,#pause_Timer,#resume_Timer {
+    height: 55px;
+ width: 55px;
+ border-radius: 50%;
+ 
+}
+#reset {
+background-color: rgb(65, 65, 65);;
+border: solid rgb(0, 0, 0) 2px;
+box-shadow: 0px 0px 0px 2px rgb(65, 65, 65);
+color: white;
+
+}
+#lap,#cancel_Timer {
+    opacity: .3;
+    background-color: rgb(65, 65, 65);;
+    border: solid rgb(0, 0, 0) 2px;
+    box-shadow: 0px 0px 0px 2px rgb(65, 65, 65);
+    color: white;
+}
+#start,#start_Timer,#resume_Timer{
+    background-color: rgb(9, 53, 16);
+    border: solid rgb(0, 0, 0) 2px;
+    box-shadow: 0px 0px 0px 2px rgb(9, 53, 16);
+    color: rgb(30, 146, 49);
+}
+#stop{
+
+    background-color: rgb(77, 8, 8);
+    border: solid rgb(0, 0, 0) 2px;
+    box-shadow: 0px 0px 0px 2px rgb(77, 8, 8);
+    color: rgb(255, 38, 38);
+}
+.lapsccont{
+    margin: -20px;
+    height: 100%;
+    overflow: hidden;
+    box-sizing:content-box; 
+    /* border:rgb(255, 0, 0) solid 20px; */
+    margin-top:10px;
+    border-right:rgb(10, 10, 10) solid 20px;
+    border-left:rgb(10, 10, 10) solid 10px;
+}
+.lapsc {
+    position: relative;
+    left: 20px;
+    height: 200px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    margin-top: 22px;
+}
+.laps {
+
+    border-bottom: 1px solid rgb(39, 39, 39);
+    border-top: 1px solid rgb(39, 39, 39);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 0px;
+    margin-right: 15px;   
+}
+.newlaps{
+    border-bottom: 1px solid rgb(39, 39, 39);
+    border-top: 1px solid rgb(39, 39, 39);
+    padding-top: 5px;
+    padding-bottom: 25px;
+    margin-left: 0px;
+    margin-right: 15px;  
+}
+
+.leftlap{
+float: left;
+
+}
+.rightlap{
+float: right;
+}
+.bottom {
+position: absolute;
+  top: calc(80vh - 70px);
+ 
+ width: 100%;
+ height: 70px;
+ border-radius:0 0 5% 5% ;
+ background-color: rgb(26, 26, 26);
+}
+
+ /* ///////////////////////  */
+/*///   Timer Styles   //// */
+/* ////////////////////// */
+
+#timerContainer {
+
+    display: flex;
+    flex-direction: column;
+width: 100%;
+ height: 200px;
+text-align: center;
+margin-top: 15%;
+margin-bottom: 25%;
+justify-content: center;
+min-width: 280px;
+
+    }
+
+#selectorContainer{
+    user-select: none;
+    float: left;
+    margin: auto;
+    font-size: 1.1em;
+    height: 1.4em;
+    width: auto;
+    background-color: rgba(110, 110, 110, 0.185);
+    border-radius: 5px;
+    overflow: visible;
+    display:unset;
+    
+
+    
+ 
+    
+}
+#timerCount {
+    margin: auto;
+    margin-bottom: 0;
+    font-size: 3.5em;
+    font-weight: 300;
+    height: 1.4em;
+    width: 100%;
+    border-radius: 5px;
+    overflow: visible;
+    display: none;
+    position: relative;
+    
+}
+
+
+
+#estcont {
+display: inline;
+opacity: .5;
+
+}
+
+#estTime{
+    visibility: hidden;
+    margin-top: -75px;
+    font-size: 1.5em;
+    font-weight: 300;
+    width: 100%;
+
+    overflow: visible;
+    color: rgb(172, 171, 171);
+    display: inline;
+    position: relative;
+}
+
+#bell {
+    fill: rgb(65, 65, 65);
+    height: 1.2em;
+    width: 2em;
+    position: relative;
+    display: inline;
+    visibility: hidden;
+}
+
+#myCanvas,#myCanvas2{
+    margin: 0;
+    margin-left: -20px;
+    margin-right: -20px;
+    padding: 0;
+    padding-top: 9vh;
+    visibility: hidden;
+    position: absolute;
+    transform: scaleX(-1);
+}
+
+
+
+
+#pause_Timer{
+    background-color: rgb(100, 57, 0);
+    border: solid rgb(0, 0, 0) 2px;
+    box-shadow: 0px 0px 0px 2px rgb(100, 57, 0);
+    color: rgb(255, 145, 0);
+
+    
+}
+
+
+
+.selector{
+    padding: 1px 15px ;
+    overflow: visible;
+    float: left;
+    
+    
+}
+
+#hr{
+    float: left;
+    position: relative;
+    width: 100px;
+    height: 1.5em;
+
+}
+
+#min{
+    float: left;
+    position: relative;
+    width: 90px;
+    height: 1.5em;
+   
+}
+
+#sec{
+    float: left;
+    position: relative;
+    width: 90px;
+    height: 1.5em;
+   
+}
+
+.dragArea {
+
+position: relative;
+    bottom: 100px;
+    left: 0px;
+    height: 250px;
+    width: 74px;
+
+
+    
+}
+
+
+.numbers {
+float: left;
+position: relative;
+width: 30%;
+
+}
+
+#p0,#p1,#p2,#p3,#p4,#p5,#p6,    #q0,#q1,#q2,#q3,#q4,#q5,#q6,   #r0,#r1,#r2,#r3,#r4,#r5,#r6   {
+
+position: absolute;
+padding-right: 10px;
+font-weight: 300;
+}
+
+
+#p0,#q0,#r0{
+    top: -46px;
+    transform: rotateX(0.16turn);
+    opacity: .08;
+  
+} 
+#p1,#q1,#r1{
+    top: -35px;
+    transform: rotateX(0.14turn);
+    opacity: .2;
+    
+}
+#p2,#q2,#r2{
+    top: -20px;
+    transform: rotateX(-0.12turn);
+    opacity: .7;
+   
+    
+}
+#p3,#q3,#r3{
+    position: static;
+}
+
+#p4,#q4,#r4{
+    bottom: -20px;
+    transform: rotateX(0.12turn);
+    opacity: .7;
+ 
+}
+
+#p5,#q5,#r5{
+    bottom: -35px;
+    transform: rotateX(0.17turn);
+    opacity: .2;
+   
+}
+
+#p6,#q6,#r6{
+    bottom: -46px;
+    transform: rotateX(0.20turn);
+    opacity: .1;
+  
+}
+
+
+
+
+
+#p0{
+    left: 4px;
+} 
+#p1{
+    left: 3px;
+}
+#p2{
+    left: 2px;
+  
+}
+#p4{
+    left: 2px;
+}
+#p5{
+    left: 4px;
+}
+#p6{
+    left: 6px;
+}
+
+
+
+
+#r0{
+    left: -4px;
+} 
+#r1{
+    left: -3px;
+}
+#r2{
+    left: -2px;
+  
+}
+#r4{
+    left: -2px;
+}
+#r5{
+    left: -4px;
+}
+#r6{
+    left: -6px;
+}
+
+
+#toneBcont :hover {
+    background-color: rgb(65, 65, 65);
+
+    
+}
+#selToneCont {
+margin:auto;
+margin-top: 40px;
+background-color:  rgba(110, 110, 110, 0.185);
+border-radius: 10px;
+width: 90%;
+height: 5vh;
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-wrap: nowrap;
+border: 0;
+color: white;
+}
+
+
+
+#whenTimerEnds {
+    justify-content: flex-start;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#tone,#toneName,#toneArrow {
+    justify-content: flex-end;
+    display: inline;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#selTonePage{
+position: absolute;
+background-color: rgb(65, 65, 65);
+top:80vh;
+left: 0;
+width: 100%;
+height: 100%;
+border-radius: 10px 10px 13px 13px;
+z-index: 20;
+transition: top .3s;
+transition-timing-function: linear;
+
+}
+
+#toneHeaderCont{
+display:flex;
+width:100%;
+justify-content:space-around;
+
+}
+
+#toneCancel,#toneSet{
+background:none;
+border:none;
+color:orange;
+font-size: .9em;
+padding: 10px;
+width: 100px;
+}
+#toneCancel:hover,#toneSet:hover{
+    opacity: .2;
+}
+
+#toneHeader{
+    padding: 10px;
+}
+#toneSelectCont{
+margin-top: 20px;
+display: flex;
+flex-direction: column;
+
+}
+
+
+.toneSelect{
+margin-top: 7px;
+margin-bottom:7px ;
+}
+.toneCheck{
+    color: orange;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.toneName{
+    
+    border-bottom: rgb(116, 116, 116) solid 1px;
+
+}

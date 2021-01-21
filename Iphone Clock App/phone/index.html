@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+
+<head>
+    <title>IPhone Timer App</title>
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+
+    <div class="phone">
+
+        <div class=screen>
+            <div class="top">
+
+                <div id="time">time</div>
+
+                <div id="notch">&nbsp</div>
+
+                <div id="rightTop">
+                    <ul>
+                        <li> <object type="image/svg+xml" data="images/signal.svg"></object></li>
+                        <li> <object type="image/svg+xml" data="images/wifi-signal.svg"></object></li>
+                        <li> <object type="image/svg+xml" data="images/batt.svg"></object></li>
+                    </ul>
+                </div>
+            </div>
+            <div class=worldclock id=worldclockpage>
+                <h1>World Clock</h1>
+            </div>
+            <div class=alarm id=alarmpage>
+                <h1>Alarm</h1>
+            </div>
+            <div class=stopwatch id=stopwatchpage>
+                <div id="main">
+                    <h1 id="counter">00:00.00</h1>
+                </div>
+
+                <div class=b_button>&nbsp
+                    <div class="c_button"><button onClick="changel()" id=lap>Lap</button></div>
+                    <div class="c_button">
+                    </div>
+                    <div class="c_button"><button onClick="changer()" id=start>Start</button>
+                    </div>
+
+                </div>
+                <div class=lapsccont>
+                    <div class=lapsc id=lapssc>
+                        <div class="laps" id="lap0">&nbsp
+                            <span class=leftlap id=lap0n>&nbsp</span>
+                            <span class=rightlap id=lap0t>&nbsp</span>
+                        </div>
+                        <div class="laps" id="lap1">&nbsp
+                            <span class=leftlap id=lap1n>&nbsp</span>
+                            <span class=rightlap id=lap1t>&nbsp</span>
+                        </div>
+                        <div class="laps" id="lap2">&nbsp
+                            <span class=leftlap id=lap2n>&nbsp</span>
+                            <span class=rightlap id=lap2t>&nbsp</span>
+                        </div>
+                        <div class="laps" id="lap3">&nbsp
+                            <span class=leftlap id=lap3n>&nbsp</span>
+                            <span class=rightlap id=lap3t>&nbsp</span>
+                        </div>
+                        <div class="laps" id="lap4">&nbsp
+                            <span class=leftlap id=lap4n>&nbsp</span>
+                            <span class=rightlap id=lap4t>&nbsp</span>
+                        </div>
+                        <div class="laps" id="lap5">&nbsp
+                            <span class=leftlap id=lap5n>&nbsp</span>
+                            <span class=rightlap id=lap5t>&nbsp</span>
+                        </div>
+
+
+                    </div>
+                </div>
+
+            </div>
+            <div class=timer id=timerpage>
+
+                <div id="main">
+
+                    <div id="timerContainer">
+                        <!-- //might need to add hight and width to canvas -->
+                        <canvas id="myCanvas2"></canvas>
+                        <canvas id="myCanvas"></canvas>
+
+                        <div id="selectorContainer">
+                            <div class="container">
+
+                            </div>
+
+                            <span id=hr class="selector">
+
+                                <div class="numbers">
+                                    <div id=p0>1</div>
+                                    <div id=p1>2</div>
+                                    <div id=p2>3</div>
+                                    <div id=p3>4</div>
+                                    <div id=p4>5</div>
+                                    <div id=p5>6</div>
+                                    <div id=p6>7</div>
+
+                                </div>hours
+                                <div class="dragArea"></div>
+                            </span>
+                            <span id=min class="selector">
+                                <div class="numbers">
+                                    <div id=q0>1</div>
+                                    <div id=q1>2</div>
+                                    <div id=q2>3</div>
+                                    <div id=q3>4</div>
+                                    <div id=q4>5</div>
+                                    <div id=q5>6</div>
+                                    <div id=q6>7</div>
+                                </div>min
+                                <div class="dragArea"></div>
+                            </span>
+                            <span id=sec class="selector">
+                                <div class="numbers">
+                                    <div id=r0>1</div>
+                                    <div id=r1>2</div>
+                                    <div id=r2>3</div>
+                                    <div id=r3>4</div>
+                                    <div id=r4>5</div>
+                                    <div id=r5>6</div>
+                                    <div id=r6>7</div>
+                                </div>sec
+                                <div class="dragArea"></div>
+                            </span>
+                        </div>
+
+                        <div id="timerCount">00:00:00</div>
+                        <div id=estcont><object id="bell" type="image/svg+xml" data="images/bell.svg"></object>
+                            <div id="estTime">00:00
+                                AM</div>
+                        </div>
+                    </div>
+                    <div class=b_button>&nbsp
+                        <div class="c_button"><button onClick="cancel_Timer()" id=cancel_Timer>Cancel</button>
+                        </div>
+                        <div class="c_button">
+                        </div>
+                        <div class="c_button"><button onClick="start_Timer()" id=start_Timer>Start</button>
+                        </div>
+                    </div>
+                    <div id="toneBcont">
+                        <button onClick="changeTone()" id="selToneCont">
+                            <div id="whenTimerEnds">When Timer Ends</div>
+
+                            <div id="tone">
+                                <div id="toneName">Tone</div>
+                                <div id="toneArrow">></div>
+                            </div>
+
+                        </button>
+                    </div>
+                    <div id="selTonePage">&nbsp
+                        <div id="toneHeaderCont">
+                            <button onClick="changeToneClose()" id="toneCancel">Cancel</button>
+                            <div id="toneHeader">When Timer Ends</div>
+                            <button id="toneSet">Set</button>
+                        </div>
+                        <div id="toneSelectCont">
+                            <div class="toneSelect" id="radar">
+                                <span class="toneCheck">✓</span>
+                                <span class="toneName">Radar (Default)</span>
+                            </div>
+                            <div class="toneSelect" id="apex">
+                                <span class="toneCheck">✓</span>
+                                <span class="toneName">Apex</span>
+                            </div>
+                            <div class="toneSelect" id="beacon">
+                                <span class="toneCheck">✓</span>
+                                <span class="toneName">Beacon</span>
+                            </div>
+                            <div class="toneSelect" id="bulletin">
+                                <span class="toneCheck">✓</span>
+                                <span class="toneName">Bulletin</span>
+                            </div>
+                            <div class="toneSelect" id="seaside">
+                                <span class="toneCheck">✓</span>
+                                <span class="toneName">By The Seaside</span>
+                            </div>
+                            <div class="toneSelect" id="chimes">
+                                <span class="toneCheck">✓</span>
+                                <span class="toneName">Chimes</span>
+                            </div>
+                            <div class="toneSelect" id="circuit">
+                                <span class="toneCheck">✓</span>
+                                <span class="toneName">Circuit</span>
+                            </div>
+                            <div class="toneSelect" id="constellation">
+                                <span class="toneCheck">✓</span>
+                                <span class="toneName">Constellation</span>
+                            </div>
+                            <div class="toneSelect" id="cosmic">
+                                <span class="toneCheck">✓</span>
+                                <span class="toneName">Cosmic</span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+
+
+        </div>
+        <div class="bottom">
+            <div id=bottomButtons>
+                <span class="nav"><button id="worldclock" onClick="worldclocknav()">
+
+                        <svg id="worldclockicon" enable-background="new 0 0 512 512" height="512" viewBox="0 0 512 512"
+                            width="512" xmlns="http://www.w3.org/2000/svg">
+                            <g>
+                                <path
+                                    d="m256 512c140.959 0 256-115.049 256-256 0-140.96-115.049-256-256-256-140.959 0-256 115.049-256 256 0 140.96 115.049 256 256 256zm75.947-43.143c14.505-18.535 25.623-40.643 33.974-62.867h58.966c-24.986 28.11-56.854 49.952-92.94 62.867zm115.476-92.857h-71.804c8.852-32.188 14.045-67.876 15.149-105h90.722c-2.528 38.388-14.68 74.185-34.067 105zm0-240c19.387 30.815 31.539 66.612 34.067 105h-90.722c-1.104-37.124-6.297-72.812-15.149-105zm-22.537-30h-58.966c-8.348-22.205-19.465-44.316-33.974-62.857 36.087 12.915 67.955 34.757 92.94 62.857zm-153.886-73.434c29.436 9.977 50.553 44.985 62.631 73.434h-62.631zm0 103.434h73.427c9.538 31.578 15.149 67.403 16.33 105h-89.757zm0 134.99h89.757c-1.181 37.607-6.792 73.432-16.33 105.01h-73.427zm0 135h62.631c-12.098 28.507-33.219 63.476-62.631 73.444zm-183.886.01h58.966c8.348 22.205 19.465 44.316 33.974 62.857-36.087-12.914-67.955-34.757-92.94-62.857zm153.886 73.434c-29.411-9.968-50.531-44.933-62.631-73.434h62.631zm0-103.434h-73.427c-9.538-31.578-15.149-67.403-16.33-105h89.757zm0-135h-89.757c1.181-37.597 6.792-73.422 16.33-105h73.427zm0-208.434v73.434h-62.631c12.099-28.498 33.218-63.465 62.631-73.434zm-60.947 10.577c-14.505 18.535-25.622 40.642-33.974 62.857h-58.965c24.985-28.1 56.853-49.943 92.939-62.857zm-115.476 92.847h71.804c-8.852 32.198-14.045 67.886-15.149 105.01h-90.722c2.528-38.388 14.68-74.185 34.067-105.01zm-34.067 135.01h90.722c1.104 37.124 6.297 72.812 15.149 105h-71.804c-19.387-30.815-31.539-66.612-34.067-105z" />
+                            </g>
+                        </svg>
+
+                        <div id="worldclocktext">World Clock</div>
+                    </button></span>
+                <span class="nav" ">
+                    <button id=" alarm" onClick="alarmnav()">
+                    <svg id="alarmicon" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 477.849 477.849"
+                        style="enable-background:new 0 0 477.849 477.849;" xml:space="preserve">
+                        <path d="M374.099,385.518c71.737-74.859,69.207-193.698-5.652-265.435s-193.698-69.206-265.435,5.652
+                                c-69.586,72.615-69.586,187.168,0,259.783l-48.777,65.024c-5.655,7.541-4.127,18.238,3.413,23.893s18.238,4.127,23.893-3.413
+                                l47.275-63.044c65.4,47.651,154.078,47.651,219.477,0l47.275,63.044c5.655,7.541,16.353,9.069,23.893,3.413
+                                c7.541-5.655,9.069-16.353,3.413-23.893L374.099,385.518z M255.623,255.982c0,3.693-1.198,7.286-3.413,10.24l-51.2,68.267
+                                c-5.655,7.541-16.353,9.069-23.893,3.413s-9.069-16.353-3.413-23.893l47.787-63.71v-96.717c0-9.426,7.641-17.067,17.067-17.067
+                                s17.067,7.641,17.067,17.067V255.982z" />
+                        <path
+                            d="M145.286,24.984C111.544-7.918,57.519-7.237,24.616,26.505c-32.314,33.139-32.318,85.997-0.008,119.141
+                                c6.665,6.663,17.468,6.663,24.132,0l96.546-96.529C151.949,42.452,151.949,31.649,145.286,24.984z" />
+                        <path d="M452.486,24.984c-33.323-33.313-87.339-33.313-120.661,0c-6.663,6.665-6.663,17.468,0,24.132l96.529,96.529
+                                c6.665,6.663,17.468,6.663,24.132,0C485.799,112.323,485.799,58.307,452.486,24.984z" />
+                        <div id="alarmtext">Alarm</div>
+                        </button></span>
+
+                <span class="nav"><button id="stopwatch" onClick="stopwatchnav()">
+                        <svg id="stopwatchicon" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 16.644 16.644"
+                            style="enable-background:new 0 0 16.644 16.644;" xml:space="preserve">
+                            <path " d=" M13.804,4.661l0.659-0.66l0.196,0.195c0.182,0.182,0.477,0.182,0.657,0
+                                c0.183-0.181,0.183-0.476,0-0.658L14.33,2.551c-0.182-0.182-0.477-0.182-0.658,0c-0.182,0.183-0.182,0.477,0,0.659l0.218,0.216
+                                l-0.648,0.648c-1.129-1.043-2.588-1.731-4.203-1.89V1.579h0.469c0.436,0,0.789-0.354,0.789-0.789C10.297,0.354,9.943,0,9.508,0
+                                H7.14C6.704,0,6.35,0.354,6.35,0.79s0.354,0.789,0.79,0.789h0.52v0.602H7.631c-1.709,0.163-3.245,0.917-4.4,2.058L2.828,4.674
+                                C1.737,5.943,1.073,7.589,1.073,9.395c0,4.003,3.246,7.249,7.249,7.249c4.005,0,7.249-3.246,7.249-7.249
+                                C15.572,7.583,14.902,5.931,13.804,4.661z
+                                M8.313,15.404c-3.326,0-6.022-2.696-6.022-6.022S4.988,3.36,8.313,3.36
+                                s6.022,2.696,6.022,6.022C14.335,12.708,11.638,15.404,8.313,15.404z" />
+                            <path "
+                                        d="
+                                M8.79,8.843V5.048L8.352,4.346L7.854,5.048v3.795C7.581,9.004,7.396,9.298,7.396,9.638
+                                c0,0.511,0.415,0.925,0.925,0.925s0.926-0.414,0.926-0.925C9.248,9.298,9.064,9.004,8.79,8.843z" />
+                        </svg>
+                        <div id="stopwatchtext">StopWatch</div>
+                    </button></span>
+                <span class="nav"><button id="timer" onClick="timernav()">
+
+                        <svg id="timericon" height="512pt" viewBox="0 0 512.03981 512" width="512pt"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="m282.523438 1.34375c-8.800782-.886719-17.640626-1.328125-26.484376-1.3242188h-.265624c-14.636719.2421878-26.339844 12.2421878-26.214844 26.8828128v105.53125c-.035156 3.554687.6875 7.074218 2.117187 10.328125 4.582031 10.90625 15.863281 17.429687 27.597657 15.964843 13.554687-2.03125 23.5-13.792968 23.25-27.492187v-76.484375c98.890624 12.980469 173.726562 95.839844 176.59375 195.539062 2.867187 99.699219-67.078126 186.726563-165.058594 205.367188-97.980469 18.644531-195-36.613281-228.945313-130.398438-33.945312-93.785156 5.226563-198.339843 92.441407-246.730468 11.59375-6.566406 16.445312-20.769532 11.289062-33.054688l-.03125-.074218c-2.890625-6.988282-8.625-12.40625-15.765625-14.902344-7.136719-2.492188-15-1.820313-21.613281 1.84375-110.347656 61.484375-159.351563 194.269531-115.402344 312.695312 43.945312 118.429688 167.710938 187.097656 291.453125 161.710938 123.742187-25.386719 210.472656-137.238282 204.238281-263.40625-6.230468-126.164063-103.558594-228.925782-229.199218-241.996094zm0 0" />
+                            <path
+                                d="m159.300781 170.949219c10.652344 28.050781 45.503907 94.28125 71.574219 122.480469 16.027344 18.09375 43.394531 20.515624 62.351562 5.523437 9.484376-7.957031 15.191407-19.527344 15.738282-31.894531.542968-12.363282-4.132813-24.390625-12.878906-33.148438-27.265626-27.261718-96.464844-63.382812-125.480469-74.398437-3.25-1.222657-6.917969-.417969-9.363281 2.050781-2.441407 2.472656-3.203126 6.148438-1.941407 9.386719zm0 0" />
+                        </svg>
+                        <div id="timertext">Timer</div>
+                    </button></span>
+            </div>
+            <div id=oval></div>
+        </div>
+
+    </div>
+
+
+
+
+
+    <script src="stopwatch.js" type="text/javascript"> </script>
+    <script src="app.js" type="text/javascript"> </script>
+    <script src="timer.js" type="text/javascript"> </script>
+    <svg width="960" height="500"></svg>
+</body>
+
+</html>
