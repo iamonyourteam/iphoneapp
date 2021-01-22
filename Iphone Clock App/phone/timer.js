@@ -479,6 +479,19 @@ function changeToneClose() {
     document.querySelector("#selTonePage").style.top = '80vh'
 }
 
+function toggleCheckButton(buttonName) {
+    let clickedButton = buttonName.querySelector(".toneCheck, .toneUnCheck")
+
+    let otherButton = document.querySelectorAll(".toneCheck, .toneUnCheck")
+    let otherButtonLength = (otherButton.length)
+
+
+    for (i = 0; i < otherButtonLength; i++) {
+        otherButton[i].className = "toneUnCheck"
+    }
+    clickedButton.className = "toneCheck"
+
+}
 
 
 
