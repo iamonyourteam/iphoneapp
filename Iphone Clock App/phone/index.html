@@ -160,60 +160,70 @@
                         <div id="toneHeaderCont">
                             <button onClick="changeToneClose()" id="toneCancel">Cancel</button>
                             <div id="toneHeader">When Timer Ends</div>
-                            <button id="toneSet">Set</button>
+                            <button onClick="setTone()" id="toneSet">Set</button>
                         </div>
                         <div id="toneSelectCont">
                             <div class="toneSelect" id="radar">
                                 <span>
                                     <button class="toneCheck" onclick="toggleCheckButton(radar)">✓</button>
+                                    <audio class="toneAudio" id="radarAudio" src="alarm/radar.mp3"></audio>
                                 </span>
                                 <span class="toneName">Radar (Default)</span>
                             </div>
                             <div class="toneSelect" id="apex">
                                 <span>
                                     <button class="toneUnCheck" onclick="toggleCheckButton(apex)">✓</button>
+                                    <audio class="toneAudio" id="apexAudio" src="alarm/apex.mp3"></audio>
                                 </span>
                                 <span class="toneName">Apex</span>
                             </div>
                             <div class="toneSelect" id="beacon">
                                 <span>
                                     <button class="toneUnCheck" onclick="toggleCheckButton(beacon)">✓</button>
+                                    <audio class="toneAudio" id="beaconAudio" src="alarm/beacon.mp3"></audio>
                                 </span>
                                 <span class="toneName">Beacon</span>
                             </div>
                             <div class="toneSelect" id="bulletin">
                                 <span>
                                     <button class="toneUnCheck" onclick="toggleCheckButton(bulletin)">✓</button>
+                                    <audio class="toneAudio" id="bulletinAudio" src="alarm/bulletin.mp3"></audio>
                                 </span>
                                 <span class="toneName">Bulletin</span>
                             </div>
                             <div class="toneSelect" id="seaside">
                                 <span>
                                     <button class="toneUnCheck" onclick="toggleCheckButton(seaside)">✓</button>
+                                    <audio class="toneAudio" id="seasideAudio" src="alarm/by_the_seaside.mp3"></audio>
                                 </span>
                                 <span class="toneName">By The Seaside</span>
                             </div>
                             <div class="toneSelect" id="chimes">
                                 <span>
                                     <button class="toneUnCheck" onclick="toggleCheckButton(chimes)">✓</button>
+                                    <audio class="toneAudio" id="chimesAudio" src="alarm/chimes.mp3"></audio>
                                 </span>
                                 <span class="toneName">Chimes</span>
                             </div>
                             <div class="toneSelect" id="circuit">
                                 <span>
                                     <button class="toneUnCheck" onclick="toggleCheckButton(circuit)">✓</button>
+                                    <audio class="toneAudio" id="circuitAudio" src="alarm/circuit.mp3"></audio>
                                 </span>
                                 <span class="toneName">Circuit</span>
                             </div>
                             <div class="toneSelect" id="constellation">
                                 <span>
                                     <button class="toneUnCheck" onclick="toggleCheckButton(constellation)">✓</button>
+                                    <audio class="toneAudio" id="constellationAudio"
+                                        src="alarm/constellation.mp3"></audio>
                                 </span>
                                 <span class="toneName">Constellation</span>
                             </div>
                             <div class="toneSelect" id="cosmic">
                                 <span>
                                     <button class="toneUnCheck" onclick="toggleCheckButton(cosmic)">✓</button>
+                                    <audio class="toneAudio" id="cosmicAudio" src="alarm/cosmic.mp3"></audio>
                                 </span>
                                 <span class="toneName">Cosmic</span>
                             </div>

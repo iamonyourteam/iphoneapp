@@ -465,31 +465,72 @@ function resumecountdownf() {
     countDownf()
 }
 
-toneName = "Radar(Default)"
+
+// When Timer Ends Pop-Up
+function stopToneSounds() {
+    let sounds = document.querySelectorAll('.toneAudio');
+    for (i = 0; i < sounds.length; i++) {
+        sounds[i].pause();
+    }
+}
+
+var toneName = "Radar(Default)"
 document.querySelector("#toneName").innerText = toneName
+
 
 function changeTone() {
 
 
     document.querySelector("#selTonePage").style.top = '7vh'
 
+
 }
 
 function changeToneClose() {
+
     document.querySelector("#selTonePage").style.top = '80vh'
+    stopToneSounds()
 }
 
 function toggleCheckButton(buttonName) {
     let clickedButton = buttonName.querySelector(".toneCheck, .toneUnCheck")
-
+    toneName = (buttonName.attributes.id.textContent)
+    function updateToneName() {
+        if (toneName === "radar") {
+            toneName = "Radar(Default)"
+        } else if (toneName === "seaside") {
+            toneName = "By The Sea Side"
+        } else { toneName = toneName.charAt(0).toUpperCase() + toneName.slice(1) }
+    }
+    updateToneName()
     let otherButton = document.querySelectorAll(".toneCheck, .toneUnCheck")
     let otherButtonLength = (otherButton.length)
+    let name = buttonName.id
+    let audio = document.querySelectorAll(".toneAudio")
+
+    stopToneSounds()
+
+    audio = document.querySelector(`#${name}Audio`);
+    audio.play()
+    audio.currentTime = 0
+
+
 
 
     for (i = 0; i < otherButtonLength; i++) {
         otherButton[i].className = "toneUnCheck"
     }
     clickedButton.className = "toneCheck"
+
+}
+
+function setTone() {
+
+
+
+    stopToneSounds()
+    document.querySelector("#selTonePage").style.top = '80vh'
+    document.querySelector("#toneName").innerText = toneName
 
 }
 
