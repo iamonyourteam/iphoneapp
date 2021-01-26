@@ -383,7 +383,9 @@ function drawarc(arcper) {
 
 
 }
-
+//
+var toneName = "Radar(Default)"
+var toneNameOrg = "Radar(Default)"
 
 function countDownf() {
 
@@ -418,6 +420,8 @@ function countDownf() {
             drawarc((countDown / (futureTime - currentStartTime)) * 100)
 
             // (countdown / totaltime)*100 floor 
+
+
 
 
             if (countDown < 0) {
@@ -474,7 +478,7 @@ function stopToneSounds() {
     }
 }
 
-var toneName = "Radar(Default)"
+
 document.querySelector("#toneName").innerText = toneName
 
 
@@ -495,6 +499,7 @@ function changeToneClose() {
 function toggleCheckButton(buttonName) {
     let clickedButton = buttonName.querySelector(".toneCheck, .toneUnCheck")
     toneName = (buttonName.attributes.id.textContent)
+    toneNameOrg = (buttonName.attributes.id.textContent)
     function updateToneName() {
         if (toneName === "radar") {
             toneName = "Radar(Default)"
@@ -531,6 +536,9 @@ function setTone() {
     stopToneSounds()
     document.querySelector("#selTonePage").style.top = '80vh'
     document.querySelector("#toneName").innerText = toneName
+
+    console.log(toneNameOrg)
+    console.log(toneName)
 
 }
 

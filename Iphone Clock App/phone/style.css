@@ -584,6 +584,11 @@ transition-timing-function: linear;
 display:flex;
 width:100%;
 justify-content:space-around;
+border-bottom: rgb(79, 79, 79) solid 1px;
+
+margin-top: -10px;
+margin-bottom: -12px;
+padding-bottom: 10px;
 
 }
 
@@ -604,7 +609,7 @@ width: 100px;
 }
 #toneSelectCont{
 margin-top: 20px;
-display: flex;
+
 flex-direction: column;
 
 }
@@ -642,8 +647,10 @@ margin-bottom:7px ;
 
 .toneName{
     
-    border-bottom: rgb(116, 116, 116) solid 1px;
+    border-bottom: rgb(79, 79, 79) solid 1px;
     position: relative;
     left: 60px;
+    padding-top: 4px;
+    padding-bottom: 10px;
     z-index: 1;
 }
