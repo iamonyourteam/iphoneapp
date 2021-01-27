@@ -294,6 +294,8 @@ function cancel_Timer() {
         document.querySelector('#bell').style.visibility = "hidden"
         document.querySelector('#selectorContainer').style.display = "unset"
         document.querySelector('#timerCount').style.display = "none"
+
+
         if (document.querySelector("#pause_Timer") !== null) {
             document.querySelector("#pause_Timer").innerHTML = "Start"
             document.querySelector("#pause_Timer").id = "start_Timer"
@@ -383,9 +385,21 @@ function drawarc(arcper) {
 
 
 }
-//
+function updateToneName() {
+    if (toneName === "radar") {
+        toneName = "Radar(Default)"
+    } else if (toneName === "seaside") {
+        toneName = "By The Sea Side"
+    } else { toneName = toneName.charAt(0).toUpperCase() + toneName.slice(1) }
+}
+
+
+
 var toneName = "Radar(Default)"
-var toneNameOrg = "Radar(Default)"
+var toneNameOrg = "radar"
+
+var toneNameSelected = "radar"
+var toneNameOrgSelected = updateToneName(toneNameSelected)
 
 function countDownf() {
 
@@ -399,9 +413,6 @@ function countDownf() {
 
 
         if (countDown > 0 && isTimerPaused === false) {
-
-
-
 
             let sd = new Date
             let currentTimeUpdate = sd.getTime()
@@ -427,6 +438,11 @@ function countDownf() {
             if (countDown < 0) {
                 document.querySelector('#timerCount').innerHTML = "00:00:00"
                 stoptimeint()
+                countDown = 1
+                futureTime = 0
+                currentStartTime = 0
+
+
                 document.querySelector('#cancel_Timer').style.opacity = ".3"
                 document.querySelector('#myCanvas').style.visibility = "hidden"
                 document.querySelector('#myCanvas2').style.visibility = "hidden"
@@ -436,11 +452,12 @@ function countDownf() {
                 document.querySelector('#timerCount').style.display = "none"
                 document.querySelector("#pause_Timer").innerHTML = "Start"
                 document.querySelector("#pause_Timer").id = "start_Timer"
+                let compleatedAudio = document.querySelector(`#${toneNameSelected}Audio`)
+                compleatedAudio.currentTime = 0
+                compleatedAudio.play()
 
-                countDown = 1
-                futureTime = 0
-                currentStartTime = 0
 
+                // document.querySelector(`#${toneNameSelected}Audio`).play()
             } else {
                 document.querySelector('#timerCount').innerHTML = `${twonumber(timeLefth)}:${twonumber(timeLeftm)}:${twonumber(timeLefts)}`
             }
@@ -500,13 +517,7 @@ function toggleCheckButton(buttonName) {
     let clickedButton = buttonName.querySelector(".toneCheck, .toneUnCheck")
     toneName = (buttonName.attributes.id.textContent)
     toneNameOrg = (buttonName.attributes.id.textContent)
-    function updateToneName() {
-        if (toneName === "radar") {
-            toneName = "Radar(Default)"
-        } else if (toneName === "seaside") {
-            toneName = "By The Sea Side"
-        } else { toneName = toneName.charAt(0).toUpperCase() + toneName.slice(1) }
-    }
+
     updateToneName()
     let otherButton = document.querySelectorAll(".toneCheck, .toneUnCheck")
     let otherButtonLength = (otherButton.length)
@@ -539,6 +550,9 @@ function setTone() {
 
     console.log(toneNameOrg)
     console.log(toneName)
+
+    toneNameSelected = toneNameOrg
+    console.log(toneNameSelected)
 
 }
 
