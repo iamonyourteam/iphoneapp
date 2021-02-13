@@ -33,40 +33,69 @@
                 <div id="alarmHeaderCont">
                     <button onClick="" id="alarmEdit">Edit</button>
                     <div id="alarmHeader">Alarm</div>
-                    <button onClick="setTone()" id="alarmAdd">+</button>
+                    <button onClick="alarmAddPage()" id="alarmAdd">+</button>
                 </div>
                 <h1>Alarm</h1>
                 <div class="alarmTimeCont">
-                    <div class="alarmCont">
+                    <div class="alarmCont" id="alarm0">
                         <div class="alarmTopCont">
                             <span class="alarmtime">
                                 <span class="alarmNumTime">3:00</span>
                                 <span class="alarmAmPm">AM</span>
                             </span>
-                            <span><button class="alarmToggle">
-                                    <div class="alarmToggleBall"></div>
+                            <span><button onclick="alarmToggle(0)" class="alarmToggleOn">
+                                    <div class="alarmToggleBallOn" id="toggle0"></div>
                                 </button>
                             </span>
 
                         </div>
                         <div class="alarmTimerbottom">Alarm</div>
                     </div>
-                    <div class="alarmCont">
+                    <div class="alarmCont" id="alarm1">
                         <div class="alarmTopCont">
                             <span class="alarmtime">
                                 <span class="alarmNumTime">3:00</span>
                                 <span class="alarmAmPm">AM</span>
                             </span>
-                            <span><button class="alarmToggle">
-                                    <div class="alarmToggleBall"></div>
+                            <span><button onclick="alarmToggle(1)" class="alarmToggleOn">
+                                    <div class="alarmToggleBallOn" id="toggle1"></div>
                                 </button>
                             </span>
 
                         </div>
+                        <div class="alarmTimerbottom">Alarm</div>
+                    </div>
+                    <div class="alarmCont" id="alarm2">
+                        <div class="alarmTopCont">
+                            <span class="alarmtime">
+                                <span class="alarmNumTime">3:00</span>
+                                <span class="alarmAmPm">AM</span>
+                            </span>
+                            <span><button onclick="alarmToggle(2)" class="alarmToggleOn">
+                                    <div class="alarmToggleBallOn" id="toggle2"></div>
+                                </button>
+                            </span>
+
+                        </div>
+
                         <div class="alarmTimerbottom">Alarm</div>
                     </div>
                 </div>
+                <div id="selAlarmPage">&nbsp
+                    <div class="alarmPageHeader">
+                        <span><button id="alarmPageCancel" onclick="alarmPageCancel()">Cancel</button></span>
+                        <span>Add Alarm</span>
+                        <span><button id="alarmPageSave" onclick="alarmPageSave()">Save</button></span>
 
+
+                    </div>
+
+
+
+
+
+
+                </div>
             </div>
             <div class=stopwatch id=stopwatchpage>
                 <div id="main">
@@ -347,7 +376,8 @@
 
 
 
-
+    <script src="worldclock.js" type="text/javascript"> </script>
+    <script src="alarm.js" type="text/javascript"> </script>
     <script src="stopwatch.js" type="text/javascript"> </script>
     <script src="app.js" type="text/javascript"> </script>
     <script src="timer.js" type="text/javascript"> </script>
