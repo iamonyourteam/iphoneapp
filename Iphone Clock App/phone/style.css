@@ -254,7 +254,7 @@ background: rgb(60, 60, 60);
 #selAlarmPage{
     position: absolute;
     background-color: rgb(63, 63, 63);
-    top:80vh;
+    top:100vh;
     left: 0;
     width: 100%;
     height: 100%;
@@ -276,6 +276,77 @@ background: rgb(60, 60, 60);
 color: orange;
 background: none;
 border: none;
+}
+
+.alarmPageTime{
+
+}
+#timeSelectContainer{
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: rgb(34, 34, 34);
+height: 15vh;
+padding: 20px;
+}
+
+
+#rightContentContainer{
+
+   
+}
+#timeSelectNum{
+background-color:  rgb(79, 79, 79);
+border-radius: 5px;
+padding: 5px;
+margin-right: 5px;
+
+}
+#timeSelectAMPM{
+
+    background-color:  rgb(79, 79, 79);
+    border-radius: 5px;
+    padding-top: 4px;
+    padding-bottom: 5px;
+
+ 
+}
+#AM{
+border:none;
+color: white;
+background-color: gray;
+border-radius: 5px;
+padding: 5px;
+}
+#PM{
+    border:none;
+    color: white;
+    background-color:rgb(79, 79, 79) ;
+    border-radius: 5px;
+    padding: 5px;
+}
+.alarmPageOptions{
+display:flex;
+justify-content: space-between;
+background-color: rgb(61, 61, 61);
+width: 100%;
+padding: 8px;
+margin-top: 1px;
+padding-left: 20px;
+background-color: ;
+border:  none ;
+box-shadow: 20px 1px 0px rgb(92, 92, 92);
+}
+.alarmPageOptions:hover{
+    background-color: rgb(89, 89, 89);
+}
+.poLeft {
+    color: white;
+    width: auto;
+}
+.poRight{
+
+    color: rgb(145, 145, 145);
 }
 
 
@@ -692,7 +763,7 @@ color: white;
 #selTonePage{
 position: absolute;
 background-color: rgb(65, 65, 65);
-top:80vh;
+top:100vh;
 left: 0;
 width: 100%;
 height: 100%;

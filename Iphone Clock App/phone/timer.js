@@ -509,7 +509,7 @@ function changeTone() {
 
 function changeToneClose() {
 
-    document.querySelector("#selTonePage").style.top = '80vh'
+    document.querySelector("#selTonePage").style.top = '100vh'
     stopToneSounds()
 }
 
@@ -545,7 +545,7 @@ function setTone() {
 
 
     stopToneSounds()
-    document.querySelector("#selTonePage").style.top = '80vh'
+    document.querySelector("#selTonePage").style.top = '100vh'
     document.querySelector("#toneName").innerText = toneName
 
     console.log(toneNameOrg)

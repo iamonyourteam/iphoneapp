@@ -1,10 +1,17 @@
+let newTime = 0
+let newRepeat = "Never"
+let newLabel = "Alarm"
+let newSound = "Radar"
+let newSnooze = True
+
+
 function alarmAddPage() {
     document.querySelector("#selAlarmPage").style.top = '5vh'
     console.log("Hello ")
 }
 
 function alarmPageCancel() {
-    document.querySelector("#selAlarmPage").style.top = '80vh'
+    document.querySelector("#selAlarmPage").style.top = '100vh'
 }
 function alarmPageSave() {
     // add content of add alarm page to array of alarms 

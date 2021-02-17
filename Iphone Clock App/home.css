@@ -15,5 +15,6 @@ h1 {
     padding: 10px
 }
 iframe{
-    margin-top: 40px 
+    margin-top: 10px ;
+    overflow:hidden;
 }
