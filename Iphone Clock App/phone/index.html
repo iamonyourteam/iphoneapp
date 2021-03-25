@@ -94,17 +94,22 @@
                         <span>Time</span>
                         <span id="rightContentContainer">
 
-                            <span id="timeSelectNum">00:00</span>
+                            <span id="timeSelectNum">
+                                <span id="timeSelectHr">00</span>
+                                <span>:</span>
+                                <span id="timeSelectMin">00</span>
+
+                            </span>
                             <span id="timeSelectAMPM">
-                                <button id="AM">AM</button>
-                                <button id="PM">PM</button>
+                                <button class="AMPMON" id="AM" onclick="AMPMToggel(1)">AM</button>
+                                <button class="AMPMOFF" id="PM" onclick="AMPMToggel(2)">PM</button>
                             </span>
                         </span>
                     </span>
                     <button class="alarmPageOptions" onclick="">
                         <span class="poLeft">Repeat</span>
                         <span class="poRight">
-                            <span>
+                            <span class="optionValue">
                                 Never
                             </span>
                             <span>
@@ -116,7 +121,7 @@
                     <button class="alarmPageOptions" onclick="">
                         <span class="poLeft">Label</span>
                         <span class="poRight">
-                            <span>
+                            <span class="optionValue">
                                 Alarm
                             </span>
                             <span>
@@ -128,7 +133,7 @@
                     <button class="alarmPageOptions" onclick="">
                         <span class="poLeft">Sound</span>
                         <span class="poRight">
-                            <span>
+                            <span class="optionValue">
                                 Radar
                             </span>
                             <span>
@@ -149,6 +154,55 @@
 
                     </span>
 
+
+                </div>
+
+                <div id="numpad">
+                    <span class="numpadNumCont" onclick="numpress(1)">
+                        <div class="numpadNum">1</div>
+                        <div class="numpadLetter">&nbsp</div>
+                    </span>
+                    <span class="numpadNumCont" onclick="numpress(2)">
+                        <div class="numpadNum">2</div>
+                        <div class="numpadLetter">ABC</div>
+                    </span> <span class="numpadNumCont" onclick="numpress(3)">
+                        <div class="numpadNum">3</div>
+                        <div class="numpadLetter">DEF</div>
+                    </span>
+
+                    <span class="numpadNumCont" onclick="numpress(4)">
+                        <div class="numpadNum">4</div>
+                        <div class="numpadLetter">GHI</div>
+                    </span>
+                    <span class="numpadNumCont" onclick="numpress(5)">
+                        <div class="numpadNum">5</div>
+                        <div class="numpadLetter">JKL</div>
+                    </span> <span class="numpadNumCont" onclick="numpress(6)">
+                        <div class="numpadNum">6</div>
+                        <div class="numpadLetter">MNO</div>
+                    </span>
+                    <span class="numpadNumCont" onclick="numpress(7)">
+                        <div class="numpadNum">7</div>
+                        <div class="numpadLetter">PQRS</div>
+                    </span>
+                    <span class="numpadNumCont" onclick="numpress(8)">
+                        <div class="numpadNum">8</div>
+                        <div class="numpadLetter">TUV</div>
+                    </span> <span class="numpadNumCont" onclick="numpress(9)">
+                        <div class="numpadNum">9</div>
+                        <div class="numpadLetter">WXYZ</div>
+                    </span>
+
+                    <span class="numpadNumCont">
+                        <div class="numpadNum"></div>
+                        <div class="numpadLetter">&nbsp</div>
+                    </span>
+                    <span class="numpadNumCont" onclick="numpress(0)">
+                        <div class="numpadNum">0</div>
+
+                    </span> <span class="numpadNumCont" onclick="erase()">
+                        <div class="numpadNum"> / </div>
+                    </span>
 
                 </div>
             </div>
