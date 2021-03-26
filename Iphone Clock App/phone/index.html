@@ -106,7 +106,7 @@
                             </span>
                         </span>
                     </span>
-                    <button class="alarmPageOptions" onclick="">
+                    <button class="alarmPageOptions" onclick="alarmOptionSelectPage(0)">
                         <span class="poLeft">Repeat</span>
                         <span class="poRight">
                             <span class="optionValue">
@@ -118,7 +118,7 @@
                         </span>
 
                     </button>
-                    <button class="alarmPageOptions" onclick="">
+                    <button class="alarmPageOptions" onclick="alarmOptionSelectPage(1)">
                         <span class="poLeft">Label</span>
                         <span class="poRight">
                             <span class="optionValue">
@@ -130,7 +130,7 @@
                         </span>
 
                     </button>
-                    <button class="alarmPageOptions" onclick="">
+                    <button class="alarmPageOptions" onclick="alarmOptionSelectPage(2)">
                         <span class="poLeft">Sound</span>
                         <span class="poRight">
                             <span class="optionValue">
@@ -204,6 +204,15 @@
                         <div class="numpadNum"> / </div>
                     </span>
 
+                </div>
+                <div class="alarmOptionSelectPage">
+                    <div id="AOSPHeadCont">
+                        <button id="AOSPBack" onclick="AOSPBack()">Back</button>
+                        <div id="AOSPTitle">Name</div>
+                        <button onClick="" id="" style="visibility: hidden;">
+                            < Back</button>
+                    </div>
+                    <div class="AOSPContenet">Hello World!!</div>
                 </div>
             </div>
             <div class=stopwatch id=stopwatchpage>

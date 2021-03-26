@@ -121,5 +121,21 @@ function erase() {
     updatenumpress()
 }
 
-
 document.querySelector("#AM").className = "AMPMON"
+
+
+function AOSPBack() {
+    document.querySelector(".alarmOptionSelectPage").style.left = '100vw'
+}
+// 0 = Repeat
+// 1 = Label
+// 2 = Sound
+
+function alarmOptionSelectPage(page) {
+    document.querySelector(".alarmOptionSelectPage").style.left = '0'
+    let pagename = ""
+    if (page === 0) { pagename = "Repeat" }
+    else if (page === 1) { pagename = "Label" }
+    else if (page === 2) { pagename = "Sound" }
+    document.querySelector("#AOSPTitle").innerText = pagename
+}
