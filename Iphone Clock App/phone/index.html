@@ -193,24 +193,25 @@
                         <div class="numpadLetter">WXYZ</div>
                     </span>
 
-                    <span class="numpadNumCont">
+                    <span class="numpadNumCont" id="numpadNumContBlank">
                         <div class="numpadNum"></div>
                         <div class="numpadLetter">&nbsp</div>
                     </span>
                     <span class="numpadNumCont" onclick="numpress(0)">
                         <div class="numpadNum">0</div>
 
-                    </span> <span class="numpadNumCont" onclick="erase()">
+                    </span> <span class="numpadNumCont" id="numpadNumContBack" onclick="erase()">
                         <div class="numpadNum"> / </div>
                     </span>
 
                 </div>
                 <div class="alarmOptionSelectPage">
                     <div id="AOSPHeadCont">
-                        <button id="AOSPBack" onclick="AOSPBack()">Back</button>
-                        <div id="AOSPTitle">Name</div>
-                        <button onClick="" id="" style="visibility: hidden;">
+                        <button id="AOSPBack" onclick="AOSPBack()">
                             < Back</button>
+                                <div id="AOSPTitle">Name</div>
+                                <button onClick="" id="" style="visibility: hidden;">
+                                    < Back</button>
                     </div>
                     <div class="AOSPContenet">Hello World!!</div>
                 </div>
