@@ -1,3 +1,37 @@
+Concepts Learned Durring Project
+	Going into project I had little knowlage of HTML, CSS and no knowledge of JavaScript
+	Durring project I learned more HTML fundimentals , Leared how to position and Visualy Minipulate Html
+
+Stopwatch (1st subproject)- 
+	Attempted To style match iphone stopwatch
+	localy tracked time
+	Created buttons that can change and manipulate array
+	Tracked Best Laps and Slowest Laps
+	Allowed Unlimited Laps to overflow and be scrolled though
+
+Timer (2nd subproject) -
+	Tracked time based on Unix Time for better accuracy
+	Created timer selector allowing inputs with Scroll weel of by clicking and dragging
+	Sound seleciton page 
+	Start time caculated estimated finishing time
+	Timer countdown visulizer
+	Paused time is accounted for in estimated time 
+
+Alarm Clock (3rd subprject - Work In Progress)
+
+World Clock (Not Started - Practice Using Api? to )
+
+
+
+
+
+
+
+
+
+
+
+
 push - add to end
 pop - remove from end
 shift - remove from start

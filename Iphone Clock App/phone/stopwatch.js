@@ -175,8 +175,12 @@ function changel() {
         while (paras[0]) {
             paras[0].parentNode.removeChild(paras[0]);
         }
+
         seconds = 0
         laps = []
+
+        document.getElementById("counter").innerHTML = (humanReadable(seconds))
+
     }
 
 }

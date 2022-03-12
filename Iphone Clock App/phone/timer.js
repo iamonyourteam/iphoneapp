@@ -89,7 +89,7 @@ let downsec = function scrolldownsec() {
 
 
 
-
+// Allow Drag On Timer Select or Use Mouse Scrool Wheel 
 var scollelem = document.querySelector("#hr");
 var scollelemmin = document.querySelector("#min");
 var scollelemsec = document.querySelector("#sec");
@@ -307,20 +307,12 @@ function cancel_Timer() {
 }
 
 
-
-
-
-
 //countdown 
-
-
-
 
 
 //-1.6 = 100%   4.7 = 0% total distance = pi
 
-
-
+// Checks/Converts Single Digits to 2 Digits (ie 1 => 01)
 twonumber = function digit(num) {
     if (num < 10) {
         return (`0${num}`)
@@ -333,6 +325,7 @@ var pauseStart = 0
 var pauseEnd = 0
 var pauseTotal = 0
 
+// Predicts when Timer Will Finish
 function futureTimef() {
 
     let sd = new Date
@@ -348,7 +341,7 @@ let countDown = 1
 
 function drawarc(arcper) {
 
-
+    //Drawing Background Circle Behind Arc
     var c2 = document.querySelector("#myCanvas2");
     var ctx2 = c2.getContext("2d");
     c2.width = window.innerHeight * .40;
@@ -363,7 +356,7 @@ function drawarc(arcper) {
 
 
 
-
+    //Drawing Arc Timer
     let percent = arcper
     let arcpercent = percent / 100
     let arclen = 4.7 - (Math.PI * arcpercent) * 2
@@ -385,6 +378,8 @@ function drawarc(arcper) {
 
 
 }
+
+// Updates Edgecase Tone Names to Correct Names
 function updateToneName() {
     if (toneName === "radar") {
         toneName = "Radar(Default)"
@@ -401,6 +396,8 @@ var toneNameOrg = "radar"
 var toneNameSelected = "radar"
 var toneNameOrgSelected = updateToneName(toneNameSelected)
 
+
+//Timer Countdown//
 function countDownf() {
 
     var timeint = setInterval(timeintf, 50)
@@ -488,6 +485,8 @@ function resumecountdownf() {
 
 
 // When Timer Ends Pop-Up
+
+//Prevents Overlaping Sounds 
 function stopToneSounds() {
     let sounds = document.querySelectorAll('.toneAudio');
     for (i = 0; i < sounds.length; i++) {
@@ -513,6 +512,8 @@ function changeToneClose() {
     stopToneSounds()
 }
 
+
+// Radio Button Function For Check Marks
 function toggleCheckButton(buttonName) {
     let clickedButton = buttonName.querySelector(".toneCheck, .toneUnCheck")
     toneName = (buttonName.attributes.id.textContent)

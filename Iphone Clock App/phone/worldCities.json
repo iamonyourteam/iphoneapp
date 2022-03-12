@@ -1,0 +1,5810 @@
+[
+  {
+    "city": "Abidjan",
+    "country": "Côte D’Ivoire",
+    "city_ascii": "Abidjan",
+    "lat": 5.3364,
+    "lng": -4.0267,
+    "population": 4980000
+  },
+  {
+    "city": "Abu Dhabi",
+    "country": "United Arab Emirates",
+    "city_ascii": "Abu Dhabi",
+    "lat": 24.4781,
+    "lng": 54.3686,
+    "population": 1000000
+  },
+  {
+    "city": "Abuja",
+    "country": "Nigeria",
+    "city_ascii": "Abuja",
+    "lat": 9.0556,
+    "lng": 7.4914,
+    "population": 1235880
+  },
+  {
+    "city": "Accra",
+    "country": "Ghana",
+    "city_ascii": "Accra",
+    "lat": 5.6037,
+    "lng": -0.187,
+    "population": 2291352
+  },
+  {
+    "city": "Adana",
+    "country": "Turkey",
+    "city_ascii": "Adana",
+    "lat": 37,
+    "lng": 35.325,
+    "population": 2220125
+  },
+  {
+    "city": "Addis Ababa",
+    "country": "Ethiopia",
+    "city_ascii": "Addis Ababa",
+    "lat": 9.0272,
+    "lng": 38.7369,
+    "population": 3041002
+  },
+  {
+    "city": "Adelaide",
+    "country": "Australia",
+    "city_ascii": "Adelaide",
+    "lat": -34.9289,
+    "lng": 138.6011,
+    "population": 1345777
+  },
+  {
+    "city": "Āgra",
+    "country": "India",
+    "city_ascii": "Agra",
+    "lat": 27.18,
+    "lng": 78.02,
+    "population": 1585705
+  },
+  {
+    "city": "Ahmedabad",
+    "country": "India",
+    "city_ascii": "Ahmedabad",
+    "lat": 23.03,
+    "lng": 72.58,
+    "population": 7410000
+  },
+  {
+    "city": "Ahvāz",
+    "country": "Iran",
+    "city_ascii": "Ahvaz",
+    "lat": 31.3203,
+    "lng": 48.6692,
+    "population": 1184788
+  },
+  {
+    "city": "Al Başrah",
+    "country": "Iraq",
+    "city_ascii": "Al Basrah",
+    "lat": 30.4889,
+    "lng": 47.81,
+    "population": 1225793
+  },
+  {
+    "city": "Aleppo",
+    "country": "Syria",
+    "city_ascii": "Aleppo",
+    "lat": 36.2,
+    "lng": 37.15,
+    "population": 1916781
+  },
+  {
+    "city": "Alexandria",
+    "country": "Egypt",
+    "city_ascii": "Alexandria",
+    "lat": 31.2,
+    "lng": 29.9167,
+    "population": 4870000
+  },
+  {
+    "city": "Algiers",
+    "country": "Algeria",
+    "city_ascii": "Algiers",
+    "lat": 36.7764,
+    "lng": 3.0586,
+    "population": 3415811
+  },
+  {
+    "city": "Alīgarh",
+    "country": "India",
+    "city_ascii": "Aligarh",
+    "lat": 27.88,
+    "lng": 78.08,
+    "population": 1131160
+  },
+  {
+    "city": "Allahābād",
+    "country": "India",
+    "city_ascii": "Allahabad",
+    "lat": 25.455,
+    "lng": 81.84,
+    "population": 1201000
+  },
+  {
+    "city": "Almaty",
+    "country": "Kazakhstan",
+    "city_ascii": "Almaty",
+    "lat": 43.25,
+    "lng": 76.9,
+    "population": 1916822
+  },
+  {
+    "city": "Amman",
+    "country": "Jordan",
+    "city_ascii": "Amman",
+    "lat": 31.95,
+    "lng": 35.9333,
+    "population": 4007526
+  },
+  {
+    "city": "Amritsar",
+    "country": "India",
+    "city_ascii": "Amritsar",
+    "lat": 31.6167,
+    "lng": 74.85,
+    "population": 1132383
+  },
+  {
+    "city": "Ankang",
+    "country": "China",
+    "city_ascii": "Ankang",
+    "lat": 32.6877,
+    "lng": 109.0235,
+    "population": 1100000
+  },
+  {
+    "city": "Ankara",
+    "country": "Turkey",
+    "city_ascii": "Ankara",
+    "lat": 39.93,
+    "lng": 32.85,
+    "population": 5503985
+  },
+  {
+    "city": "Anqing",
+    "country": "China",
+    "city_ascii": "Anqing",
+    "lat": 30.5,
+    "lng": 117.0333,
+    "population": 4723000
+  },
+  {
+    "city": "Anshan",
+    "country": "China",
+    "city_ascii": "Anshan",
+    "lat": 41.1066,
+    "lng": 122.9895,
+    "population": 3645884
+  },
+  {
+    "city": "Anshun",
+    "country": "China",
+    "city_ascii": "Anshun",
+    "lat": 26.2456,
+    "lng": 105.934,
+    "population": 2297612
+  },
+  {
+    "city": "Antalya",
+    "country": "Turkey",
+    "city_ascii": "Antalya",
+    "lat": 36.9081,
+    "lng": 30.6956,
+    "population": 2426356
+  },
+  {
+    "city": "Antananarivo",
+    "country": "Madagascar",
+    "city_ascii": "Antananarivo",
+    "lat": -18.9386,
+    "lng": 47.5214,
+    "population": 2610000
+  },
+  {
+    "city": "Arequipa",
+    "country": "Peru",
+    "city_ascii": "Arequipa",
+    "lat": -16.3988,
+    "lng": -71.5369,
+    "population": 1008290
+  },
+  {
+    "city": "Ashgabat",
+    "country": "Turkmenistan",
+    "city_ascii": "Ashgabat",
+    "lat": 37.95,
+    "lng": 58.3833,
+    "population": 1031992
+  },
+  {
+    "city": "Asunción",
+    "country": "Paraguay",
+    "city_ascii": "Asuncion",
+    "lat": -25.3,
+    "lng": -57.6333,
+    "population": 1870000
+  },
+  {
+    "city": "Atlanta",
+    "country": "United States",
+    "city_ascii": "Atlanta",
+    "lat": 33.7627,
+    "lng": -84.4224,
+    "population": 5449398
+  },
+  {
+    "city": "Auckland",
+    "country": "New Zealand",
+    "city_ascii": "Auckland",
+    "lat": -36.85,
+    "lng": 174.7833,
+    "population": 1470100
+  },
+  {
+    "city": "Aurangābād",
+    "country": "India",
+    "city_ascii": "Aurangabad",
+    "lat": 19.88,
+    "lng": 75.32,
+    "population": 1371330
+  },
+  {
+    "city": "Austin",
+    "country": "United States",
+    "city_ascii": "Austin",
+    "lat": 30.3004,
+    "lng": -97.7522,
+    "population": 1687311
+  },
+  {
+    "city": "Baghdad",
+    "country": "Iraq",
+    "city_ascii": "Baghdad",
+    "lat": 33.35,
+    "lng": 44.4167,
+    "population": 5796000
+  },
+  {
+    "city": "Baicheng",
+    "country": "China",
+    "city_ascii": "Baicheng",
+    "lat": 23.901,
+    "lng": 106.6194,
+    "population": 3466758
+  },
+  {
+    "city": "Baiyin",
+    "country": "China",
+    "city_ascii": "Baiyin",
+    "lat": 36.5448,
+    "lng": 104.1766,
+    "population": 1799000
+  },
+  {
+    "city": "Baku",
+    "country": "Azerbaijan",
+    "city_ascii": "Baku",
+    "lat": 40.3667,
+    "lng": 49.8352,
+    "population": 2181800
+  },
+  {
+    "city": "Baltimore",
+    "country": "United States",
+    "city_ascii": "Baltimore",
+    "lat": 39.3051,
+    "lng": -76.6144,
+    "population": 2106068
+  },
+  {
+    "city": "Bamako",
+    "country": "Mali",
+    "city_ascii": "Bamako",
+    "lat": 12.6458,
+    "lng": -7.9922,
+    "population": 2009109
+  },
+  {
+    "city": "Bandar Lampung",
+    "country": "Indonesia",
+    "city_ascii": "Bandar Lampung",
+    "lat": -5.4294,
+    "lng": 105.2625,
+    "population": 1166761
+  },
+  {
+    "city": "Bandung",
+    "country": "Indonesia",
+    "city_ascii": "Bandung",
+    "lat": -6.95,
+    "lng": 107.5667,
+    "population": 2394873
+  },
+  {
+    "city": "Bangalore",
+    "country": "India",
+    "city_ascii": "Bangalore",
+    "lat": 12.9699,
+    "lng": 77.598,
+    "population": 13707000
+  },
+  {
+    "city": "Bangkok",
+    "country": "Thailand",
+    "city_ascii": "Bangkok",
+    "lat": 13.75,
+    "lng": 100.5167,
+    "population": 17066000
+  },
+  {
+    "city": "Baoding",
+    "country": "China",
+    "city_ascii": "Baoding",
+    "lat": 38.8671,
+    "lng": 115.4845,
+    "population": 11860000
+  },
+  {
+    "city": "Baojishi",
+    "country": "China",
+    "city_ascii": "Baojishi",
+    "lat": 34.3609,
+    "lng": 107.1751,
+    "population": 3738700
+  },
+  {
+    "city": "Baoshan",
+    "country": "China",
+    "city_ascii": "Baoshan",
+    "lat": 25.1211,
+    "lng": 99.169,
+    "population": 2506491
+  },
+  {
+    "city": "Baotou",
+    "country": "China",
+    "city_ascii": "Baotou",
+    "lat": 40.6562,
+    "lng": 109.8345,
+    "population": 2700000
+  },
+  {
+    "city": "Barcelona",
+    "country": "Spain",
+    "city_ascii": "Barcelona",
+    "lat": 41.3825,
+    "lng": 2.1769,
+    "population": 4588000
+  },
+  {
+    "city": "Bareilly",
+    "country": "India",
+    "city_ascii": "Bareilly",
+    "lat": 28.364,
+    "lng": 79.415,
+    "population": 1000000
+  },
+  {
+    "city": "Barquisimeto",
+    "country": "Venezuela",
+    "city_ascii": "Barquisimeto",
+    "lat": 10.0678,
+    "lng": -69.3467,
+    "population": 1059092
+  },
+  {
+    "city": "Barranquilla",
+    "country": "Colombia",
+    "city_ascii": "Barranquilla",
+    "lat": 10.9639,
+    "lng": -74.7964,
+    "population": 1274250
+  },
+  {
+    "city": "Bazhou",
+    "country": "China",
+    "city_ascii": "Bazhou",
+    "lat": 31.8576,
+    "lng": 106.7559,
+    "population": 3134000
+  },
+  {
+    "city": "Beidao",
+    "country": "China",
+    "city_ascii": "Beidao",
+    "lat": 34.6,
+    "lng": 105.92,
+    "population": 1225000
+  },
+  {
+    "city": "Beihai",
+    "country": "China",
+    "city_ascii": "Beihai",
+    "lat": 21.4667,
+    "lng": 109.1,
+    "population": 1539251
+  },
+  {
+    "city": "Beijing",
+    "country": "China",
+    "city_ascii": "Beijing",
+    "lat": 39.905,
+    "lng": 116.3914,
+    "population": 19433000
+  },
+  {
+    "city": "Bekasi",
+    "country": "Indonesia",
+    "city_ascii": "Bekasi",
+    "lat": -6.2333,
+    "lng": 107,
+    "population": 2381053
+  },
+  {
+    "city": "Belém",
+    "country": "Brazil",
+    "city_ascii": "Belem",
+    "lat": -1.4558,
+    "lng": -48.5039,
+    "population": 1499641
+  },
+  {
+    "city": "Belgrade",
+    "country": "Serbia",
+    "city_ascii": "Belgrade",
+    "lat": 44.8167,
+    "lng": 20.4667,
+    "population": 1378682
+  },
+  {
+    "city": "Belo Horizonte",
+    "country": "Brazil",
+    "city_ascii": "Belo Horizonte",
+    "lat": -19.9281,
+    "lng": -43.9419,
+    "population": 5159000
+  },
+  {
+    "city": "Bengbu",
+    "country": "China",
+    "city_ascii": "Bengbu",
+    "lat": 32.9354,
+    "lng": 117.3531,
+    "population": 3525000
+  },
+  {
+    "city": "Benin City",
+    "country": "Nigeria",
+    "city_ascii": "Benin City",
+    "lat": 6.3176,
+    "lng": 5.6145,
+    "population": 1190000
+  },
+  {
+    "city": "Benxi",
+    "country": "China",
+    "city_ascii": "Benxi",
+    "lat": 41.292,
+    "lng": 123.761,
+    "population": 1567000
+  },
+  {
+    "city": "Berlin",
+    "country": "Germany",
+    "city_ascii": "Berlin",
+    "lat": 52.5167,
+    "lng": 13.3833,
+    "population": 3644826
+  },
+  {
+    "city": "Bezwāda",
+    "country": "India",
+    "city_ascii": "Bezwada",
+    "lat": 16.5167,
+    "lng": 80.6167,
+    "population": 1048240
+  },
+  {
+    "city": "Bhilai",
+    "country": "India",
+    "city_ascii": "Bhilai",
+    "lat": 21.2167,
+    "lng": 81.4333,
+    "population": 1097000
+  },
+  {
+    "city": "Bhiwandi",
+    "country": "India",
+    "city_ascii": "Bhiwandi",
+    "lat": 19.3,
+    "lng": 73.0667,
+    "population": 1125898
+  },
+  {
+    "city": "Bhopāl",
+    "country": "India",
+    "city_ascii": "Bhopal",
+    "lat": 23.25,
+    "lng": 77.4167,
+    "population": 1883381
+  },
+  {
+    "city": "Biên Hòa",
+    "country": "Vietnam",
+    "city_ascii": "Bien Hoa",
+    "lat": 10.9277,
+    "lng": 106.8681,
+    "population": 1104000
+  },
+  {
+    "city": "Bijie",
+    "country": "China",
+    "city_ascii": "Bijie",
+    "lat": 27.3019,
+    "lng": 105.2863,
+    "population": 6537498
+  },
+  {
+    "city": "Binzhou",
+    "country": "China",
+    "city_ascii": "Binzhou",
+    "lat": 37.3806,
+    "lng": 118.0125,
+    "population": 3779200
+  },
+  {
+    "city": "Birmingham",
+    "country": "United Kingdom",
+    "city_ascii": "Birmingham",
+    "lat": 52.48,
+    "lng": -1.9025,
+    "population": 2897303
+  },
+  {
+    "city": "Birstall",
+    "country": "United Kingdom",
+    "city_ascii": "Birstall",
+    "lat": 52.6736,
+    "lng": -1.12,
+    "population": 1424216
+  },
+  {
+    "city": "Bishkek",
+    "country": "Kyrgyzstan",
+    "city_ascii": "Bishkek",
+    "lat": 42.8667,
+    "lng": 74.5667,
+    "population": 1027200
+  },
+  {
+    "city": "Blantyre",
+    "country": "Malawi",
+    "city_ascii": "Blantyre",
+    "lat": -15.7861,
+    "lng": 35.0058,
+    "population": 1895973
+  },
+  {
+    "city": "Bogor",
+    "country": "Indonesia",
+    "city_ascii": "Bogor",
+    "lat": -6.6,
+    "lng": 106.8,
+    "population": 1030720
+  },
+  {
+    "city": "Bogotá",
+    "country": "Colombia",
+    "city_ascii": "Bogota",
+    "lat": 4.6126,
+    "lng": -74.0705,
+    "population": 9464000
+  },
+  {
+    "city": "Boston",
+    "country": "United States",
+    "city_ascii": "Boston",
+    "lat": 42.3188,
+    "lng": -71.0846,
+    "population": 4688346
+  },
+  {
+    "city": "Bozhou",
+    "country": "China",
+    "city_ascii": "Bozhou",
+    "lat": 33.8626,
+    "lng": 115.7742,
+    "population": 5100000
+  },
+  {
+    "city": "Brasília",
+    "country": "Brazil",
+    "city_ascii": "Brasilia",
+    "lat": -15.7939,
+    "lng": -47.8828,
+    "population": 3015268
+  },
+  {
+    "city": "Brazzaville",
+    "country": "Congo (Brazzaville)",
+    "city_ascii": "Brazzaville",
+    "lat": -4.2667,
+    "lng": 15.2833,
+    "population": 1827000
+  },
+  {
+    "city": "Brisbane",
+    "country": "Australia",
+    "city_ascii": "Brisbane",
+    "lat": -27.4678,
+    "lng": 153.0281,
+    "population": 2514184
+  },
+  {
+    "city": "Bronx",
+    "country": "United States",
+    "city_ascii": "Bronx",
+    "lat": 40.8501,
+    "lng": -73.8662,
+    "population": 1418207
+  },
+  {
+    "city": "Brooklyn",
+    "country": "United States",
+    "city_ascii": "Brooklyn",
+    "lat": 40.6501,
+    "lng": -73.9496,
+    "population": 2559903
+  },
+  {
+    "city": "Brussels",
+    "country": "Belgium",
+    "city_ascii": "Brussels",
+    "lat": 50.8333,
+    "lng": 4.3333,
+    "population": 1743000
+  },
+  {
+    "city": "Bucharest",
+    "country": "Romania",
+    "city_ascii": "Bucharest",
+    "lat": 44.4,
+    "lng": 26.0833,
+    "population": 1883425
+  },
+  {
+    "city": "Budapest",
+    "country": "Hungary",
+    "city_ascii": "Budapest",
+    "lat": 47.4983,
+    "lng": 19.0408,
+    "population": 1752286
+  },
+  {
+    "city": "Buenos Aires",
+    "country": "Argentina",
+    "city_ascii": "Buenos Aires",
+    "lat": -34.5997,
+    "lng": -58.3819,
+    "population": 16157000
+  },
+  {
+    "city": "Bursa",
+    "country": "Turkey",
+    "city_ascii": "Bursa",
+    "lat": 40.1833,
+    "lng": 29.0667,
+    "population": 2901396
+  },
+  {
+    "city": "Busan",
+    "country": "Korea, South",
+    "city_ascii": "Busan",
+    "lat": 35.1,
+    "lng": 129.0403,
+    "population": 3453198
+  },
+  {
+    "city": "Cairo",
+    "country": "Egypt",
+    "city_ascii": "Cairo",
+    "lat": 30.0561,
+    "lng": 31.2394,
+    "population": 19372000
+  },
+  {
+    "city": "Calgary",
+    "country": "Canada",
+    "city_ascii": "Calgary",
+    "lat": 51.05,
+    "lng": -114.0667,
+    "population": 1239220
+  },
+  {
+    "city": "Cali",
+    "country": "Colombia",
+    "city_ascii": "Cali",
+    "lat": 3.44,
+    "lng": -76.5197,
+    "population": 2471474
+  },
+  {
+    "city": "Callao",
+    "country": "Peru",
+    "city_ascii": "Callao",
+    "lat": -12.0611,
+    "lng": -77.1333,
+    "population": 1129854
+  },
+  {
+    "city": "Caloocan City",
+    "country": "Philippines",
+    "city_ascii": "Caloocan City",
+    "lat": 14.65,
+    "lng": 120.9667,
+    "population": 1583978
+  },
+  {
+    "city": "Campinas",
+    "country": "Brazil",
+    "city_ascii": "Campinas",
+    "lat": -22.9009,
+    "lng": -47.0573,
+    "population": 1164098
+  },
+  {
+    "city": "Cần Thơ",
+    "country": "Vietnam",
+    "city_ascii": "Can Tho",
+    "lat": 10.0333,
+    "lng": 105.7833,
+    "population": 1237300
+  },
+  {
+    "city": "Cangzhou",
+    "country": "China",
+    "city_ascii": "Cangzhou",
+    "lat": 38.3037,
+    "lng": 116.8452,
+    "population": 7544300
+  },
+  {
+    "city": "Caracas",
+    "country": "Venezuela",
+    "city_ascii": "Caracas",
+    "lat": 10.5,
+    "lng": -66.9333,
+    "population": 1943901
+  },
+  {
+    "city": "Cartagena",
+    "country": "Colombia",
+    "city_ascii": "Cartagena",
+    "lat": 10.4236,
+    "lng": -75.5253,
+    "population": 1036412
+  },
+  {
+    "city": "Casablanca",
+    "country": "Morocco",
+    "city_ascii": "Casablanca",
+    "lat": 33.5992,
+    "lng": -7.62,
+    "population": 4370000
+  },
+  {
+    "city": "Cawnpore",
+    "country": "India",
+    "city_ascii": "Cawnpore",
+    "lat": 26.4725,
+    "lng": 80.3311,
+    "population": 2701324
+  },
+  {
+    "city": "Chandīgarh",
+    "country": "India",
+    "city_ascii": "Chandigarh",
+    "lat": 30.7353,
+    "lng": 76.7911,
+    "population": 1026459
+  },
+  {
+    "city": "Changchun",
+    "country": "China",
+    "city_ascii": "Changchun",
+    "lat": 43.9,
+    "lng": 125.2,
+    "population": 7674439
+  },
+  {
+    "city": "Changde",
+    "country": "China",
+    "city_ascii": "Changde",
+    "lat": 29.0397,
+    "lng": 111.6839,
+    "population": 6011000
+  },
+  {
+    "city": "Changsha",
+    "country": "China",
+    "city_ascii": "Changsha",
+    "lat": 28.1987,
+    "lng": 112.9709,
+    "population": 8394500
+  },
+  {
+    "city": "Changshu",
+    "country": "China",
+    "city_ascii": "Changshu",
+    "lat": 31.65,
+    "lng": 120.7333,
+    "population": 1510100
+  },
+  {
+    "city": "Changwon",
+    "country": "Korea, South",
+    "city_ascii": "Changwon",
+    "lat": 35.2281,
+    "lng": 128.6811,
+    "population": 1046054
+  },
+  {
+    "city": "Changzhi",
+    "country": "China",
+    "city_ascii": "Changzhi",
+    "lat": 36.1953,
+    "lng": 113.097,
+    "population": 3230000
+  },
+  {
+    "city": "Changzhou",
+    "country": "China",
+    "city_ascii": "Changzhou",
+    "lat": 31.8122,
+    "lng": 119.9692,
+    "population": 4592431
+  },
+  {
+    "city": "Chaoyang",
+    "country": "China",
+    "city_ascii": "Chaoyang",
+    "lat": 41.5757,
+    "lng": 120.4486,
+    "population": 3370000
+  },
+  {
+    "city": "Chaozhou",
+    "country": "China",
+    "city_ascii": "Chaozhou",
+    "lat": 23.67,
+    "lng": 116.63,
+    "population": 2656600
+  },
+  {
+    "city": "Charlotte",
+    "country": "United States",
+    "city_ascii": "Charlotte",
+    "lat": 35.208,
+    "lng": -80.8304,
+    "population": 1512923
+  },
+  {
+    "city": "Chattogram",
+    "country": "Bangladesh",
+    "city_ascii": "Chattogram",
+    "lat": 22.335,
+    "lng": 91.8325,
+    "population": 2581643
+  },
+  {
+    "city": "Chelyabinsk",
+    "country": "Russia",
+    "city_ascii": "Chelyabinsk",
+    "lat": 55.15,
+    "lng": 61.4,
+    "population": 1202371
+  },
+  {
+    "city": "Chengde",
+    "country": "China",
+    "city_ascii": "Chengde",
+    "lat": 40.9739,
+    "lng": 117.9322,
+    "population": 3610000
+  },
+  {
+    "city": "Chengdu",
+    "country": "China",
+    "city_ascii": "Chengdu",
+    "lat": 30.66,
+    "lng": 104.0633,
+    "population": 11309000
+  },
+  {
+    "city": "Chengtangcun",
+    "country": "China",
+    "city_ascii": "Chengtangcun",
+    "lat": 35.0833,
+    "lng": 117.15,
+    "population": 1603659
+  },
+  {
+    "city": "Chennai",
+    "country": "India",
+    "city_ascii": "Chennai",
+    "lat": 13.0825,
+    "lng": 80.275,
+    "population": 11324000
+  },
+  {
+    "city": "Chenzhou",
+    "country": "China",
+    "city_ascii": "Chenzhou",
+    "lat": 25.7989,
+    "lng": 113.0267,
+    "population": 4754600
+  },
+  {
+    "city": "Chicago",
+    "country": "United States",
+    "city_ascii": "Chicago",
+    "lat": 41.8373,
+    "lng": -87.6862,
+    "population": 8604203
+  },
+  {
+    "city": "Chifeng",
+    "country": "China",
+    "city_ascii": "Chifeng",
+    "lat": 42.2663,
+    "lng": 118.9223,
+    "population": 4376600
+  },
+  {
+    "city": "Chinchvad",
+    "country": "India",
+    "city_ascii": "Chinchvad",
+    "lat": 18.6278,
+    "lng": 73.8131,
+    "population": 1729320
+  },
+  {
+    "city": "Chizhou",
+    "country": "China",
+    "city_ascii": "Chizhou",
+    "lat": 30.6583,
+    "lng": 117.4849,
+    "population": 1430000
+  },
+  {
+    "city": "Chongqing",
+    "country": "China",
+    "city_ascii": "Chongqing",
+    "lat": 29.5628,
+    "lng": 106.5528,
+    "population": 7739000
+  },
+  {
+    "city": "Chongzuo",
+    "country": "China",
+    "city_ascii": "Chongzuo",
+    "lat": 22.4167,
+    "lng": 107.3667,
+    "population": 1994285
+  },
+  {
+    "city": "Chuzhou",
+    "country": "China",
+    "city_ascii": "Chuzhou",
+    "lat": 32.3062,
+    "lng": 118.3115,
+    "population": 4110000
+  },
+  {
+    "city": "Cilacap",
+    "country": "Indonesia",
+    "city_ascii": "Cilacap",
+    "lat": -7.7167,
+    "lng": 109.017,
+    "population": 1174964
+  },
+  {
+    "city": "Cincinnati",
+    "country": "United States",
+    "city_ascii": "Cincinnati",
+    "lat": 39.1413,
+    "lng": -84.5061,
+    "population": 1662691
+  },
+  {
+    "city": "Ciudad Nezahualcóyotl",
+    "country": "Mexico",
+    "city_ascii": "Ciudad Nezahualcoyotl",
+    "lat": 19.41,
+    "lng": -99.03,
+    "population": 1109363
+  },
+  {
+    "city": "Cleveland",
+    "country": "United States",
+    "city_ascii": "Cleveland",
+    "lat": 41.4767,
+    "lng": -81.6804,
+    "population": 1710093
+  },
+  {
+    "city": "Cologne",
+    "country": "Germany",
+    "city_ascii": "Cologne",
+    "lat": 50.9422,
+    "lng": 6.9578,
+    "population": 1085664
+  },
+  {
+    "city": "Columbus",
+    "country": "United States",
+    "city_ascii": "Columbus",
+    "lat": 39.9862,
+    "lng": -82.985,
+    "population": 1562009
+  },
+  {
+    "city": "Comayagüela",
+    "country": "Honduras",
+    "city_ascii": "Comayaguela",
+    "lat": 14.0833,
+    "lng": -87.2167,
+    "population": 1250000
+  },
+  {
+    "city": "Conakry",
+    "country": "Guinea",
+    "city_ascii": "Conakry",
+    "lat": 9.5092,
+    "lng": -13.7122,
+    "population": 1667864
+  },
+  {
+    "city": "Córdoba",
+    "country": "Argentina",
+    "city_ascii": "Cordoba",
+    "lat": -31.4167,
+    "lng": -64.1833,
+    "population": 1329604
+  },
+  {
+    "city": "Curitiba",
+    "country": "Brazil",
+    "city_ascii": "Curitiba",
+    "lat": -25.4297,
+    "lng": -49.2719,
+    "population": 1879355
+  },
+  {
+    "city": "Dadukou",
+    "country": "China",
+    "city_ascii": "Dadukou",
+    "lat": 26.5849,
+    "lng": 101.7149,
+    "population": 1144000
+  },
+  {
+    "city": "Daegu",
+    "country": "Korea, South",
+    "city_ascii": "Daegu",
+    "lat": 35.8667,
+    "lng": 128.6,
+    "population": 2461002
+  },
+  {
+    "city": "Daejeon",
+    "country": "Korea, South",
+    "city_ascii": "Daejeon",
+    "lat": 36.351,
+    "lng": 127.385,
+    "population": 1475221
+  },
+  {
+    "city": "Dakar",
+    "country": "Senegal",
+    "city_ascii": "Dakar",
+    "lat": 14.7319,
+    "lng": -17.4572,
+    "population": 1146053
+  },
+  {
+    "city": "Dalian",
+    "country": "China",
+    "city_ascii": "Dalian",
+    "lat": 38.9,
+    "lng": 121.6,
+    "population": 4480000
+  },
+  {
+    "city": "Dallas",
+    "country": "United States",
+    "city_ascii": "Dallas",
+    "lat": 32.7936,
+    "lng": -96.7662,
+    "population": 5743938
+  },
+  {
+    "city": "Damascus",
+    "country": "Syria",
+    "city_ascii": "Damascus",
+    "lat": 33.5131,
+    "lng": 36.2919,
+    "population": 1754000
+  },
+  {
+    "city": "Dandong",
+    "country": "China",
+    "city_ascii": "Dandong",
+    "lat": 40.1167,
+    "lng": 124.3833,
+    "population": 2400000
+  },
+  {
+    "city": "Daqing",
+    "country": "China",
+    "city_ascii": "Daqing",
+    "lat": 46.5979,
+    "lng": 125.008,
+    "population": 2904532
+  },
+  {
+    "city": "Dar es Salaam",
+    "country": "Tanzania",
+    "city_ascii": "Dar es Salaam",
+    "lat": -6.8,
+    "lng": 39.2833,
+    "population": 6698000
+  },
+  {
+    "city": "Davao",
+    "country": "Philippines",
+    "city_ascii": "Davao",
+    "lat": 7.0667,
+    "lng": 125.6,
+    "population": 1632991
+  },
+  {
+    "city": "Dayan",
+    "country": "China",
+    "city_ascii": "Dayan",
+    "lat": 26.8808,
+    "lng": 100.2208,
+    "population": 1244769
+  },
+  {
+    "city": "Dayr az Zawr",
+    "country": "Syria",
+    "city_ascii": "Dayr az Zawr",
+    "lat": 35.3333,
+    "lng": 40.15,
+    "population": 1918000
+  },
+  {
+    "city": "Dazhou",
+    "country": "China",
+    "city_ascii": "Dazhou",
+    "lat": 31.2152,
+    "lng": 107.4947,
+    "population": 5693000
+  },
+  {
+    "city": "Delhi",
+    "country": "India",
+    "city_ascii": "Delhi",
+    "lat": 28.66,
+    "lng": 77.23,
+    "population": 29617000
+  },
+  {
+    "city": "Denver",
+    "country": "United States",
+    "city_ascii": "Denver",
+    "lat": 39.7621,
+    "lng": -104.8759,
+    "population": 2876625
+  },
+  {
+    "city": "Depok",
+    "country": "Indonesia",
+    "city_ascii": "Depok",
+    "lat": -6.394,
+    "lng": 106.8225,
+    "population": 1631951
+  },
+  {
+    "city": "Detroit",
+    "country": "United States",
+    "city_ascii": "Detroit",
+    "lat": 42.3834,
+    "lng": -83.1024,
+    "population": 3506126
+  },
+  {
+    "city": "Deyang",
+    "country": "China",
+    "city_ascii": "Deyang",
+    "lat": 31.1289,
+    "lng": 104.395,
+    "population": 3877000
+  },
+  {
+    "city": "Dezhou",
+    "country": "China",
+    "city_ascii": "Dezhou",
+    "lat": 37.4513,
+    "lng": 116.3105,
+    "population": 5470000
+  },
+  {
+    "city": "Dhaka",
+    "country": "Bangladesh",
+    "city_ascii": "Dhaka",
+    "lat": 23.7289,
+    "lng": 90.3944,
+    "population": 15443000
+  },
+  {
+    "city": "Dhanbād",
+    "country": "India",
+    "city_ascii": "Dhanbad",
+    "lat": 23.7928,
+    "lng": 86.435,
+    "population": 1246000
+  },
+  {
+    "city": "Dingxi",
+    "country": "China",
+    "city_ascii": "Dingxi",
+    "lat": 35.5806,
+    "lng": 104.6263,
+    "population": 2930000
+  },
+  {
+    "city": "Dingzhou",
+    "country": "China",
+    "city_ascii": "Dingzhou",
+    "lat": 38.5158,
+    "lng": 114.9845,
+    "population": 1165182
+  },
+  {
+    "city": "Diyarbakır",
+    "country": "Turkey",
+    "city_ascii": "Diyarbakir",
+    "lat": 37.9108,
+    "lng": 40.2367,
+    "population": 1732396
+  },
+  {
+    "city": "Dnipro",
+    "country": "Ukraine",
+    "city_ascii": "Dnipro",
+    "lat": 48.45,
+    "lng": 34.9833,
+    "population": 1002111
+  },
+  {
+    "city": "Doha",
+    "country": "Qatar",
+    "city_ascii": "Doha",
+    "lat": 25.3,
+    "lng": 51.5333,
+    "population": 1312947
+  },
+  {
+    "city": "Dongguan",
+    "country": "China",
+    "city_ascii": "Dongguan",
+    "lat": 23.0475,
+    "lng": 113.7493,
+    "population": 7981000
+  },
+  {
+    "city": "Douala",
+    "country": "Cameroon",
+    "city_ascii": "Douala",
+    "lat": 4.05,
+    "lng": 9.7,
+    "population": 2446945
+  },
+  {
+    "city": "Dubai",
+    "country": "United Arab Emirates",
+    "city_ascii": "Dubai",
+    "lat": 25.2697,
+    "lng": 55.3094,
+    "population": 2502715
+  },
+  {
+    "city": "Dublin",
+    "country": "Ireland",
+    "city_ascii": "Dublin",
+    "lat": 53.3497,
+    "lng": -6.2603,
+    "population": 1173179
+  },
+  {
+    "city": "Ecatepec",
+    "country": "Mexico",
+    "city_ascii": "Ecatepec",
+    "lat": 19.6097,
+    "lng": -99.06,
+    "population": 1656107
+  },
+  {
+    "city": "Edmonton",
+    "country": "Canada",
+    "city_ascii": "Edmonton",
+    "lat": 53.5344,
+    "lng": -113.4903,
+    "population": 1062643
+  },
+  {
+    "city": "El Kelaa des Srarhna",
+    "country": "Morocco",
+    "city_ascii": "El Kelaa des Srarhna",
+    "lat": 32.05,
+    "lng": -7.4,
+    "population": 1450021
+  },
+  {
+    "city": "Eşfahān",
+    "country": "Iran",
+    "city_ascii": "Esfahan",
+    "lat": 32.6447,
+    "lng": 51.6675,
+    "population": 1756126
+  },
+  {
+    "city": "Ezhou",
+    "country": "China",
+    "city_ascii": "Ezhou",
+    "lat": 30.3972,
+    "lng": 114.8842,
+    "population": 1059700
+  },
+  {
+    "city": "Faisalabad",
+    "country": "Pakistan",
+    "city_ascii": "Faisalabad",
+    "lat": 31.418,
+    "lng": 73.079,
+    "population": 3203846
+  },
+  {
+    "city": "Farīdābād",
+    "country": "India",
+    "city_ascii": "Faridabad",
+    "lat": 28.4333,
+    "lng": 77.3167,
+    "population": 1394000
+  },
+  {
+    "city": "Fès",
+    "country": "Morocco",
+    "city_ascii": "Fes",
+    "lat": 34.0433,
+    "lng": -5.0033,
+    "population": 1112072
+  },
+  {
+    "city": "Fortaleza",
+    "country": "Brazil",
+    "city_ascii": "Fortaleza",
+    "lat": -3.7275,
+    "lng": -38.5275,
+    "population": 2452185
+  },
+  {
+    "city": "Foshan",
+    "country": "China",
+    "city_ascii": "Foshan",
+    "lat": 23.0292,
+    "lng": 113.1056,
+    "population": 7905700
+  },
+  {
+    "city": "Fukuoka",
+    "country": "Japan",
+    "city_ascii": "Fukuoka",
+    "lat": 33.6,
+    "lng": 130.4167,
+    "population": 2128000
+  },
+  {
+    "city": "Fuqing",
+    "country": "China",
+    "city_ascii": "Fuqing",
+    "lat": 25.7232,
+    "lng": 119.3735,
+    "population": 1316000
+  },
+  {
+    "city": "Fushun",
+    "country": "China",
+    "city_ascii": "Fushun",
+    "lat": 41.8708,
+    "lng": 123.8917,
+    "population": 2024000
+  },
+  {
+    "city": "Fuxin",
+    "country": "China",
+    "city_ascii": "Fuxin",
+    "lat": 42.0127,
+    "lng": 121.6486,
+    "population": 1930000
+  },
+  {
+    "city": "Fuyang",
+    "country": "China",
+    "city_ascii": "Fuyang",
+    "lat": 32.8986,
+    "lng": 115.8045,
+    "population": 8360000
+  },
+  {
+    "city": "Fuzhou",
+    "country": "China",
+    "city_ascii": "Fuzhou",
+    "lat": 26.0769,
+    "lng": 119.2917,
+    "population": 5245000
+  },
+  {
+    "city": "Fuzhou",
+    "country": "China",
+    "city_ascii": "Fuzhou",
+    "lat": 27.9814,
+    "lng": 116.3577,
+    "population": 4047200
+  },
+  {
+    "city": "Ganzhou",
+    "country": "China",
+    "city_ascii": "Ganzhou",
+    "lat": 25.8292,
+    "lng": 114.9336,
+    "population": 8677600
+  },
+  {
+    "city": "Gaoping",
+    "country": "China",
+    "city_ascii": "Gaoping",
+    "lat": 30.7804,
+    "lng": 106.13,
+    "population": 2174000
+  },
+  {
+    "city": "Gaozhou",
+    "country": "China",
+    "city_ascii": "Gaozhou",
+    "lat": 21.9135,
+    "lng": 110.8481,
+    "population": 1414100
+  },
+  {
+    "city": "Gaziantep",
+    "country": "Turkey",
+    "city_ascii": "Gaziantep",
+    "lat": 37.0667,
+    "lng": 37.3833,
+    "population": 2028563
+  },
+  {
+    "city": "Ghāziābād",
+    "country": "India",
+    "city_ascii": "Ghaziabad",
+    "lat": 28.6667,
+    "lng": 77.4167,
+    "population": 2381452
+  },
+  {
+    "city": "Giza",
+    "country": "Egypt",
+    "city_ascii": "Giza",
+    "lat": 29.987,
+    "lng": 31.2118,
+    "population": 5598402
+  },
+  {
+    "city": "Goiânia",
+    "country": "Brazil",
+    "city_ascii": "Goiania",
+    "lat": -16.6806,
+    "lng": -49.2564,
+    "population": 1393575
+  },
+  {
+    "city": "Gongzhuling",
+    "country": "China",
+    "city_ascii": "Gongzhuling",
+    "lat": 43.5036,
+    "lng": 124.8088,
+    "population": 1092692
+  },
+  {
+    "city": "Goyang",
+    "country": "Korea, South",
+    "city_ascii": "Goyang",
+    "lat": 37.6564,
+    "lng": 126.835,
+    "population": 1061929
+  },
+  {
+    "city": "Guadalajara",
+    "country": "Mexico",
+    "city_ascii": "Guadalajara",
+    "lat": 20.6767,
+    "lng": -103.3475,
+    "population": 5253000
+  },
+  {
+    "city": "Guang’an",
+    "country": "China",
+    "city_ascii": "Guang'an",
+    "lat": 30.4673,
+    "lng": 106.6336,
+    "population": 3723000
+  },
+  {
+    "city": "Guangyuan",
+    "country": "China",
+    "city_ascii": "Guangyuan",
+    "lat": 32.4353,
+    "lng": 105.8398,
+    "population": 2484122
+  },
+  {
+    "city": "Guangzhou",
+    "country": "China",
+    "city_ascii": "Guangzhou",
+    "lat": 23.1288,
+    "lng": 113.259,
+    "population": 20902000
+  },
+  {
+    "city": "Guankou",
+    "country": "China",
+    "city_ascii": "Guankou",
+    "lat": 28.1417,
+    "lng": 113.625,
+    "population": 1168056
+  },
+  {
+    "city": "Guarulhos",
+    "country": "Brazil",
+    "city_ascii": "Guarulhos",
+    "lat": -23.4667,
+    "lng": -46.5333,
+    "population": 1324781
+  },
+  {
+    "city": "Guatemala City",
+    "country": "Guatemala",
+    "city_ascii": "Guatemala City",
+    "lat": 14.6099,
+    "lng": -90.5252,
+    "population": 2450212
+  },
+  {
+    "city": "Guayaquil",
+    "country": "Ecuador",
+    "city_ascii": "Guayaquil",
+    "lat": -2.1833,
+    "lng": -79.8833,
+    "population": 2723665
+  },
+  {
+    "city": "Guigang",
+    "country": "China",
+    "city_ascii": "Guigang",
+    "lat": 23.0961,
+    "lng": 109.6092,
+    "population": 4118808
+  },
+  {
+    "city": "Guilin",
+    "country": "China",
+    "city_ascii": "Guilin",
+    "lat": 25.2667,
+    "lng": 110.2833,
+    "population": 4747963
+  },
+  {
+    "city": "Guiping",
+    "country": "China",
+    "city_ascii": "Guiping",
+    "lat": 23.4,
+    "lng": 110.0833,
+    "population": 1496904
+  },
+  {
+    "city": "Guiyang",
+    "country": "China",
+    "city_ascii": "Guiyang",
+    "lat": 26.5794,
+    "lng": 106.7078,
+    "population": 4365000
+  },
+  {
+    "city": "Gujranwala",
+    "country": "Pakistan",
+    "city_ascii": "Gujranwala",
+    "lat": 32.15,
+    "lng": 74.1833,
+    "population": 2027001
+  },
+  {
+    "city": "Guyuan",
+    "country": "China",
+    "city_ascii": "Guyuan",
+    "lat": 36.008,
+    "lng": 106.2782,
+    "population": 1426000
+  },
+  {
+    "city": "Gwalior",
+    "country": "India",
+    "city_ascii": "Gwalior",
+    "lat": 26.215,
+    "lng": 78.1931,
+    "population": 1101981
+  },
+  {
+    "city": "Gwangju",
+    "country": "Korea, South",
+    "city_ascii": "Gwangju",
+    "lat": 35.1667,
+    "lng": 126.9167,
+    "population": 1490092
+  },
+  {
+    "city": "Haicheng",
+    "country": "China",
+    "city_ascii": "Haicheng",
+    "lat": 40.8523,
+    "lng": 122.7474,
+    "population": 1293877
+  },
+  {
+    "city": "Haikou",
+    "country": "China",
+    "city_ascii": "Haikou",
+    "lat": 20.02,
+    "lng": 110.32,
+    "population": 1776141
+  },
+  {
+    "city": "Haiphong",
+    "country": "Vietnam",
+    "city_ascii": "Haiphong",
+    "lat": 20.8,
+    "lng": 106.6667,
+    "population": 2103500
+  },
+  {
+    "city": "Hamburg",
+    "country": "Germany",
+    "city_ascii": "Hamburg",
+    "lat": 53.55,
+    "lng": 10,
+    "population": 1841179
+  },
+  {
+    "city": "Hanchuan",
+    "country": "China",
+    "city_ascii": "Hanchuan",
+    "lat": 30.652,
+    "lng": 113.8274,
+    "population": 1092700
+  },
+  {
+    "city": "Handan",
+    "country": "China",
+    "city_ascii": "Handan",
+    "lat": 36.6116,
+    "lng": 114.4894,
+    "population": 9549700
+  },
+  {
+    "city": "Hangzhou",
+    "country": "China",
+    "city_ascii": "Hangzhou",
+    "lat": 30.25,
+    "lng": 120.1675,
+    "population": 6446000
+  },
+  {
+    "city": "Hanoi",
+    "country": "Vietnam",
+    "city_ascii": "Hanoi",
+    "lat": 21.0245,
+    "lng": 105.8412,
+    "population": 7785000
+  },
+  {
+    "city": "Hanzhong",
+    "country": "China",
+    "city_ascii": "Hanzhong",
+    "lat": 33.0794,
+    "lng": 107.026,
+    "population": 3700000
+  },
+  {
+    "city": "Hāora",
+    "country": "India",
+    "city_ascii": "Haora",
+    "lat": 22.59,
+    "lng": 88.31,
+    "population": 1077075
+  },
+  {
+    "city": "Harare",
+    "country": "Zimbabwe",
+    "city_ascii": "Harare",
+    "lat": -17.8292,
+    "lng": 31.0522,
+    "population": 2150000
+  },
+  {
+    "city": "Harbin",
+    "country": "China",
+    "city_ascii": "Harbin",
+    "lat": 45.75,
+    "lng": 126.6333,
+    "population": 4458000
+  },
+  {
+    "city": "Havana",
+    "country": "Cuba",
+    "city_ascii": "Havana",
+    "lat": 23.1367,
+    "lng": -82.3589,
+    "population": 2141652
+  },
+  {
+    "city": "Hebi",
+    "country": "China",
+    "city_ascii": "Hebi",
+    "lat": 35.7497,
+    "lng": 114.2887,
+    "population": 1419000
+  },
+  {
+    "city": "Hechi",
+    "country": "China",
+    "city_ascii": "Hechi",
+    "lat": 23.0965,
+    "lng": 109.6091,
+    "population": 3830000
+  },
+  {
+    "city": "Hechi",
+    "country": "China",
+    "city_ascii": "Hechi",
+    "lat": 24.6928,
+    "lng": 108.085,
+    "population": 3369251
+  },
+  {
+    "city": "Hefei",
+    "country": "China",
+    "city_ascii": "Hefei",
+    "lat": 31.8639,
+    "lng": 117.2808,
+    "population": 7457027
+  },
+  {
+    "city": "Hegang",
+    "country": "China",
+    "city_ascii": "Hegang",
+    "lat": 47.3139,
+    "lng": 130.2775,
+    "population": 1100000
+  },
+  {
+    "city": "Heihe",
+    "country": "China",
+    "city_ascii": "Heihe",
+    "lat": 50.2458,
+    "lng": 127.4886,
+    "population": 1750000
+  },
+  {
+    "city": "Hengshui",
+    "country": "China",
+    "city_ascii": "Hengshui",
+    "lat": 37.7348,
+    "lng": 115.686,
+    "population": 4472000
+  },
+  {
+    "city": "Hengyang",
+    "country": "China",
+    "city_ascii": "Hengyang",
+    "lat": 26.8968,
+    "lng": 112.5857,
+    "population": 7300600
+  },
+  {
+    "city": "Heyuan",
+    "country": "China",
+    "city_ascii": "Heyuan",
+    "lat": 23.7503,
+    "lng": 114.6923,
+    "population": 3093900
+  },
+  {
+    "city": "Heze",
+    "country": "China",
+    "city_ascii": "Heze",
+    "lat": 35.2333,
+    "lng": 115.4333,
+    "population": 8750000
+  },
+  {
+    "city": "Hezhou",
+    "country": "China",
+    "city_ascii": "Hezhou",
+    "lat": 24.4164,
+    "lng": 111.5478,
+    "population": 1954072
+  },
+  {
+    "city": "Hiroshima",
+    "country": "Japan",
+    "city_ascii": "Hiroshima",
+    "lat": 34.4,
+    "lng": 132.45,
+    "population": 1306589
+  },
+  {
+    "city": "Ho Chi Minh City",
+    "country": "Vietnam",
+    "city_ascii": "Ho Chi Minh City",
+    "lat": 10.8167,
+    "lng": 106.6333,
+    "population": 13312000
+  },
+  {
+    "city": "Hohhot",
+    "country": "China",
+    "city_ascii": "Hohhot",
+    "lat": 40.8151,
+    "lng": 111.6629,
+    "population": 2635000
+  },
+  {
+    "city": "Hong Kong",
+    "country": "Hong Kong",
+    "city_ascii": "Hong Kong",
+    "lat": 22.305,
+    "lng": 114.185,
+    "population": 7347000
+  },
+  {
+    "city": "Houston",
+    "country": "United States",
+    "city_ascii": "Houston",
+    "lat": 29.7863,
+    "lng": -95.3889,
+    "population": 5464251
+  },
+  {
+    "city": "Huai’an",
+    "country": "China",
+    "city_ascii": "Huai'an",
+    "lat": 33.5,
+    "lng": 119.1331,
+    "population": 4799889
+  },
+  {
+    "city": "Huaibei",
+    "country": "China",
+    "city_ascii": "Huaibei",
+    "lat": 33.9562,
+    "lng": 116.789,
+    "population": 2158000
+  },
+  {
+    "city": "Huaihua",
+    "country": "China",
+    "city_ascii": "Huaihua",
+    "lat": 27.5494,
+    "lng": 109.9592,
+    "population": 4983300
+  },
+  {
+    "city": "Huainan",
+    "country": "China",
+    "city_ascii": "Huainan",
+    "lat": 32.4831,
+    "lng": 117.0164,
+    "population": 2409000
+  },
+  {
+    "city": "Huaiyin",
+    "country": "China",
+    "city_ascii": "Huaiyin",
+    "lat": 33.58,
+    "lng": 119.03,
+    "population": 1264000
+  },
+  {
+    "city": "Huambo",
+    "country": "Angola",
+    "city_ascii": "Huambo",
+    "lat": -12.7667,
+    "lng": 15.7333,
+    "population": 1100000
+  },
+  {
+    "city": "Huanggang",
+    "country": "China",
+    "city_ascii": "Huanggang",
+    "lat": 30.45,
+    "lng": 114.875,
+    "population": 6333000
+  },
+  {
+    "city": "Huanglongsi",
+    "country": "China",
+    "city_ascii": "Huanglongsi",
+    "lat": 34.7936,
+    "lng": 114.3403,
+    "population": 4676159
+  },
+  {
+    "city": "Huangshan",
+    "country": "China",
+    "city_ascii": "Huangshan",
+    "lat": 29.7132,
+    "lng": 118.3151,
+    "population": 1470000
+  },
+  {
+    "city": "Huangshi",
+    "country": "China",
+    "city_ascii": "Huangshi",
+    "lat": 30.2018,
+    "lng": 115.0326,
+    "population": 2471700
+  },
+  {
+    "city": "Huazhou",
+    "country": "China",
+    "city_ascii": "Huazhou",
+    "lat": 32.6889,
+    "lng": 112.0447,
+    "population": 1468061
+  },
+  {
+    "city": "Huazhou",
+    "country": "China",
+    "city_ascii": "Huazhou",
+    "lat": 21.654,
+    "lng": 110.6294,
+    "population": 1302100
+  },
+  {
+    "city": "Huizhou",
+    "country": "China",
+    "city_ascii": "Huizhou",
+    "lat": 23.1115,
+    "lng": 114.4152,
+    "population": 4830000
+  },
+  {
+    "city": "Huludao",
+    "country": "China",
+    "city_ascii": "Huludao",
+    "lat": 40.7094,
+    "lng": 120.8378,
+    "population": 2787000
+  },
+  {
+    "city": "Huzhou",
+    "country": "China",
+    "city_ascii": "Huzhou",
+    "lat": 30.8695,
+    "lng": 120.0958,
+    "population": 2893542
+  },
+  {
+    "city": "Hyderābād",
+    "country": "India",
+    "city_ascii": "Hyderabad",
+    "lat": 17.3667,
+    "lng": 78.4667,
+    "population": 9746000
+  },
+  {
+    "city": "Hyderabad City",
+    "country": "Pakistan",
+    "city_ascii": "Hyderabad City",
+    "lat": 25.3792,
+    "lng": 68.3683,
+    "population": 1732693
+  },
+  {
+    "city": "Ibadan",
+    "country": "Nigeria",
+    "city_ascii": "Ibadan",
+    "lat": 7.3964,
+    "lng": 3.9167,
+    "population": 2628000
+  },
+  {
+    "city": "Ikare",
+    "country": "Nigeria",
+    "city_ascii": "Ikare",
+    "lat": 7.5304,
+    "lng": 5.76,
+    "population": 1099931
+  },
+  {
+    "city": "Incheon",
+    "country": "Korea, South",
+    "city_ascii": "Incheon",
+    "lat": 37.4639,
+    "lng": 126.6486,
+    "population": 2913024
+  },
+  {
+    "city": "Indianapolis",
+    "country": "United States",
+    "city_ascii": "Indianapolis",
+    "lat": 39.7771,
+    "lng": -86.1458,
+    "population": 1588961
+  },
+  {
+    "city": "Indore",
+    "country": "India",
+    "city_ascii": "Indore",
+    "lat": 22.7206,
+    "lng": 75.8472,
+    "population": 2201927
+  },
+  {
+    "city": "Irbid",
+    "country": "Jordan",
+    "city_ascii": "Irbid",
+    "lat": 32.5556,
+    "lng": 35.85,
+    "population": 1088100
+  },
+  {
+    "city": "Islamabad",
+    "country": "Pakistan",
+    "city_ascii": "Islamabad",
+    "lat": 33.6989,
+    "lng": 73.0369,
+    "population": 1014825
+  },
+  {
+    "city": "Istanbul",
+    "country": "Turkey",
+    "city_ascii": "Istanbul",
+    "lat": 41.01,
+    "lng": 28.9603,
+    "population": 15154000
+  },
+  {
+    "city": "İzmir",
+    "country": "Turkey",
+    "city_ascii": "Izmir",
+    "lat": 38.4127,
+    "lng": 27.1384,
+    "population": 4320519
+  },
+  {
+    "city": "Jabalpur",
+    "country": "India",
+    "city_ascii": "Jabalpur",
+    "lat": 23.1667,
+    "lng": 79.9333,
+    "population": 1267564
+  },
+  {
+    "city": "Jacksonville",
+    "country": "United States",
+    "city_ascii": "Jacksonville",
+    "lat": 30.3322,
+    "lng": -81.6749,
+    "population": 1181496
+  },
+  {
+    "city": "Jaipur",
+    "country": "India",
+    "city_ascii": "Jaipur",
+    "lat": 26.9167,
+    "lng": 75.8667,
+    "population": 3073350
+  },
+  {
+    "city": "Jakarta",
+    "country": "Indonesia",
+    "city_ascii": "Jakarta",
+    "lat": -6.2146,
+    "lng": 106.8451,
+    "population": 34540000
+  },
+  {
+    "city": "Jamshedpur",
+    "country": "India",
+    "city_ascii": "Jamshedpur",
+    "lat": 22.8,
+    "lng": 86.1833,
+    "population": 1558000
+  },
+  {
+    "city": "Jeddah",
+    "country": "Saudi Arabia",
+    "city_ascii": "Jeddah",
+    "lat": 21.5428,
+    "lng": 39.1728,
+    "population": 3976000
+  },
+  {
+    "city": "Ji’an",
+    "country": "China",
+    "city_ascii": "Ji'an",
+    "lat": 27.1172,
+    "lng": 114.9793,
+    "population": 4956600
+  },
+  {
+    "city": "Jiamusi",
+    "country": "China",
+    "city_ascii": "Jiamusi",
+    "lat": 46.8081,
+    "lng": 130.3653,
+    "population": 2360000
+  },
+  {
+    "city": "Jiangguanchi",
+    "country": "China",
+    "city_ascii": "Jiangguanchi",
+    "lat": 34.0244,
+    "lng": 113.8201,
+    "population": 4289000
+  },
+  {
+    "city": "Jiangmen",
+    "country": "China",
+    "city_ascii": "Jiangmen",
+    "lat": 22.5833,
+    "lng": 113.0833,
+    "population": 4630300
+  },
+  {
+    "city": "Jianguang",
+    "country": "China",
+    "city_ascii": "Jianguang",
+    "lat": 28.1958,
+    "lng": 115.7833,
+    "population": 1507402
+  },
+  {
+    "city": "Jiangyin",
+    "country": "China",
+    "city_ascii": "Jiangyin",
+    "lat": 31.9087,
+    "lng": 120.2653,
+    "population": 1241045
+  },
+  {
+    "city": "Jiaozuo",
+    "country": "China",
+    "city_ascii": "Jiaozuo",
+    "lat": 35.229,
+    "lng": 113.2304,
+    "population": 3540101
+  },
+  {
+    "city": "Jiaxing",
+    "country": "China",
+    "city_ascii": "Jiaxing",
+    "lat": 30.7522,
+    "lng": 120.75,
+    "population": 4501657
+  },
+  {
+    "city": "Jieyang",
+    "country": "China",
+    "city_ascii": "Jieyang",
+    "lat": 23.5533,
+    "lng": 116.3649,
+    "population": 6089400
+  },
+  {
+    "city": "Jilin",
+    "country": "China",
+    "city_ascii": "Jilin",
+    "lat": 43.85,
+    "lng": 126.55,
+    "population": 2396000
+  },
+  {
+    "city": "Jinan",
+    "country": "China",
+    "city_ascii": "Jinan",
+    "lat": 36.6667,
+    "lng": 116.9833,
+    "population": 7967400
+  },
+  {
+    "city": "Jincheng",
+    "country": "China",
+    "city_ascii": "Jincheng",
+    "lat": 35.4906,
+    "lng": 112.8483,
+    "population": 2120000
+  },
+  {
+    "city": "Jingdezhen",
+    "country": "China",
+    "city_ascii": "Jingdezhen",
+    "lat": 29.2942,
+    "lng": 117.2036,
+    "population": 1587477
+  },
+  {
+    "city": "Jingling",
+    "country": "China",
+    "city_ascii": "Jingling",
+    "lat": 30.6667,
+    "lng": 113.1667,
+    "population": 1247400
+  },
+  {
+    "city": "Jinhua",
+    "country": "China",
+    "city_ascii": "Jinhua",
+    "lat": 29.1046,
+    "lng": 119.6494,
+    "population": 5361572
+  },
+  {
+    "city": "Jining",
+    "country": "China",
+    "city_ascii": "Jining",
+    "lat": 35.4,
+    "lng": 116.5667,
+    "population": 8023000
+  },
+  {
+    "city": "Jinzhou",
+    "country": "China",
+    "city_ascii": "Jinzhou",
+    "lat": 41.1144,
+    "lng": 121.1292,
+    "population": 3000000
+  },
+  {
+    "city": "Jiujiang",
+    "country": "China",
+    "city_ascii": "Jiujiang",
+    "lat": 29.7048,
+    "lng": 116.0021,
+    "population": 4728778
+  },
+  {
+    "city": "Jixi",
+    "country": "China",
+    "city_ascii": "Jixi",
+    "lat": 45.2937,
+    "lng": 130.965,
+    "population": 1950000
+  },
+  {
+    "city": "Johannesburg",
+    "country": "South Africa",
+    "city_ascii": "Johannesburg",
+    "lat": -26.2044,
+    "lng": 28.0416,
+    "population": 4434827
+  },
+  {
+    "city": "Juárez",
+    "country": "Mexico",
+    "city_ascii": "Juarez",
+    "lat": 31.7386,
+    "lng": -106.487,
+    "population": 1321004
+  },
+  {
+    "city": "Kabul",
+    "country": "Afghanistan",
+    "city_ascii": "Kabul",
+    "lat": 34.5328,
+    "lng": 69.1658,
+    "population": 3678034
+  },
+  {
+    "city": "Kaiyuan",
+    "country": "China",
+    "city_ascii": "Kaiyuan",
+    "lat": 36.0656,
+    "lng": 113.8153,
+    "population": 1160000
+  },
+  {
+    "city": "Kalyān",
+    "country": "India",
+    "city_ascii": "Kalyan",
+    "lat": 19.2502,
+    "lng": 73.1602,
+    "population": 1576614
+  },
+  {
+    "city": "Kampala",
+    "country": "Uganda",
+    "city_ascii": "Kampala",
+    "lat": 0.3136,
+    "lng": 32.5811,
+    "population": 1659600
+  },
+  {
+    "city": "Kananga",
+    "country": "Congo (Kinshasa)",
+    "city_ascii": "Kananga",
+    "lat": -5.897,
+    "lng": 22.4488,
+    "population": 1971704
+  },
+  {
+    "city": "Kano",
+    "country": "Nigeria",
+    "city_ascii": "Kano",
+    "lat": 12,
+    "lng": 8.5167,
+    "population": 2828861
+  },
+  {
+    "city": "Kansas City",
+    "country": "United States",
+    "city_ascii": "Kansas City",
+    "lat": 39.1239,
+    "lng": -94.5541,
+    "population": 1636715
+  },
+  {
+    "city": "Kaohsiung",
+    "country": "Taiwan",
+    "city_ascii": "Kaohsiung",
+    "lat": 22.6167,
+    "lng": 120.3,
+    "population": 2773533
+  },
+  {
+    "city": "Karachi",
+    "country": "Pakistan",
+    "city_ascii": "Karachi",
+    "lat": 24.86,
+    "lng": 67.01,
+    "population": 14835000
+  },
+  {
+    "city": "Karaj",
+    "country": "Iran",
+    "city_ascii": "Karaj",
+    "lat": 35.8327,
+    "lng": 50.9915,
+    "population": 1592492
+  },
+  {
+    "city": "Kawanakajima",
+    "country": "Japan",
+    "city_ascii": "Kawanakajima",
+    "lat": 35.53,
+    "lng": 139.705,
+    "population": 1437266
+  },
+  {
+    "city": "Kayseri",
+    "country": "Turkey",
+    "city_ascii": "Kayseri",
+    "lat": 38.7333,
+    "lng": 35.4833,
+    "population": 1389680
+  },
+  {
+    "city": "Kazan",
+    "country": "Russia",
+    "city_ascii": "Kazan",
+    "lat": 55.7908,
+    "lng": 49.1144,
+    "population": 1243500
+  },
+  {
+    "city": "Kharkiv",
+    "country": "Ukraine",
+    "city_ascii": "Kharkiv",
+    "lat": 50,
+    "lng": 36.2292,
+    "population": 1446107
+  },
+  {
+    "city": "Khartoum",
+    "country": "Sudan",
+    "city_ascii": "Khartoum",
+    "lat": 15.6031,
+    "lng": 32.5265,
+    "population": 7282000
+  },
+  {
+    "city": "Khulna",
+    "country": "Bangladesh",
+    "city_ascii": "Khulna",
+    "lat": 22.8167,
+    "lng": 89.55,
+    "population": 1311100
+  },
+  {
+    "city": "Kigali",
+    "country": "Rwanda",
+    "city_ascii": "Kigali",
+    "lat": -1.9536,
+    "lng": 30.0606,
+    "population": 1156663
+  },
+  {
+    "city": "Kinshasa",
+    "country": "Congo (Kinshasa)",
+    "city_ascii": "Kinshasa",
+    "lat": -4.3233,
+    "lng": 15.3081,
+    "population": 13528000
+  },
+  {
+    "city": "Kōbe",
+    "country": "Japan",
+    "city_ascii": "Kobe",
+    "lat": 34.6913,
+    "lng": 135.183,
+    "population": 1513193
+  },
+  {
+    "city": "Kolkāta",
+    "country": "India",
+    "city_ascii": "Kolkata",
+    "lat": 22.5411,
+    "lng": 88.3378,
+    "population": 17560000
+  },
+  {
+    "city": "Konya",
+    "country": "Turkey",
+    "city_ascii": "Konya",
+    "lat": 37.8714,
+    "lng": 32.4847,
+    "population": 2232374
+  },
+  {
+    "city": "Kota",
+    "country": "India",
+    "city_ascii": "Kota",
+    "lat": 25.18,
+    "lng": 75.83,
+    "population": 1001694
+  },
+  {
+    "city": "Krasnoyarsk",
+    "country": "Russia",
+    "city_ascii": "Krasnoyarsk",
+    "lat": 56.0167,
+    "lng": 92.8667,
+    "population": 1083865
+  },
+  {
+    "city": "Kuala Lumpur",
+    "country": "Malaysia",
+    "city_ascii": "Kuala Lumpur",
+    "lat": 3.1478,
+    "lng": 101.6953,
+    "population": 8285000
+  },
+  {
+    "city": "Kumasi",
+    "country": "Ghana",
+    "city_ascii": "Kumasi",
+    "lat": 6.6833,
+    "lng": -1.6167,
+    "population": 2069350
+  },
+  {
+    "city": "Kunming",
+    "country": "China",
+    "city_ascii": "Kunming",
+    "lat": 25.0433,
+    "lng": 102.7061,
+    "population": 6250000
+  },
+  {
+    "city": "Kuwait City",
+    "country": "Kuwait",
+    "city_ascii": "Kuwait City",
+    "lat": 29.375,
+    "lng": 47.98,
+    "population": 2989000
+  },
+  {
+    "city": "Kyiv",
+    "country": "Ukraine",
+    "city_ascii": "Kyiv",
+    "lat": 50.45,
+    "lng": 30.5236,
+    "population": 2963199
+  },
+  {
+    "city": "Kyōto",
+    "country": "Japan",
+    "city_ascii": "Kyoto",
+    "lat": 35.0111,
+    "lng": 135.7669,
+    "population": 1805000
+  },
+  {
+    "city": "La Paz",
+    "country": "Bolivia",
+    "city_ascii": "La Paz",
+    "lat": -16.4942,
+    "lng": -68.1475,
+    "population": 2867504
+  },
+  {
+    "city": "Lagos",
+    "country": "Nigeria",
+    "city_ascii": "Lagos",
+    "lat": 6.45,
+    "lng": 3.4,
+    "population": 15279000
+  },
+  {
+    "city": "Lahore",
+    "country": "Pakistan",
+    "city_ascii": "Lahore",
+    "lat": 31.5497,
+    "lng": 74.3436,
+    "population": 11021000
+  },
+  {
+    "city": "Laibin",
+    "country": "China",
+    "city_ascii": "Laibin",
+    "lat": 23.7333,
+    "lng": 109.2333,
+    "population": 2099711
+  },
+  {
+    "city": "Laiwu",
+    "country": "China",
+    "city_ascii": "Laiwu",
+    "lat": 36.1833,
+    "lng": 117.6667,
+    "population": 1248636
+  },
+  {
+    "city": "Langfang",
+    "country": "China",
+    "city_ascii": "Langfang",
+    "lat": 39.5196,
+    "lng": 116.7006,
+    "population": 4358839
+  },
+  {
+    "city": "Lanzhou",
+    "country": "China",
+    "city_ascii": "Lanzhou",
+    "lat": 36.0617,
+    "lng": 103.8318,
+    "population": 3616163
+  },
+  {
+    "city": "Las Vegas",
+    "country": "United States",
+    "city_ascii": "Las Vegas",
+    "lat": 36.2333,
+    "lng": -115.2654,
+    "population": 2104198
+  },
+  {
+    "city": "Leeds",
+    "country": "United Kingdom",
+    "city_ascii": "Leeds",
+    "lat": 53.7997,
+    "lng": -1.5492,
+    "population": 1901934
+  },
+  {
+    "city": "Leiyang",
+    "country": "China",
+    "city_ascii": "Leiyang",
+    "lat": 26.4179,
+    "lng": 112.8457,
+    "population": 1151554
+  },
+  {
+    "city": "Leizhou",
+    "country": "China",
+    "city_ascii": "Leizhou",
+    "lat": 20.9147,
+    "lng": 110.0806,
+    "population": 1494700
+  },
+  {
+    "city": "León de los Aldama",
+    "country": "Mexico",
+    "city_ascii": "Leon de los Aldama",
+    "lat": 21.1167,
+    "lng": -101.6833,
+    "population": 1454793
+  },
+  {
+    "city": "Leshan",
+    "country": "China",
+    "city_ascii": "Leshan",
+    "lat": 29.5854,
+    "lng": 103.7575,
+    "population": 3364000
+  },
+  {
+    "city": "Liangshi",
+    "country": "China",
+    "city_ascii": "Liangshi",
+    "lat": 27.2578,
+    "lng": 111.7351,
+    "population": 1335900
+  },
+  {
+    "city": "Lianjiang",
+    "country": "China",
+    "city_ascii": "Lianjiang",
+    "lat": 21.6146,
+    "lng": 110.2794,
+    "population": 1509400
+  },
+  {
+    "city": "Lianshan",
+    "country": "China",
+    "city_ascii": "Lianshan",
+    "lat": 40.7503,
+    "lng": 120.83,
+    "population": 2426000
+  },
+  {
+    "city": "Lianyuan",
+    "country": "China",
+    "city_ascii": "Lianyuan",
+    "lat": 27.6961,
+    "lng": 111.6659,
+    "population": 1162928
+  },
+  {
+    "city": "Liaocheng",
+    "country": "China",
+    "city_ascii": "Liaocheng",
+    "lat": 36.45,
+    "lng": 115.9833,
+    "population": 5955300
+  },
+  {
+    "city": "Liaoyang",
+    "country": "China",
+    "city_ascii": "Liaoyang",
+    "lat": 41.2643,
+    "lng": 123.1772,
+    "population": 1800000
+  },
+  {
+    "city": "Lima",
+    "country": "Peru",
+    "city_ascii": "Lima",
+    "lat": -12.05,
+    "lng": -77.0333,
+    "population": 9848000
+  },
+  {
+    "city": "Lincang",
+    "country": "China",
+    "city_ascii": "Lincang",
+    "lat": 23.8864,
+    "lng": 100.0871,
+    "population": 2429497
+  },
+  {
+    "city": "Linfen",
+    "country": "China",
+    "city_ascii": "Linfen",
+    "lat": 36.0812,
+    "lng": 111.5087,
+    "population": 4316610
+  },
+  {
+    "city": "Linhai",
+    "country": "China",
+    "city_ascii": "Linhai",
+    "lat": 28.8523,
+    "lng": 121.1409,
+    "population": 1028813
+  },
+  {
+    "city": "Linyi",
+    "country": "China",
+    "city_ascii": "Linyi",
+    "lat": 35.0606,
+    "lng": 118.3425,
+    "population": 10820000
+  },
+  {
+    "city": "Lishui",
+    "country": "China",
+    "city_ascii": "Lishui",
+    "lat": 28.45,
+    "lng": 119.9167,
+    "population": 2116957
+  },
+  {
+    "city": "Liuzhou",
+    "country": "China",
+    "city_ascii": "Liuzhou",
+    "lat": 24.3264,
+    "lng": 109.4281,
+    "population": 3758704
+  },
+  {
+    "city": "London",
+    "country": "United Kingdom",
+    "city_ascii": "London",
+    "lat": 51.5072,
+    "lng": -0.1275,
+    "population": 10979000
+  },
+  {
+    "city": "Longba",
+    "country": "China",
+    "city_ascii": "Longba",
+    "lat": 33.535,
+    "lng": 105.349,
+    "population": 2614000
+  },
+  {
+    "city": "Longyan",
+    "country": "China",
+    "city_ascii": "Longyan",
+    "lat": 25.0881,
+    "lng": 117.0244,
+    "population": 2640000
+  },
+  {
+    "city": "Los Angeles",
+    "country": "United States",
+    "city_ascii": "Los Angeles",
+    "lat": 34.1139,
+    "lng": -118.4068,
+    "population": 12750807
+  },
+  {
+    "city": "Loudi",
+    "country": "China",
+    "city_ascii": "Loudi",
+    "lat": 27.7378,
+    "lng": 111.9974,
+    "population": 3941300
+  },
+  {
+    "city": "Louisville",
+    "country": "United States",
+    "city_ascii": "Louisville",
+    "lat": 38.1663,
+    "lng": -85.6485,
+    "population": 1005654
+  },
+  {
+    "city": "Lu’an",
+    "country": "China",
+    "city_ascii": "Lu'an",
+    "lat": 31.7542,
+    "lng": 116.5078,
+    "population": 6090000
+  },
+  {
+    "city": "Luanda",
+    "country": "Angola",
+    "city_ascii": "Luanda",
+    "lat": -8.8383,
+    "lng": 13.2344,
+    "population": 8417000
+  },
+  {
+    "city": "Lubumbashi",
+    "country": "Congo (Kinshasa)",
+    "city_ascii": "Lubumbashi",
+    "lat": -11.6697,
+    "lng": 27.4581,
+    "population": 1786397
+  },
+  {
+    "city": "Lucknow",
+    "country": "India",
+    "city_ascii": "Lucknow",
+    "lat": 26.847,
+    "lng": 80.947,
+    "population": 3382000
+  },
+  {
+    "city": "Ludhiāna",
+    "country": "India",
+    "city_ascii": "Ludhiana",
+    "lat": 30.9083,
+    "lng": 75.8486,
+    "population": 1649000
+  },
+  {
+    "city": "Luohe",
+    "country": "China",
+    "city_ascii": "Luohe",
+    "lat": 33.583,
+    "lng": 114.0109,
+    "population": 2500000
+  },
+  {
+    "city": "Luoyang",
+    "country": "China",
+    "city_ascii": "Luoyang",
+    "lat": 34.6587,
+    "lng": 112.4245,
+    "population": 6549941
+  },
+  {
+    "city": "Lusaka",
+    "country": "Zambia",
+    "city_ascii": "Lusaka",
+    "lat": -15.4167,
+    "lng": 28.2833,
+    "population": 1742979
+  },
+  {
+    "city": "Luzhou",
+    "country": "China",
+    "city_ascii": "Luzhou",
+    "lat": 28.8918,
+    "lng": 105.4409,
+    "population": 4291000
+  },
+  {
+    "city": "Ma’anshan",
+    "country": "China",
+    "city_ascii": "Ma'anshan",
+    "lat": 31.7135,
+    "lng": 118.3605,
+    "population": 2202899
+  },
+  {
+    "city": "Maceió",
+    "country": "Brazil",
+    "city_ascii": "Maceio",
+    "lat": -9.6658,
+    "lng": -35.735,
+    "population": 1029129
+  },
+  {
+    "city": "Madīnat as Sādis min Uktūbar",
+    "country": "Egypt",
+    "city_ascii": "Madinat as Sadis min Uktubar",
+    "lat": 29.9361,
+    "lng": 30.9269,
+    "population": 1500000
+  },
+  {
+    "city": "Madrid",
+    "country": "Spain",
+    "city_ascii": "Madrid",
+    "lat": 40.4167,
+    "lng": -3.7167,
+    "population": 6026000
+  },
+  {
+    "city": "Madurai",
+    "country": "India",
+    "city_ascii": "Madurai",
+    "lat": 9.9197,
+    "lng": 78.1194,
+    "population": 1561129
+  },
+  {
+    "city": "Maiduguri",
+    "country": "Nigeria",
+    "city_ascii": "Maiduguri",
+    "lat": 11.8333,
+    "lng": 13.15,
+    "population": 1197497
+  },
+  {
+    "city": "Makassar",
+    "country": "Indonesia",
+    "city_ascii": "Makassar",
+    "lat": -5.1331,
+    "lng": 119.4136,
+    "population": 1651146
+  },
+  {
+    "city": "Managua",
+    "country": "Nicaragua",
+    "city_ascii": "Managua",
+    "lat": 12.15,
+    "lng": -86.2667,
+    "population": 1028808
+  },
+  {
+    "city": "Manaus",
+    "country": "Brazil",
+    "city_ascii": "Manaus",
+    "lat": -3.1,
+    "lng": -60.0167,
+    "population": 1802014
+  },
+  {
+    "city": "Manchester",
+    "country": "United Kingdom",
+    "city_ascii": "Manchester",
+    "lat": 53.4794,
+    "lng": -2.2453,
+    "population": 2705000
+  },
+  {
+    "city": "Mandalay",
+    "country": "Myanmar",
+    "city_ascii": "Mandalay",
+    "lat": 21.9769,
+    "lng": 96.0869,
+    "population": 1225546
+  },
+  {
+    "city": "Manhattan",
+    "country": "United States",
+    "city_ascii": "Manhattan",
+    "lat": 40.7834,
+    "lng": -73.9662,
+    "population": 1628706
+  },
+  {
+    "city": "Manila",
+    "country": "Philippines",
+    "city_ascii": "Manila",
+    "lat": 14.6,
+    "lng": 120.9833,
+    "population": 23088000
+  },
+  {
+    "city": "Maoming",
+    "country": "China",
+    "city_ascii": "Maoming",
+    "lat": 21.6618,
+    "lng": 110.9178,
+    "population": 6313200
+  },
+  {
+    "city": "Maputo",
+    "country": "Mozambique",
+    "city_ascii": "Maputo",
+    "lat": -25.9153,
+    "lng": 32.5764,
+    "population": 1191613
+  },
+  {
+    "city": "Maracaibo",
+    "country": "Venezuela",
+    "city_ascii": "Maracaibo",
+    "lat": 10.6333,
+    "lng": -71.6333,
+    "population": 1551539
+  },
+  {
+    "city": "Mashhad",
+    "country": "Iran",
+    "city_ascii": "Mashhad",
+    "lat": 36.3069,
+    "lng": 59.6042,
+    "population": 3001184
+  },
+  {
+    "city": "Matola",
+    "country": "Mozambique",
+    "city_ascii": "Matola",
+    "lat": -25.9667,
+    "lng": 32.4667,
+    "population": 1032197
+  },
+  {
+    "city": "Mbuji-Mayi",
+    "country": "Congo (Kinshasa)",
+    "city_ascii": "Mbuji-Mayi",
+    "lat": -6.1209,
+    "lng": 23.5967,
+    "population": 1295000
+  },
+  {
+    "city": "Mecca",
+    "country": "Saudi Arabia",
+    "city_ascii": "Mecca",
+    "lat": 21.4225,
+    "lng": 39.8261,
+    "population": 1675368
+  },
+  {
+    "city": "Medan",
+    "country": "Indonesia",
+    "city_ascii": "Medan",
+    "lat": 3.6667,
+    "lng": 98.6667,
+    "population": 2210625
+  },
+  {
+    "city": "Medellín",
+    "country": "Colombia",
+    "city_ascii": "Medellin",
+    "lat": 6.2447,
+    "lng": -75.5748,
+    "population": 2529403
+  },
+  {
+    "city": "Medina",
+    "country": "Saudi Arabia",
+    "city_ascii": "Medina",
+    "lat": 24.4667,
+    "lng": 39.6,
+    "population": 1180770
+  },
+  {
+    "city": "Meerut",
+    "country": "India",
+    "city_ascii": "Meerut",
+    "lat": 28.99,
+    "lng": 77.7,
+    "population": 1305429
+  },
+  {
+    "city": "Meishan",
+    "country": "China",
+    "city_ascii": "Meishan",
+    "lat": 30.0575,
+    "lng": 103.8381,
+    "population": 3020000
+  },
+  {
+    "city": "Meizhou",
+    "country": "China",
+    "city_ascii": "Meizhou",
+    "lat": 24.2998,
+    "lng": 116.1191,
+    "population": 4378800
+  },
+  {
+    "city": "Melbourne",
+    "country": "Australia",
+    "city_ascii": "Melbourne",
+    "lat": -37.8136,
+    "lng": 144.9631,
+    "population": 5078193
+  },
+  {
+    "city": "Memphis",
+    "country": "United States",
+    "city_ascii": "Memphis",
+    "lat": 35.1046,
+    "lng": -89.9773,
+    "population": 1066967
+  },
+  {
+    "city": "Mersin",
+    "country": "Turkey",
+    "city_ascii": "Mersin",
+    "lat": 36.8,
+    "lng": 34.6167,
+    "population": 1814468
+  },
+  {
+    "city": "Meru",
+    "country": "Kenya",
+    "city_ascii": "Meru",
+    "lat": 0.05,
+    "lng": 37.65,
+    "population": 1833000
+  },
+  {
+    "city": "Mexicali",
+    "country": "Mexico",
+    "city_ascii": "Mexicali",
+    "lat": 32.6633,
+    "lng": -115.4678,
+    "population": 1102342
+  },
+  {
+    "city": "Mexico City",
+    "country": "Mexico",
+    "city_ascii": "Mexico City",
+    "lat": 19.4333,
+    "lng": -99.1333,
+    "population": 20996000
+  },
+  {
+    "city": "Miami",
+    "country": "United States",
+    "city_ascii": "Miami",
+    "lat": 25.7839,
+    "lng": -80.2102,
+    "population": 6445545
+  },
+  {
+    "city": "Mianyang",
+    "country": "China",
+    "city_ascii": "Mianyang",
+    "lat": 31.4669,
+    "lng": 104.7385,
+    "population": 4945000
+  },
+  {
+    "city": "Milan",
+    "country": "Italy",
+    "city_ascii": "Milan",
+    "lat": 45.4669,
+    "lng": 9.19,
+    "population": 1366180
+  },
+  {
+    "city": "Milwaukee",
+    "country": "United States",
+    "city_ascii": "Milwaukee",
+    "lat": 43.0642,
+    "lng": -87.9673,
+    "population": 1365787
+  },
+  {
+    "city": "Minneapolis",
+    "country": "United States",
+    "city_ascii": "Minneapolis",
+    "lat": 44.9635,
+    "lng": -93.2678,
+    "population": 2977172
+  },
+  {
+    "city": "Minsk",
+    "country": "Belarus",
+    "city_ascii": "Minsk",
+    "lat": 53.9022,
+    "lng": 27.5618,
+    "population": 2009786
+  },
+  {
+    "city": "Mirzāpur",
+    "country": "India",
+    "city_ascii": "Mirzapur",
+    "lat": 25.15,
+    "lng": 82.58,
+    "population": 2496970
+  },
+  {
+    "city": "Mizhou",
+    "country": "China",
+    "city_ascii": "Mizhou",
+    "lat": 35.99,
+    "lng": 119.3801,
+    "population": 1060000
+  },
+  {
+    "city": "Mogadishu",
+    "country": "Somalia",
+    "city_ascii": "Mogadishu",
+    "lat": 2.0408,
+    "lng": 45.3425,
+    "population": 2120000
+  },
+  {
+    "city": "Mombasa",
+    "country": "Kenya",
+    "city_ascii": "Mombasa",
+    "lat": -4.05,
+    "lng": 39.6667,
+    "population": 1200000
+  },
+  {
+    "city": "Monrovia",
+    "country": "Liberia",
+    "city_ascii": "Monrovia",
+    "lat": 6.3106,
+    "lng": -10.8047,
+    "population": 1021762
+  },
+  {
+    "city": "Monterrey",
+    "country": "Mexico",
+    "city_ascii": "Monterrey",
+    "lat": 25.6667,
+    "lng": -100.3,
+    "population": 4295000
+  },
+  {
+    "city": "Montevideo",
+    "country": "Uruguay",
+    "city_ascii": "Montevideo",
+    "lat": -34.8667,
+    "lng": -56.1667,
+    "population": 1319108
+  },
+  {
+    "city": "Montréal",
+    "country": "Canada",
+    "city_ascii": "Montreal",
+    "lat": 45.5089,
+    "lng": -73.5617,
+    "population": 3519595
+  },
+  {
+    "city": "Moscow",
+    "country": "Russia",
+    "city_ascii": "Moscow",
+    "lat": 55.7558,
+    "lng": 37.6178,
+    "population": 17125000
+  },
+  {
+    "city": "Mosul",
+    "country": "Iraq",
+    "city_ascii": "Mosul",
+    "lat": 36.3667,
+    "lng": 43.1167,
+    "population": 1694000
+  },
+  {
+    "city": "Mudanjiang",
+    "country": "China",
+    "city_ascii": "Mudanjiang",
+    "lat": 44.5861,
+    "lng": 129.5997,
+    "population": 2790000
+  },
+  {
+    "city": "Multan",
+    "country": "Pakistan",
+    "city_ascii": "Multan",
+    "lat": 30.1978,
+    "lng": 71.4711,
+    "population": 1871843
+  },
+  {
+    "city": "Mumbai",
+    "country": "India",
+    "city_ascii": "Mumbai",
+    "lat": 18.9667,
+    "lng": 72.8333,
+    "population": 23355000
+  },
+  {
+    "city": "Munich",
+    "country": "Germany",
+    "city_ascii": "Munich",
+    "lat": 48.1372,
+    "lng": 11.5755,
+    "population": 1471508
+  },
+  {
+    "city": "Muscat",
+    "country": "Oman",
+    "city_ascii": "Muscat",
+    "lat": 23.6139,
+    "lng": 58.5922,
+    "population": 1421409
+  },
+  {
+    "city": "Mysore",
+    "country": "India",
+    "city_ascii": "Mysore",
+    "lat": 12.3086,
+    "lng": 76.6531,
+    "population": 1014227
+  },
+  {
+    "city": "N’Djamena",
+    "country": "Chad",
+    "city_ascii": "N'Djamena",
+    "lat": 12.11,
+    "lng": 15.05,
+    "population": 1092066
+  },
+  {
+    "city": "Nagoya",
+    "country": "Japan",
+    "city_ascii": "Nagoya",
+    "lat": 35.1167,
+    "lng": 136.9333,
+    "population": 9113000
+  },
+  {
+    "city": "Nāgpur",
+    "country": "India",
+    "city_ascii": "Nagpur",
+    "lat": 21.1539,
+    "lng": 79.0831,
+    "population": 2405665
+  },
+  {
+    "city": "Nairobi",
+    "country": "Kenya",
+    "city_ascii": "Nairobi",
+    "lat": -1.2864,
+    "lng": 36.8172,
+    "population": 5545000
+  },
+  {
+    "city": "Nanchang",
+    "country": "China",
+    "city_ascii": "Nanchang",
+    "lat": 28.6842,
+    "lng": 115.8872,
+    "population": 5042565
+  },
+  {
+    "city": "Nanchong",
+    "country": "China",
+    "city_ascii": "Nanchong",
+    "lat": 30.7991,
+    "lng": 106.0784,
+    "population": 6183000
+  },
+  {
+    "city": "Nangandao",
+    "country": "China",
+    "city_ascii": "Nangandao",
+    "lat": 35.2992,
+    "lng": 113.8851,
+    "population": 5516000
+  },
+  {
+    "city": "Nanjing",
+    "country": "China",
+    "city_ascii": "Nanjing",
+    "lat": 32.05,
+    "lng": 118.7667,
+    "population": 7496000
+  },
+  {
+    "city": "Nanning",
+    "country": "China",
+    "city_ascii": "Nanning",
+    "lat": 22.8192,
+    "lng": 108.315,
+    "population": 7153300
+  },
+  {
+    "city": "Nanping",
+    "country": "China",
+    "city_ascii": "Nanping",
+    "lat": 26.6448,
+    "lng": 118.1728,
+    "population": 2690000
+  },
+  {
+    "city": "Nantong",
+    "country": "China",
+    "city_ascii": "Nantong",
+    "lat": 31.9829,
+    "lng": 120.8873,
+    "population": 7282835
+  },
+  {
+    "city": "Nanyang",
+    "country": "China",
+    "city_ascii": "Nanyang",
+    "lat": 32.9987,
+    "lng": 112.5292,
+    "population": 12010000
+  },
+  {
+    "city": "Nashville",
+    "country": "United States",
+    "city_ascii": "Nashville",
+    "lat": 36.1715,
+    "lng": -86.7843,
+    "population": 1081903
+  },
+  {
+    "city": "Nāsik",
+    "country": "India",
+    "city_ascii": "Nasik",
+    "lat": 20,
+    "lng": 73.7833,
+    "population": 1486053
+  },
+  {
+    "city": "Nay Pyi Taw",
+    "country": "Myanmar",
+    "city_ascii": "Nay Pyi Taw",
+    "lat": 19.7475,
+    "lng": 96.115,
+    "population": 1160242
+  },
+  {
+    "city": "Neijiang",
+    "country": "China",
+    "city_ascii": "Neijiang",
+    "lat": 29.5872,
+    "lng": 105.0635,
+    "population": 4238000
+  },
+  {
+    "city": "New Orleans",
+    "country": "United States",
+    "city_ascii": "New Orleans",
+    "lat": 30.0687,
+    "lng": -89.9288,
+    "population": 1020886
+  },
+  {
+    "city": "New York",
+    "country": "United States",
+    "city_ascii": "New York",
+    "lat": 40.6943,
+    "lng": -73.9249,
+    "population": 18713220
+  },
+  {
+    "city": "Newcastle",
+    "country": "United Kingdom",
+    "city_ascii": "Newcastle",
+    "lat": 55.0077,
+    "lng": -1.6578,
+    "population": 1650000
+  },
+  {
+    "city": "Nezahualcóyotl",
+    "country": "Mexico",
+    "city_ascii": "Nezahualcoyotl",
+    "lat": 19.4,
+    "lng": -98.9889,
+    "population": 1110565
+  },
+  {
+    "city": "Niamey",
+    "country": "Niger",
+    "city_ascii": "Niamey",
+    "lat": 13.5086,
+    "lng": 2.1111,
+    "population": 1026848
+  },
+  {
+    "city": "Nice",
+    "country": "France",
+    "city_ascii": "Nice",
+    "lat": 43.7034,
+    "lng": 7.2663,
+    "population": 1006402
+  },
+  {
+    "city": "Ningbo",
+    "country": "China",
+    "city_ascii": "Ningbo",
+    "lat": 29.875,
+    "lng": 121.5492,
+    "population": 7639000
+  },
+  {
+    "city": "Ningde",
+    "country": "China",
+    "city_ascii": "Ningde",
+    "lat": 26.6667,
+    "lng": 119.5167,
+    "population": 2910000
+  },
+  {
+    "city": "Nizhniy Novgorod",
+    "country": "Russia",
+    "city_ascii": "Nizhniy Novgorod",
+    "lat": 56.3269,
+    "lng": 44.0075,
+    "population": 1264075
+  },
+  {
+    "city": "Nouakchott",
+    "country": "Mauritania",
+    "city_ascii": "Nouakchott",
+    "lat": 18.0858,
+    "lng": -15.9785,
+    "population": 1077169
+  },
+  {
+    "city": "Novosibirsk",
+    "country": "Russia",
+    "city_ascii": "Novosibirsk",
+    "lat": 55.0333,
+    "lng": 82.9167,
+    "population": 1602915
+  },
+  {
+    "city": "Nur-Sultan",
+    "country": "Kazakhstan",
+    "city_ascii": "Nur-Sultan",
+    "lat": 51.1333,
+    "lng": 71.4333,
+    "population": 1078362
+  },
+  {
+    "city": "Odesa",
+    "country": "Ukraine",
+    "city_ascii": "Odesa",
+    "lat": 46.4775,
+    "lng": 30.7326,
+    "population": 1017699
+  },
+  {
+    "city": "Ogbomoso",
+    "country": "Nigeria",
+    "city_ascii": "Ogbomoso",
+    "lat": 8.1333,
+    "lng": 4.25,
+    "population": 1032000
+  },
+  {
+    "city": "Omdurman",
+    "country": "Sudan",
+    "city_ascii": "Omdurman",
+    "lat": 15.6835,
+    "lng": 32.4629,
+    "population": 2805396
+  },
+  {
+    "city": "Omsk",
+    "country": "Russia",
+    "city_ascii": "Omsk",
+    "lat": 54.9667,
+    "lng": 73.3833,
+    "population": 1178391
+  },
+  {
+    "city": "Onitsha",
+    "country": "Nigeria",
+    "city_ascii": "Onitsha",
+    "lat": 6.1667,
+    "lng": 6.7833,
+    "population": 1483000
+  },
+  {
+    "city": "Orlando",
+    "country": "United States",
+    "city_ascii": "Orlando",
+    "lat": 28.4772,
+    "lng": -81.3369,
+    "population": 1822394
+  },
+  {
+    "city": "Ōsaka",
+    "country": "Japan",
+    "city_ascii": "Osaka",
+    "lat": 34.75,
+    "lng": 135.4601,
+    "population": 14977000
+  },
+  {
+    "city": "Ouagadougou",
+    "country": "Burkina Faso",
+    "city_ascii": "Ouagadougou",
+    "lat": 12.3572,
+    "lng": -1.5353,
+    "population": 1626950
+  },
+  {
+    "city": "Owerri",
+    "country": "Nigeria",
+    "city_ascii": "Owerri",
+    "lat": 5.4833,
+    "lng": 7.0333,
+    "population": 1401873
+  },
+  {
+    "city": "Palembang",
+    "country": "Indonesia",
+    "city_ascii": "Palembang",
+    "lat": -2.9833,
+    "lng": 104.7644,
+    "population": 1452456
+  },
+  {
+    "city": "Paris",
+    "country": "France",
+    "city_ascii": "Paris",
+    "lat": 48.8566,
+    "lng": 2.3522,
+    "population": 11020000
+  },
+  {
+    "city": "Patam",
+    "country": "Indonesia",
+    "city_ascii": "Patam",
+    "lat": 1.0678,
+    "lng": 104.0167,
+    "population": 1029808
+  },
+  {
+    "city": "Patna",
+    "country": "India",
+    "city_ascii": "Patna",
+    "lat": 25.61,
+    "lng": 85.1414,
+    "population": 1684222
+  },
+  {
+    "city": "Perm",
+    "country": "Russia",
+    "city_ascii": "Perm",
+    "lat": 58.0139,
+    "lng": 56.2489,
+    "population": 1048005
+  },
+  {
+    "city": "Perth",
+    "country": "Australia",
+    "city_ascii": "Perth",
+    "lat": -31.9522,
+    "lng": 115.8589,
+    "population": 2059484
+  },
+  {
+    "city": "Peshawar",
+    "country": "Pakistan",
+    "city_ascii": "Peshawar",
+    "lat": 34,
+    "lng": 71.5,
+    "population": 1970042
+  },
+  {
+    "city": "Philadelphia",
+    "country": "United States",
+    "city_ascii": "Philadelphia",
+    "lat": 40.0077,
+    "lng": -75.1339,
+    "population": 5649300
+  },
+  {
+    "city": "Phnom Penh",
+    "country": "Cambodia",
+    "city_ascii": "Phnom Penh",
+    "lat": 11.5696,
+    "lng": 104.921,
+    "population": 2129371
+  },
+  {
+    "city": "Phoenix",
+    "country": "United States",
+    "city_ascii": "Phoenix",
+    "lat": 33.5722,
+    "lng": -112.0891,
+    "population": 4219697
+  },
+  {
+    "city": "Pikine",
+    "country": "Senegal",
+    "city_ascii": "Pikine",
+    "lat": 14.75,
+    "lng": -17.4,
+    "population": 1170791
+  },
+  {
+    "city": "Pingdingshan",
+    "country": "China",
+    "city_ascii": "Pingdingshan",
+    "lat": 33.735,
+    "lng": 113.2999,
+    "population": 4838000
+  },
+  {
+    "city": "Pingdu",
+    "country": "China",
+    "city_ascii": "Pingdu",
+    "lat": 36.7833,
+    "lng": 119.9556,
+    "population": 1378900
+  },
+  {
+    "city": "Pingliang",
+    "country": "China",
+    "city_ascii": "Pingliang",
+    "lat": 35.5412,
+    "lng": 106.6819,
+    "population": 2190000
+  },
+  {
+    "city": "Pingxiang",
+    "country": "China",
+    "city_ascii": "Pingxiang",
+    "lat": 27.6333,
+    "lng": 113.85,
+    "population": 2001027
+  },
+  {
+    "city": "Pittsburgh",
+    "country": "United States",
+    "city_ascii": "Pittsburgh",
+    "lat": 40.4396,
+    "lng": -79.9762,
+    "population": 1703266
+  },
+  {
+    "city": "Pizhou",
+    "country": "China",
+    "city_ascii": "Pizhou",
+    "lat": 34.3422,
+    "lng": 118.0097,
+    "population": 1458038
+  },
+  {
+    "city": "Port Harcourt",
+    "country": "Nigeria",
+    "city_ascii": "Port Harcourt",
+    "lat": 4.75,
+    "lng": 7,
+    "population": 1005904
+  },
+  {
+    "city": "Portland",
+    "country": "United States",
+    "city_ascii": "Portland",
+    "lat": 45.5372,
+    "lng": -122.65,
+    "population": 2074775
+  },
+  {
+    "city": "Porto Alegre",
+    "country": "Brazil",
+    "city_ascii": "Porto Alegre",
+    "lat": -30.0328,
+    "lng": -51.23,
+    "population": 1484941
+  },
+  {
+    "city": "Prague",
+    "country": "Czechia",
+    "city_ascii": "Prague",
+    "lat": 50.0833,
+    "lng": 14.4167,
+    "population": 1335084
+  },
+  {
+    "city": "Providence",
+    "country": "United States",
+    "city_ascii": "Providence",
+    "lat": 41.823,
+    "lng": -71.4187,
+    "population": 1203230
+  },
+  {
+    "city": "Pudong",
+    "country": "China",
+    "city_ascii": "Pudong",
+    "lat": 31.2231,
+    "lng": 121.5397,
+    "population": 5187200
+  },
+  {
+    "city": "Puebla",
+    "country": "Mexico",
+    "city_ascii": "Puebla",
+    "lat": 19.0333,
+    "lng": -98.1833,
+    "population": 1576259
+  },
+  {
+    "city": "Pune",
+    "country": "India",
+    "city_ascii": "Pune",
+    "lat": 18.5196,
+    "lng": 73.8553,
+    "population": 7764000
+  },
+  {
+    "city": "Puning",
+    "country": "China",
+    "city_ascii": "Puning",
+    "lat": 23.2993,
+    "lng": 116.1586,
+    "population": 2118200
+  },
+  {
+    "city": "Putian",
+    "country": "China",
+    "city_ascii": "Putian",
+    "lat": 25.4394,
+    "lng": 119.0103,
+    "population": 2900000
+  },
+  {
+    "city": "Puyang",
+    "country": "China",
+    "city_ascii": "Puyang",
+    "lat": 35.7639,
+    "lng": 115.03,
+    "population": 3580000
+  },
+  {
+    "city": "Pyongyang",
+    "country": "Korea, North",
+    "city_ascii": "Pyongyang",
+    "lat": 39.03,
+    "lng": 125.73,
+    "population": 2863000
+  },
+  {
+    "city": "Qinbaling",
+    "country": "China",
+    "city_ascii": "Qinbaling",
+    "lat": 35.7278,
+    "lng": 107.64,
+    "population": 2500000
+  },
+  {
+    "city": "Qincheng",
+    "country": "China",
+    "city_ascii": "Qincheng",
+    "lat": 34.5809,
+    "lng": 105.7311,
+    "population": 3400000
+  },
+  {
+    "city": "Qingdao",
+    "country": "China",
+    "city_ascii": "Qingdao",
+    "lat": 36.1167,
+    "lng": 120.4,
+    "population": 5775000
+  },
+  {
+    "city": "Qingyang",
+    "country": "China",
+    "city_ascii": "Qingyang",
+    "lat": 24.8141,
+    "lng": 118.5792,
+    "population": 2111000
+  },
+  {
+    "city": "Qingyuan",
+    "country": "China",
+    "city_ascii": "Qingyuan",
+    "lat": 23.6842,
+    "lng": 113.0507,
+    "population": 3874000
+  },
+  {
+    "city": "Qinhuangdao",
+    "country": "China",
+    "city_ascii": "Qinhuangdao",
+    "lat": 39.9398,
+    "lng": 119.5881,
+    "population": 3146300
+  },
+  {
+    "city": "Qinzhou",
+    "country": "China",
+    "city_ascii": "Qinzhou",
+    "lat": 21.95,
+    "lng": 108.6167,
+    "population": 3079721
+  },
+  {
+    "city": "Qiqihar",
+    "country": "China",
+    "city_ascii": "Qiqihar",
+    "lat": 47.3398,
+    "lng": 123.9512,
+    "population": 5367003
+  },
+  {
+    "city": "Qom",
+    "country": "Iran",
+    "city_ascii": "Qom",
+    "lat": 34.6461,
+    "lng": 50.8789,
+    "population": 1201158
+  },
+  {
+    "city": "Quảng Hà",
+    "country": "Vietnam",
+    "city_ascii": "Quang Ha",
+    "lat": 16.06,
+    "lng": 108.25,
+    "population": 1000000
+  },
+  {
+    "city": "Quanzhou",
+    "country": "China",
+    "city_ascii": "Quanzhou",
+    "lat": 24.9139,
+    "lng": 118.5858,
+    "population": 6480000
+  },
+  {
+    "city": "Queens",
+    "country": "United States",
+    "city_ascii": "Queens",
+    "lat": 40.7498,
+    "lng": -73.7976,
+    "population": 2230722
+  },
+  {
+    "city": "Quetta",
+    "country": "Pakistan",
+    "city_ascii": "Quetta",
+    "lat": 30.192,
+    "lng": 67.007,
+    "population": 1001205
+  },
+  {
+    "city": "Quezon City",
+    "country": "Philippines",
+    "city_ascii": "Quezon City",
+    "lat": 14.6333,
+    "lng": 121.0333,
+    "population": 2936116
+  },
+  {
+    "city": "Quito",
+    "country": "Ecuador",
+    "city_ascii": "Quito",
+    "lat": -0.2186,
+    "lng": -78.5097,
+    "population": 2011388
+  },
+  {
+    "city": "Qujing",
+    "country": "China",
+    "city_ascii": "Qujing",
+    "lat": 25.5102,
+    "lng": 103.8029,
+    "population": 5855055
+  },
+  {
+    "city": "Quzhou",
+    "country": "China",
+    "city_ascii": "Quzhou",
+    "lat": 28.9545,
+    "lng": 118.8763,
+    "population": 2185000
+  },
+  {
+    "city": "Raipur",
+    "country": "India",
+    "city_ascii": "Raipur",
+    "lat": 21.2379,
+    "lng": 81.6337,
+    "population": 1010087
+  },
+  {
+    "city": "Rājkot",
+    "country": "India",
+    "city_ascii": "Rajkot",
+    "lat": 22.2969,
+    "lng": 70.7984,
+    "population": 1335397
+  },
+  {
+    "city": "Raleigh",
+    "country": "United States",
+    "city_ascii": "Raleigh",
+    "lat": 35.8325,
+    "lng": -78.6435,
+    "population": 1038738
+  },
+  {
+    "city": "Rānchi",
+    "country": "India",
+    "city_ascii": "Ranchi",
+    "lat": 23.3556,
+    "lng": 85.3347,
+    "population": 1073440
+  },
+  {
+    "city": "Rangoon",
+    "country": "Myanmar",
+    "city_ascii": "Rangoon",
+    "lat": 16.8,
+    "lng": 96.15,
+    "population": 5430000
+  },
+  {
+    "city": "Rawalpindi",
+    "country": "Pakistan",
+    "city_ascii": "Rawalpindi",
+    "lat": 33.6007,
+    "lng": 73.0679,
+    "population": 2098231
+  },
+  {
+    "city": "Recife",
+    "country": "Brazil",
+    "city_ascii": "Recife",
+    "lat": -8.0539,
+    "lng": -34.8808,
+    "population": 1555039
+  },
+  {
+    "city": "Richmond",
+    "country": "United States",
+    "city_ascii": "Richmond",
+    "lat": 37.5295,
+    "lng": -77.4756,
+    "population": 1075798
+  },
+  {
+    "city": "Rio de Janeiro",
+    "country": "Brazil",
+    "city_ascii": "Rio de Janeiro",
+    "lat": -22.9083,
+    "lng": -43.1964,
+    "population": 12272000
+  },
+  {
+    "city": "Riverside",
+    "country": "United States",
+    "city_ascii": "Riverside",
+    "lat": 33.9381,
+    "lng": -117.3948,
+    "population": 2107852
+  },
+  {
+    "city": "Riyadh",
+    "country": "Saudi Arabia",
+    "city_ascii": "Riyadh",
+    "lat": 24.65,
+    "lng": 46.71,
+    "population": 6881000
+  },
+  {
+    "city": "Rizhao",
+    "country": "China",
+    "city_ascii": "Rizhao",
+    "lat": 35.4164,
+    "lng": 119.4331,
+    "population": 2720000
+  },
+  {
+    "city": "Rome",
+    "country": "Italy",
+    "city_ascii": "Rome",
+    "lat": 41.8931,
+    "lng": 12.4828,
+    "population": 2872800
+  },
+  {
+    "city": "Rongcheng",
+    "country": "China",
+    "city_ascii": "Rongcheng",
+    "lat": 26.2312,
+    "lng": 104.0966,
+    "population": 1302891
+  },
+  {
+    "city": "Rongcheng",
+    "country": "China",
+    "city_ascii": "Rongcheng",
+    "lat": 29.8239,
+    "lng": 112.9019,
+    "population": 1162770
+  },
+  {
+    "city": "Rosario",
+    "country": "Argentina",
+    "city_ascii": "Rosario",
+    "lat": -32.9575,
+    "lng": -60.6394,
+    "population": 1193605
+  },
+  {
+    "city": "Rostov",
+    "country": "Russia",
+    "city_ascii": "Rostov",
+    "lat": 47.2333,
+    "lng": 39.7167,
+    "population": 1125299
+  },
+  {
+    "city": "Rucheng",
+    "country": "China",
+    "city_ascii": "Rucheng",
+    "lat": 32.3852,
+    "lng": 120.5634,
+    "population": 1267066
+  },
+  {
+    "city": "Rui’an",
+    "country": "China",
+    "city_ascii": "Rui'an",
+    "lat": 27.778,
+    "lng": 120.6526,
+    "population": 1424667
+  },
+  {
+    "city": "Sacramento",
+    "country": "United States",
+    "city_ascii": "Sacramento",
+    "lat": 38.5667,
+    "lng": -121.4683,
+    "population": 1898019
+  },
+  {
+    "city": "Saidu Sharif",
+    "country": "Pakistan",
+    "city_ascii": "Saidu Sharif",
+    "lat": 34.75,
+    "lng": 72.3572,
+    "population": 1860310
+  },
+  {
+    "city": "Saint Petersburg",
+    "country": "Russia",
+    "city_ascii": "Saint Petersburg",
+    "lat": 59.95,
+    "lng": 30.3167,
+    "population": 5351935
+  },
+  {
+    "city": "Saitama",
+    "country": "Japan",
+    "city_ascii": "Saitama",
+    "lat": 35.8617,
+    "lng": 139.6453,
+    "population": 1320571
+  },
+  {
+    "city": "Salt Lake City",
+    "country": "United States",
+    "city_ascii": "Salt Lake City",
+    "lat": 40.7777,
+    "lng": -111.9306,
+    "population": 1098526
+  },
+  {
+    "city": "Salvador",
+    "country": "Brazil",
+    "city_ascii": "Salvador",
+    "lat": -12.9708,
+    "lng": -38.5108,
+    "population": 2886698
+  },
+  {
+    "city": "Samara",
+    "country": "Russia",
+    "city_ascii": "Samara",
+    "lat": 53.1833,
+    "lng": 50.1167,
+    "population": 1169719
+  },
+  {
+    "city": "Samsun",
+    "country": "Turkey",
+    "city_ascii": "Samsun",
+    "lat": 41.2867,
+    "lng": 36.33,
+    "population": 1335716
+  },
+  {
+    "city": "San Antonio",
+    "country": "United States",
+    "city_ascii": "San Antonio",
+    "lat": 29.4658,
+    "lng": -98.5253,
+    "population": 2049293
+  },
+  {
+    "city": "San Diego",
+    "country": "United States",
+    "city_ascii": "San Diego",
+    "lat": 32.8312,
+    "lng": -117.1225,
+    "population": 3220118
+  },
+  {
+    "city": "San Francisco",
+    "country": "United States",
+    "city_ascii": "San Francisco",
+    "lat": 37.7562,
+    "lng": -122.443,
+    "population": 3592294
+  },
+  {
+    "city": "San Jose",
+    "country": "United States",
+    "city_ascii": "San Jose",
+    "lat": 37.3019,
+    "lng": -121.8486,
+    "population": 1798103
+  },
+  {
+    "city": "San Pedro Sula",
+    "country": "Honduras",
+    "city_ascii": "San Pedro Sula",
+    "lat": 15.5,
+    "lng": -88.0333,
+    "population": 1073824
+  },
+  {
+    "city": "Sanaa",
+    "country": "Yemen",
+    "city_ascii": "Sanaa",
+    "lat": 15.35,
+    "lng": 44.2,
+    "population": 2957000
+  },
+  {
+    "city": "Şanlıurfa",
+    "country": "Turkey",
+    "city_ascii": "Sanliurfa",
+    "lat": 37.1583,
+    "lng": 38.7917,
+    "population": 1985753
+  },
+  {
+    "city": "Sanmenxia",
+    "country": "China",
+    "city_ascii": "Sanmenxia",
+    "lat": 34.7736,
+    "lng": 111.195,
+    "population": 2213000
+  },
+  {
+    "city": "Sanming",
+    "country": "China",
+    "city_ascii": "Sanming",
+    "lat": 26.2658,
+    "lng": 117.6302,
+    "population": 2580000
+  },
+  {
+    "city": "Santa Cruz",
+    "country": "Bolivia",
+    "city_ascii": "Santa Cruz",
+    "lat": -17.7892,
+    "lng": -63.1975,
+    "population": 3151676
+  },
+  {
+    "city": "Santiago",
+    "country": "Chile",
+    "city_ascii": "Santiago",
+    "lat": -33.45,
+    "lng": -70.6667,
+    "population": 7007000
+  },
+  {
+    "city": "Santiago",
+    "country": "Dominican Republic",
+    "city_ascii": "Santiago",
+    "lat": 19.45,
+    "lng": -70.7,
+    "population": 1142947
+  },
+  {
+    "city": "Santo Domingo",
+    "country": "Dominican Republic",
+    "city_ascii": "Santo Domingo",
+    "lat": 18.4764,
+    "lng": -69.8933,
+    "population": 2581827
+  },
+  {
+    "city": "Sanzhou",
+    "country": "China",
+    "city_ascii": "Sanzhou",
+    "lat": 30.82,
+    "lng": 108.4,
+    "population": 1680000
+  },
+  {
+    "city": "São Gonçalo",
+    "country": "Brazil",
+    "city_ascii": "Sao Goncalo",
+    "lat": -22.8269,
+    "lng": -43.0539,
+    "population": 1077687
+  },
+  {
+    "city": "São Luís",
+    "country": "Brazil",
+    "city_ascii": "Sao Luis",
+    "lat": -2.53,
+    "lng": -44.3028,
+    "population": 1073893
+  },
+  {
+    "city": "São Paulo",
+    "country": "Brazil",
+    "city_ascii": "Sao Paulo",
+    "lat": -23.5504,
+    "lng": -46.6339,
+    "population": 22046000
+  },
+  {
+    "city": "Sapporo",
+    "country": "Japan",
+    "city_ascii": "Sapporo",
+    "lat": 43.0621,
+    "lng": 141.3544,
+    "population": 1961690
+  },
+  {
+    "city": "Seattle",
+    "country": "United States",
+    "city_ascii": "Seattle",
+    "lat": 47.6211,
+    "lng": -122.3244,
+    "population": 3789215
+  },
+  {
+    "city": "Semarang",
+    "country": "Indonesia",
+    "city_ascii": "Semarang",
+    "lat": -6.9667,
+    "lng": 110.4167,
+    "population": 1621384
+  },
+  {
+    "city": "Sendai",
+    "country": "Japan",
+    "city_ascii": "Sendai",
+    "lat": 38.2683,
+    "lng": 140.8694,
+    "population": 1058070
+  },
+  {
+    "city": "Seoul",
+    "country": "Korea, South",
+    "city_ascii": "Seoul",
+    "lat": 37.56,
+    "lng": 126.99,
+    "population": 21794000
+  },
+  {
+    "city": "Sevilla",
+    "country": "Spain",
+    "city_ascii": "Sevilla",
+    "lat": 37.39,
+    "lng": -5.99,
+    "population": 1107000
+  },
+  {
+    "city": "Shanghai",
+    "country": "China",
+    "city_ascii": "Shanghai",
+    "lat": 31.1667,
+    "lng": 121.4667,
+    "population": 22120000
+  },
+  {
+    "city": "Shangqiu",
+    "country": "China",
+    "city_ascii": "Shangqiu",
+    "lat": 34.4259,
+    "lng": 115.6467,
+    "population": 7000000
+  },
+  {
+    "city": "Shangrao",
+    "country": "China",
+    "city_ascii": "Shangrao",
+    "lat": 28.4419,
+    "lng": 117.9633,
+    "population": 6579714
+  },
+  {
+    "city": "Shangzhou",
+    "country": "China",
+    "city_ascii": "Shangzhou",
+    "lat": 33.868,
+    "lng": 109.9244,
+    "population": 2400000
+  },
+  {
+    "city": "Shantou",
+    "country": "China",
+    "city_ascii": "Shantou",
+    "lat": 23.3735,
+    "lng": 116.6941,
+    "population": 5319028
+  },
+  {
+    "city": "Shanwei",
+    "country": "China",
+    "city_ascii": "Shanwei",
+    "lat": 22.7664,
+    "lng": 115.3331,
+    "population": 2993600
+  },
+  {
+    "city": "Shaoguan",
+    "country": "China",
+    "city_ascii": "Shaoguan",
+    "lat": 24.8011,
+    "lng": 113.5927,
+    "population": 2997600
+  },
+  {
+    "city": "Shaoxing",
+    "country": "China",
+    "city_ascii": "Shaoxing",
+    "lat": 30,
+    "lng": 120.5833,
+    "population": 4912239
+  },
+  {
+    "city": "Shaoyang",
+    "country": "China",
+    "city_ascii": "Shaoyang",
+    "lat": 27.2418,
+    "lng": 111.4725,
+    "population": 7302400
+  },
+  {
+    "city": "Shaoyang",
+    "country": "China",
+    "city_ascii": "Shaoyang",
+    "lat": 32.9387,
+    "lng": 119.8404,
+    "population": 1253548
+  },
+  {
+    "city": "Sharjah",
+    "country": "United Arab Emirates",
+    "city_ascii": "Sharjah",
+    "lat": 25.3575,
+    "lng": 55.3919,
+    "population": 1400000
+  },
+  {
+    "city": "Shengli",
+    "country": "China",
+    "city_ascii": "Shengli",
+    "lat": 37.45,
+    "lng": 118.4667,
+    "population": 1790000
+  },
+  {
+    "city": "Shenyang",
+    "country": "China",
+    "city_ascii": "Shenyang",
+    "lat": 41.8039,
+    "lng": 123.4258,
+    "population": 7105000
+  },
+  {
+    "city": "Shenzhen",
+    "country": "China",
+    "city_ascii": "Shenzhen",
+    "lat": 22.535,
+    "lng": 114.054,
+    "population": 15929000
+  },
+  {
+    "city": "Shijiazhuang",
+    "country": "China",
+    "city_ascii": "Shijiazhuang",
+    "lat": 38.0422,
+    "lng": 114.5086,
+    "population": 10784600
+  },
+  {
+    "city": "Shīrāz",
+    "country": "Iran",
+    "city_ascii": "Shiraz",
+    "lat": 29.61,
+    "lng": 52.5425,
+    "population": 1460665
+  },
+  {
+    "city": "Shiyan",
+    "country": "China",
+    "city_ascii": "Shiyan",
+    "lat": 32.6351,
+    "lng": 110.7755,
+    "population": 3398000
+  },
+  {
+    "city": "Shouguang",
+    "country": "China",
+    "city_ascii": "Shouguang",
+    "lat": 36.8833,
+    "lng": 118.7333,
+    "population": 1039205
+  },
+  {
+    "city": "Shuangshui",
+    "country": "China",
+    "city_ascii": "Shuangshui",
+    "lat": 26.5944,
+    "lng": 104.8333,
+    "population": 1221000
+  },
+  {
+    "city": "Shuangyashan",
+    "country": "China",
+    "city_ascii": "Shuangyashan",
+    "lat": 46.6388,
+    "lng": 131.1545,
+    "population": 1530000
+  },
+  {
+    "city": "Shubrā al Khaymah",
+    "country": "Egypt",
+    "city_ascii": "Shubra al Khaymah",
+    "lat": 30.1286,
+    "lng": 31.2422,
+    "population": 1025569
+  },
+  {
+    "city": "Shuizhai",
+    "country": "China",
+    "city_ascii": "Shuizhai",
+    "lat": 33.4433,
+    "lng": 114.8994,
+    "population": 1003698
+  },
+  {
+    "city": "Shuozhou",
+    "country": "China",
+    "city_ascii": "Shuozhou",
+    "lat": 39.3408,
+    "lng": 112.4292,
+    "population": 1714857
+  },
+  {
+    "city": "Shuyangzha",
+    "country": "China",
+    "city_ascii": "Shuyangzha",
+    "lat": 34.1299,
+    "lng": 118.7734,
+    "population": 1770000
+  },
+  {
+    "city": "Shymkent",
+    "country": "Kazakhstan",
+    "city_ascii": "Shymkent",
+    "lat": 42.3,
+    "lng": 69.6,
+    "population": 1018974
+  },
+  {
+    "city": "Singapore",
+    "country": "Singapore",
+    "city_ascii": "Singapore",
+    "lat": 1.3,
+    "lng": 103.8,
+    "population": 5745000
+  },
+  {
+    "city": "Siping",
+    "country": "China",
+    "city_ascii": "Siping",
+    "lat": 43.1715,
+    "lng": 124.3644,
+    "population": 3300000
+  },
+  {
+    "city": "Sofia",
+    "country": "Bulgaria",
+    "city_ascii": "Sofia",
+    "lat": 42.6979,
+    "lng": 23.3217,
+    "population": 1355142
+  },
+  {
+    "city": "Srīnagar",
+    "country": "India",
+    "city_ascii": "Srinagar",
+    "lat": 34.0911,
+    "lng": 74.8061,
+    "population": 1180570
+  },
+  {
+    "city": "St. Louis",
+    "country": "United States",
+    "city_ascii": "St. Louis",
+    "lat": 38.6358,
+    "lng": -90.2451,
+    "population": 2024074
+  },
+  {
+    "city": "Suihua",
+    "country": "China",
+    "city_ascii": "Suihua",
+    "lat": 46.6384,
+    "lng": 126.9808,
+    "population": 5420000
+  },
+  {
+    "city": "Suining",
+    "country": "China",
+    "city_ascii": "Suining",
+    "lat": 30.5098,
+    "lng": 105.5737,
+    "population": 3556000
+  },
+  {
+    "city": "Suqian",
+    "country": "China",
+    "city_ascii": "Suqian",
+    "lat": 33.9331,
+    "lng": 118.2831,
+    "population": 5290000
+  },
+  {
+    "city": "Surabaya",
+    "country": "Indonesia",
+    "city_ascii": "Surabaya",
+    "lat": -7.2458,
+    "lng": 112.7378,
+    "population": 4975000
+  },
+  {
+    "city": "Sūrat",
+    "country": "India",
+    "city_ascii": "Surat",
+    "lat": 21.17,
+    "lng": 72.83,
+    "population": 5807000
+  },
+  {
+    "city": "Suwon",
+    "country": "Korea, South",
+    "city_ascii": "Suwon",
+    "lat": 37.2858,
+    "lng": 127.01,
+    "population": 1234300
+  },
+  {
+    "city": "Suzhou",
+    "country": "China",
+    "city_ascii": "Suzhou",
+    "lat": 33.6333,
+    "lng": 116.9683,
+    "population": 5690000
+  },
+  {
+    "city": "Suzhou",
+    "country": "China",
+    "city_ascii": "Suzhou",
+    "lat": 31.304,
+    "lng": 120.6164,
+    "population": 5250000
+  },
+  {
+    "city": "Sydney",
+    "country": "Australia",
+    "city_ascii": "Sydney",
+    "lat": -33.865,
+    "lng": 151.2094,
+    "population": 5312163
+  },
+  {
+    "city": "Tabrīz",
+    "country": "Iran",
+    "city_ascii": "Tabriz",
+    "lat": 38.0833,
+    "lng": 46.2833,
+    "population": 1558693
+  },
+  {
+    "city": "Tai’an",
+    "country": "China",
+    "city_ascii": "Tai'an",
+    "lat": 36.2001,
+    "lng": 117.0809,
+    "population": 5499000
+  },
+  {
+    "city": "Taichung",
+    "country": "Taiwan",
+    "city_ascii": "Taichung",
+    "lat": 24.15,
+    "lng": 120.6667,
+    "population": 2803894
+  },
+  {
+    "city": "Tainan",
+    "country": "Taiwan",
+    "city_ascii": "Tainan",
+    "lat": 22.9833,
+    "lng": 120.1833,
+    "population": 1883831
+  },
+  {
+    "city": "Taipei",
+    "country": "Taiwan",
+    "city_ascii": "Taipei",
+    "lat": 25.0478,
+    "lng": 121.5319,
+    "population": 2684567
+  },
+  {
+    "city": "Taixing",
+    "country": "China",
+    "city_ascii": "Taixing",
+    "lat": 32.1724,
+    "lng": 120.0142,
+    "population": 1073921
+  },
+  {
+    "city": "Taiyuan",
+    "country": "China",
+    "city_ascii": "Taiyuan",
+    "lat": 37.8733,
+    "lng": 112.5425,
+    "population": 3398000
+  },
+  {
+    "city": "Taizhou",
+    "country": "China",
+    "city_ascii": "Taizhou",
+    "lat": 28.6583,
+    "lng": 121.4221,
+    "population": 5968838
+  },
+  {
+    "city": "Taizhou",
+    "country": "China",
+    "city_ascii": "Taizhou",
+    "lat": 32.4831,
+    "lng": 119.9,
+    "population": 5031000
+  },
+  {
+    "city": "Tampa",
+    "country": "United States",
+    "city_ascii": "Tampa",
+    "lat": 27.9942,
+    "lng": -82.4451,
+    "population": 2908063
+  },
+  {
+    "city": "Tangerang",
+    "country": "Indonesia",
+    "city_ascii": "Tangerang",
+    "lat": -6.1783,
+    "lng": 106.6319,
+    "population": 2237006
+  },
+  {
+    "city": "Tangshan",
+    "country": "China",
+    "city_ascii": "Tangshan",
+    "lat": 39.6292,
+    "lng": 118.1742,
+    "population": 7100000
+  },
+  {
+    "city": "Tashkent",
+    "country": "Uzbekistan",
+    "city_ascii": "Tashkent",
+    "lat": 41.3,
+    "lng": 69.2667,
+    "population": 2424100
+  },
+  {
+    "city": "Tbilisi",
+    "country": "Georgia",
+    "city_ascii": "Tbilisi",
+    "lat": 41.7225,
+    "lng": 44.7925,
+    "population": 1118035
+  },
+  {
+    "city": "Tegucigalpa",
+    "country": "Honduras",
+    "city_ascii": "Tegucigalpa",
+    "lat": 14.0942,
+    "lng": -87.2067,
+    "population": 1126534
+  },
+  {
+    "city": "Tehran",
+    "country": "Iran",
+    "city_ascii": "Tehran",
+    "lat": 35.7,
+    "lng": 51.4167,
+    "population": 13633000
+  },
+  {
+    "city": "Tekirdağ",
+    "country": "Turkey",
+    "city_ascii": "Tekirdag",
+    "lat": 40.9833,
+    "lng": 27.5167,
+    "population": 1029927
+  },
+  {
+    "city": "Thāne",
+    "country": "India",
+    "city_ascii": "Thane",
+    "lat": 19.18,
+    "lng": 72.9633,
+    "population": 1261517
+  },
+  {
+    "city": "The Hague",
+    "country": "Netherlands",
+    "city_ascii": "The Hague",
+    "lat": 52.0767,
+    "lng": 4.2986,
+    "population": 1406000
+  },
+  {
+    "city": "Thủ Đức",
+    "country": "Vietnam",
+    "city_ascii": "Thu Duc",
+    "lat": 10.8199,
+    "lng": 106.7909,
+    "population": 1013795
+  },
+  {
+    "city": "Tianjin",
+    "country": "China",
+    "city_ascii": "Tianjin",
+    "lat": 39.1467,
+    "lng": 117.2056,
+    "population": 10800000
+  },
+  {
+    "city": "Tieling",
+    "country": "China",
+    "city_ascii": "Tieling",
+    "lat": 42.2841,
+    "lng": 123.8365,
+    "population": 3000000
+  },
+  {
+    "city": "Tijuana",
+    "country": "Mexico",
+    "city_ascii": "Tijuana",
+    "lat": 32.525,
+    "lng": -117.0333,
+    "population": 2384609
+  },
+  {
+    "city": "Tokyo",
+    "country": "Japan",
+    "city_ascii": "Tokyo",
+    "lat": 35.6897,
+    "lng": 139.6922,
+    "population": 37977000
+  },
+  {
+    "city": "Tongliao",
+    "country": "China",
+    "city_ascii": "Tongliao",
+    "lat": 43.6172,
+    "lng": 122.264,
+    "population": 3094600
+  },
+  {
+    "city": "Tongren",
+    "country": "China",
+    "city_ascii": "Tongren",
+    "lat": 27.7233,
+    "lng": 109.1885,
+    "population": 3093204
+  },
+  {
+    "city": "Tongshan",
+    "country": "China",
+    "city_ascii": "Tongshan",
+    "lat": 34.261,
+    "lng": 117.1859,
+    "population": 8669000
+  },
+  {
+    "city": "Toronto",
+    "country": "Canada",
+    "city_ascii": "Toronto",
+    "lat": 43.7417,
+    "lng": -79.3733,
+    "population": 5429524
+  },
+  {
+    "city": "Tripoli",
+    "country": "Libya",
+    "city_ascii": "Tripoli",
+    "lat": 32.8752,
+    "lng": 13.1875,
+    "population": 1126000
+  },
+  {
+    "city": "Tunis",
+    "country": "Tunisia",
+    "city_ascii": "Tunis",
+    "lat": 36.8008,
+    "lng": 10.18,
+    "population": 1056247
+  },
+  {
+    "city": "Ufa",
+    "country": "Russia",
+    "city_ascii": "Ufa",
+    "lat": 54.7333,
+    "lng": 55.9667,
+    "population": 1115560
+  },
+  {
+    "city": "Ulaanbaatar",
+    "country": "Mongolia",
+    "city_ascii": "Ulaanbaatar",
+    "lat": 47.9203,
+    "lng": 106.9172,
+    "population": 1396288
+  },
+  {
+    "city": "Ulsan",
+    "country": "Korea, South",
+    "city_ascii": "Ulsan",
+    "lat": 35.55,
+    "lng": 129.3167,
+    "population": 1166033
+  },
+  {
+    "city": "Ürümqi",
+    "country": "China",
+    "city_ascii": "Urumqi",
+    "lat": 43.8225,
+    "lng": 87.6125,
+    "population": 3112559
+  },
+  {
+    "city": "Vadodara",
+    "country": "India",
+    "city_ascii": "Vadodara",
+    "lat": 22.3,
+    "lng": 73.2,
+    "population": 2065771
+  },
+  {
+    "city": "Valencia",
+    "country": "Venezuela",
+    "city_ascii": "Valencia",
+    "lat": 10.1667,
+    "lng": -68,
+    "population": 1484430
+  },
+  {
+    "city": "Vancouver",
+    "country": "Canada",
+    "city_ascii": "Vancouver",
+    "lat": 49.25,
+    "lng": -123.1,
+    "population": 2264823
+  },
+  {
+    "city": "Vārānasi",
+    "country": "India",
+    "city_ascii": "Varanasi",
+    "lat": 25.3189,
+    "lng": 83.0128,
+    "population": 1198491
+  },
+  {
+    "city": "Vereeniging",
+    "country": "South Africa",
+    "city_ascii": "Vereeniging",
+    "lat": -26.6736,
+    "lng": 27.9319,
+    "population": 1074000
+  },
+  {
+    "city": "Vienna",
+    "country": "Austria",
+    "city_ascii": "Vienna",
+    "lat": 48.2083,
+    "lng": 16.3731,
+    "population": 1911191
+  },
+  {
+    "city": "Vila Velha",
+    "country": "Brazil",
+    "city_ascii": "Vila Velha",
+    "lat": 3.2167,
+    "lng": -51.2167,
+    "population": 1209091
+  },
+  {
+    "city": "Virginia Beach",
+    "country": "United States",
+    "city_ascii": "Virginia Beach",
+    "lat": 36.7335,
+    "lng": -76.0435,
+    "population": 1478868
+  },
+  {
+    "city": "Vishākhapatnam",
+    "country": "India",
+    "city_ascii": "Vishakhapatnam",
+    "lat": 17.7333,
+    "lng": 83.3167,
+    "population": 2035922
+  },
+  {
+    "city": "Volgograd",
+    "country": "Russia",
+    "city_ascii": "Volgograd",
+    "lat": 48.7086,
+    "lng": 44.5147,
+    "population": 1015586
+  },
+  {
+    "city": "Voronezh",
+    "country": "Russia",
+    "city_ascii": "Voronezh",
+    "lat": 51.6717,
+    "lng": 39.2106,
+    "population": 1047549
+  },
+  {
+    "city": "Wafangdian",
+    "country": "China",
+    "city_ascii": "Wafangdian",
+    "lat": 39.6271,
+    "lng": 121.9972,
+    "population": 1024876
+  },
+  {
+    "city": "Warsaw",
+    "country": "Poland",
+    "city_ascii": "Warsaw",
+    "lat": 52.2167,
+    "lng": 21.0333,
+    "population": 1790658
+  },
+  {
+    "city": "Washington",
+    "country": "United States",
+    "city_ascii": "Washington",
+    "lat": 38.9047,
+    "lng": -77.0163,
+    "population": 5379184
+  },
+  {
+    "city": "Weifang",
+    "country": "China",
+    "city_ascii": "Weifang",
+    "lat": 36.7167,
+    "lng": 119.1,
+    "population": 9373000
+  },
+  {
+    "city": "Weihai",
+    "country": "China",
+    "city_ascii": "Weihai",
+    "lat": 37.5,
+    "lng": 122.1,
+    "population": 2596753
+  },
+  {
+    "city": "Weinan",
+    "country": "China",
+    "city_ascii": "Weinan",
+    "lat": 34.4996,
+    "lng": 109.4684,
+    "population": 5300000
+  },
+  {
+    "city": "Wenling",
+    "country": "China",
+    "city_ascii": "Wenling",
+    "lat": 28.3797,
+    "lng": 121.3718,
+    "population": 1366794
+  },
+  {
+    "city": "Wenzhou",
+    "country": "China",
+    "city_ascii": "Wenzhou",
+    "lat": 27.9991,
+    "lng": 120.6561,
+    "population": 4310000
+  },
+  {
+    "city": "Wuhan",
+    "country": "China",
+    "city_ascii": "Wuhan",
+    "lat": 30.5872,
+    "lng": 114.2881,
+    "population": 8962000
+  },
+  {
+    "city": "Wuhu",
+    "country": "China",
+    "city_ascii": "Wuhu",
+    "lat": 31.334,
+    "lng": 118.3622,
+    "population": 3842100
+  },
+  {
+    "city": "Wuwei",
+    "country": "China",
+    "city_ascii": "Wuwei",
+    "lat": 37.9278,
+    "lng": 102.6329,
+    "population": 1890000
+  },
+  {
+    "city": "Wuxi",
+    "country": "China",
+    "city_ascii": "Wuxi",
+    "lat": 31.5667,
+    "lng": 120.2833,
+    "population": 4580000
+  },
+  {
+    "city": "Wuzhong",
+    "country": "China",
+    "city_ascii": "Wuzhong",
+    "lat": 37.9874,
+    "lng": 106.1919,
+    "population": 1284000
+  },
+  {
+    "city": "Wuzhou",
+    "country": "China",
+    "city_ascii": "Wuzhou",
+    "lat": 23.4833,
+    "lng": 111.3167,
+    "population": 2882200
+  },
+  {
+    "city": "Xi’an",
+    "country": "China",
+    "city_ascii": "Xi'an",
+    "lat": 34.2667,
+    "lng": 108.9,
+    "population": 7135000
+  },
+  {
+    "city": "Xiamen",
+    "country": "China",
+    "city_ascii": "Xiamen",
+    "lat": 24.4797,
+    "lng": 118.0819,
+    "population": 4110000
+  },
+  {
+    "city": "Xiangtan",
+    "country": "China",
+    "city_ascii": "Xiangtan",
+    "lat": 27.8431,
+    "lng": 112.9228,
+    "population": 2881500
+  },
+  {
+    "city": "Xiangyang",
+    "country": "China",
+    "city_ascii": "Xiangyang",
+    "lat": 32.0654,
+    "lng": 112.1531,
+    "population": 5680000
+  },
+  {
+    "city": "Xiantao",
+    "country": "China",
+    "city_ascii": "Xiantao",
+    "lat": 30.3833,
+    "lng": 113.4,
+    "population": 1140100
+  },
+  {
+    "city": "Xianyang",
+    "country": "China",
+    "city_ascii": "Xianyang",
+    "lat": 34.35,
+    "lng": 108.7167,
+    "population": 5040000
+  },
+  {
+    "city": "Xiaoganzhan",
+    "country": "China",
+    "city_ascii": "Xiaoganzhan",
+    "lat": 30.9273,
+    "lng": 113.911,
+    "population": 4921000
+  },
+  {
+    "city": "Xiaoxita",
+    "country": "China",
+    "city_ascii": "Xiaoxita",
+    "lat": 30.7083,
+    "lng": 111.2803,
+    "population": 4137900
+  },
+  {
+    "city": "Ximeicun",
+    "country": "China",
+    "city_ascii": "Ximeicun",
+    "lat": 24.9633,
+    "lng": 118.3811,
+    "population": 1508000
+  },
+  {
+    "city": "Xining",
+    "country": "China",
+    "city_ascii": "Xining",
+    "lat": 36.6239,
+    "lng": 101.7787,
+    "population": 2154000
+  },
+  {
+    "city": "Xinpu",
+    "country": "China",
+    "city_ascii": "Xinpu",
+    "lat": 34.5906,
+    "lng": 119.1801,
+    "population": 4790000
+  },
+  {
+    "city": "Xintai",
+    "country": "China",
+    "city_ascii": "Xintai",
+    "lat": 35.91,
+    "lng": 117.78,
+    "population": 1315942
+  },
+  {
+    "city": "Xinyang",
+    "country": "China",
+    "city_ascii": "Xinyang",
+    "lat": 32.1264,
+    "lng": 114.0672,
+    "population": 6634000
+  },
+  {
+    "city": "Xinyi",
+    "country": "China",
+    "city_ascii": "Xinyi",
+    "lat": 22.3559,
+    "lng": 110.9369,
+    "population": 1013900
+  },
+  {
+    "city": "Xinyu",
+    "country": "China",
+    "city_ascii": "Xinyu",
+    "lat": 27.795,
+    "lng": 114.9242,
+    "population": 1186700
+  },
+  {
+    "city": "Xinzhou",
+    "country": "China",
+    "city_ascii": "Xinzhou",
+    "lat": 38.4178,
+    "lng": 112.7233,
+    "population": 3067501
+  },
+  {
+    "city": "Xiping",
+    "country": "China",
+    "city_ascii": "Xiping",
+    "lat": 40.08,
+    "lng": 113.3,
+    "population": 1873000
+  },
+  {
+    "city": "Xishan",
+    "country": "China",
+    "city_ascii": "Xishan",
+    "lat": 27.6609,
+    "lng": 113.4946,
+    "population": 1060000
+  },
+  {
+    "city": "Xuanzhou",
+    "country": "China",
+    "city_ascii": "Xuanzhou",
+    "lat": 30.9475,
+    "lng": 118.7518,
+    "population": 2580000
+  },
+  {
+    "city": "Xushan",
+    "country": "China",
+    "city_ascii": "Xushan",
+    "lat": 30.1697,
+    "lng": 121.2665,
+    "population": 1502000
+  },
+  {
+    "city": "Yan’an",
+    "country": "China",
+    "city_ascii": "Yan'an",
+    "lat": 36.5952,
+    "lng": 109.4863,
+    "population": 2150000
+  },
+  {
+    "city": "Yancheng",
+    "country": "China",
+    "city_ascii": "Yancheng",
+    "lat": 33.3936,
+    "lng": 120.1339,
+    "population": 7260240
+  },
+  {
+    "city": "Yangjiang",
+    "country": "China",
+    "city_ascii": "Yangjiang",
+    "lat": 21.8556,
+    "lng": 111.9627,
+    "population": 2555600
+  },
+  {
+    "city": "Yangquan",
+    "country": "China",
+    "city_ascii": "Yangquan",
+    "lat": 37.8576,
+    "lng": 113.5762,
+    "population": 1300000
+  },
+  {
+    "city": "Yangshe",
+    "country": "China",
+    "city_ascii": "Yangshe",
+    "lat": 31.8775,
+    "lng": 120.5512,
+    "population": 1432044
+  },
+  {
+    "city": "Yangzhou",
+    "country": "China",
+    "city_ascii": "Yangzhou",
+    "lat": 32.3912,
+    "lng": 119.4363,
+    "population": 4459000
+  },
+  {
+    "city": "Yanjiang",
+    "country": "China",
+    "city_ascii": "Yanjiang",
+    "lat": 30.1256,
+    "lng": 104.6397,
+    "population": 4217000
+  },
+  {
+    "city": "Yantai",
+    "country": "China",
+    "city_ascii": "Yantai",
+    "lat": 37.3997,
+    "lng": 121.2664,
+    "population": 6968202
+  },
+  {
+    "city": "Yaoundé",
+    "country": "Cameroon",
+    "city_ascii": "Yaounde",
+    "lat": 3.8578,
+    "lng": 11.5181,
+    "population": 2440462
+  },
+  {
+    "city": "Yekaterinburg",
+    "country": "Russia",
+    "city_ascii": "Yekaterinburg",
+    "lat": 56.8356,
+    "lng": 60.6128,
+    "population": 1468833
+  },
+  {
+    "city": "Yerevan",
+    "country": "Armenia",
+    "city_ascii": "Yerevan",
+    "lat": 40.1814,
+    "lng": 44.5144,
+    "population": 1075800
+  },
+  {
+    "city": "Yibin",
+    "country": "China",
+    "city_ascii": "Yibin",
+    "lat": 28.7596,
+    "lng": 104.64,
+    "population": 4456000
+  },
+  {
+    "city": "Yicheng",
+    "country": "China",
+    "city_ascii": "Yicheng",
+    "lat": 31.3697,
+    "lng": 119.8239,
+    "population": 1082929
+  },
+  {
+    "city": "Yichun",
+    "country": "China",
+    "city_ascii": "Yichun",
+    "lat": 27.8041,
+    "lng": 114.383,
+    "population": 6048700
+  },
+  {
+    "city": "Yichun",
+    "country": "China",
+    "city_ascii": "Yichun",
+    "lat": 47.7235,
+    "lng": 128.8893,
+    "population": 1250000
+  },
+  {
+    "city": "Yinchuan",
+    "country": "China",
+    "city_ascii": "Yinchuan",
+    "lat": 38.4795,
+    "lng": 106.2254,
+    "population": 1616000
+  },
+  {
+    "city": "Yingchuan",
+    "country": "China",
+    "city_ascii": "Yingchuan",
+    "lat": 34.1511,
+    "lng": 113.4733,
+    "population": 1131896
+  },
+  {
+    "city": "Yingkou",
+    "country": "China",
+    "city_ascii": "Yingkou",
+    "lat": 40.6653,
+    "lng": 122.2297,
+    "population": 2220000
+  },
+  {
+    "city": "Yingtan",
+    "country": "China",
+    "city_ascii": "Yingtan",
+    "lat": 28.2333,
+    "lng": 117,
+    "population": 1288615
+  },
+  {
+    "city": "Yiwu",
+    "country": "China",
+    "city_ascii": "Yiwu",
+    "lat": 29.3081,
+    "lng": 120.0698,
+    "population": 1234015
+  },
+  {
+    "city": "Yiyang",
+    "country": "China",
+    "city_ascii": "Yiyang",
+    "lat": 28.5833,
+    "lng": 112.3333,
+    "population": 4420700
+  },
+  {
+    "city": "Yokohama",
+    "country": "Japan",
+    "city_ascii": "Yokohama",
+    "lat": 35.4333,
+    "lng": 139.6333,
+    "population": 3757630
+  },
+  {
+    "city": "Yongcheng",
+    "country": "China",
+    "city_ascii": "Yongcheng",
+    "lat": 33.9317,
+    "lng": 116.4459,
+    "population": 1240382
+  },
+  {
+    "city": "Yongzhou",
+    "country": "China",
+    "city_ascii": "Yongzhou",
+    "lat": 26.4515,
+    "lng": 111.5953,
+    "population": 5446100
+  },
+  {
+    "city": "Yucheng",
+    "country": "China",
+    "city_ascii": "Yucheng",
+    "lat": 29.9888,
+    "lng": 103.0007,
+    "population": 1512000
+  },
+  {
+    "city": "Yueqing",
+    "country": "China",
+    "city_ascii": "Yueqing",
+    "lat": 28.1188,
+    "lng": 120.9621,
+    "population": 1389332
+  },
+  {
+    "city": "Yulin",
+    "country": "China",
+    "city_ascii": "Yulin",
+    "lat": 22.6293,
+    "lng": 110.1507,
+    "population": 5487368
+  },
+  {
+    "city": "Yulinshi",
+    "country": "China",
+    "city_ascii": "Yulinshi",
+    "lat": 38.2655,
+    "lng": 109.7388,
+    "population": 3328000
+  },
+  {
+    "city": "Yuncheng",
+    "country": "China",
+    "city_ascii": "Yuncheng",
+    "lat": 35.0304,
+    "lng": 110.998,
+    "population": 4860000
+  },
+  {
+    "city": "Yunfu",
+    "country": "China",
+    "city_ascii": "Yunfu",
+    "lat": 22.9242,
+    "lng": 112.0353,
+    "population": 2526900
+  },
+  {
+    "city": "Yushan",
+    "country": "China",
+    "city_ascii": "Yushan",
+    "lat": 31.3867,
+    "lng": 120.9766,
+    "population": 1651200
+  },
+  {
+    "city": "Yushu",
+    "country": "China",
+    "city_ascii": "Yushu",
+    "lat": 44.8249,
+    "lng": 126.5451,
+    "population": 1304436
+  },
+  {
+    "city": "Yutan",
+    "country": "China",
+    "city_ascii": "Yutan",
+    "lat": 28.3147,
+    "lng": 112.554,
+    "population": 1368117
+  },
+  {
+    "city": "Yuxi",
+    "country": "China",
+    "city_ascii": "Yuxi",
+    "lat": 24.3495,
+    "lng": 102.5432,
+    "population": 2303518
+  },
+  {
+    "city": "Yuyao",
+    "country": "China",
+    "city_ascii": "Yuyao",
+    "lat": 30.0372,
+    "lng": 121.1546,
+    "population": 1095000
+  },
+  {
+    "city": "Zaoyang",
+    "country": "China",
+    "city_ascii": "Zaoyang",
+    "lat": 32.1287,
+    "lng": 112.7581,
+    "population": 1004741
+  },
+  {
+    "city": "Zaozhuang",
+    "country": "China",
+    "city_ascii": "Zaozhuang",
+    "lat": 34.8667,
+    "lng": 117.55,
+    "population": 3650000
+  },
+  {
+    "city": "Zapopan",
+    "country": "Mexico",
+    "city_ascii": "Zapopan",
+    "lat": 20.7167,
+    "lng": -103.4,
+    "population": 1155790
+  },
+  {
+    "city": "Zhangjiajie",
+    "country": "China",
+    "city_ascii": "Zhangjiajie",
+    "lat": 29.1255,
+    "lng": 110.4844,
+    "population": 1549200
+  },
+  {
+    "city": "Zhangjiakou",
+    "country": "China",
+    "city_ascii": "Zhangjiakou",
+    "lat": 40.8108,
+    "lng": 114.8811,
+    "population": 4345491
+  },
+  {
+    "city": "Zhangye",
+    "country": "China",
+    "city_ascii": "Zhangye",
+    "lat": 38.9355,
+    "lng": 100.4553,
+    "population": 1270000
+  },
+  {
+    "city": "Zhangzhou",
+    "country": "China",
+    "city_ascii": "Zhangzhou",
+    "lat": 24.5093,
+    "lng": 117.6612,
+    "population": 5140000
+  },
+  {
+    "city": "Zhanjiang",
+    "country": "China",
+    "city_ascii": "Zhanjiang",
+    "lat": 21.1967,
+    "lng": 110.4031,
+    "population": 7332000
+  },
+  {
+    "city": "Zhaoqing",
+    "country": "China",
+    "city_ascii": "Zhaoqing",
+    "lat": 23.05,
+    "lng": 112.4667,
+    "population": 4151700
+  },
+  {
+    "city": "Zhaotong",
+    "country": "China",
+    "city_ascii": "Zhaotong",
+    "lat": 27.3328,
+    "lng": 103.7144,
+    "population": 5213521
+  },
+  {
+    "city": "Zhengzhou",
+    "country": "China",
+    "city_ascii": "Zhengzhou",
+    "lat": 34.7492,
+    "lng": 113.6605,
+    "population": 7005000
+  },
+  {
+    "city": "Zhenjiang",
+    "country": "China",
+    "city_ascii": "Zhenjiang",
+    "lat": 32.2109,
+    "lng": 119.4551,
+    "population": 3113384
+  },
+  {
+    "city": "Zhongli",
+    "country": "Taiwan",
+    "city_ascii": "Zhongli",
+    "lat": 24.965,
+    "lng": 121.2168,
+    "population": 1632616
+  },
+  {
+    "city": "Zhongshan",
+    "country": "China",
+    "city_ascii": "Zhongshan",
+    "lat": 22.5333,
+    "lng": 113.35,
+    "population": 3260000
+  },
+  {
+    "city": "Zhongwei",
+    "country": "China",
+    "city_ascii": "Zhongwei",
+    "lat": 37.5139,
+    "lng": 105.1884,
+    "population": 1046000
+  },
+  {
+    "city": "Zhongxiang",
+    "country": "China",
+    "city_ascii": "Zhongxiang",
+    "lat": 31.169,
+    "lng": 112.5853,
+    "population": 1022514
+  },
+  {
+    "city": "Zhoukou",
+    "country": "China",
+    "city_ascii": "Zhoukou",
+    "lat": 33.625,
+    "lng": 114.6418,
+    "population": 9901000
+  },
+  {
+    "city": "Zhoushan",
+    "country": "China",
+    "city_ascii": "Zhoushan",
+    "lat": 30.0162,
+    "lng": 122.0988,
+    "population": 1121261
+  },
+  {
+    "city": "Zhuhai",
+    "country": "China",
+    "city_ascii": "Zhuhai",
+    "lat": 22.2769,
+    "lng": 113.5678,
+    "population": 1891100
+  },
+  {
+    "city": "Zhuji",
+    "country": "China",
+    "city_ascii": "Zhuji",
+    "lat": 29.7169,
+    "lng": 120.2314,
+    "population": 1157938
+  },
+  {
+    "city": "Zhumadian",
+    "country": "China",
+    "city_ascii": "Zhumadian",
+    "lat": 32.9773,
+    "lng": 114.0253,
+    "population": 7640000
+  },
+  {
+    "city": "Zhuzhou",
+    "country": "China",
+    "city_ascii": "Zhuzhou",
+    "lat": 27.8407,
+    "lng": 113.1469,
+    "population": 4028500
+  },
+  {
+    "city": "Zibo",
+    "country": "China",
+    "city_ascii": "Zibo",
+    "lat": 36.7831,
+    "lng": 118.0497,
+    "population": 4530597
+  },
+  {
+    "city": "Zigong",
+    "country": "China",
+    "city_ascii": "Zigong",
+    "lat": 29.3498,
+    "lng": 104.7645,
+    "population": 2800000
+  },
+  {
+    "city": "Zunyi",
+    "country": "China",
+    "city_ascii": "Zunyi",
+    "lat": 27.705,
+    "lng": 106.9336,
+    "population": 6127009
+  }
+]
