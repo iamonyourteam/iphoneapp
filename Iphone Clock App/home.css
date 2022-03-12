@@ -8,13 +8,20 @@
 body {
     font-family: 'Lato', sans-serif;
     background: rgb(191,191,191);
-    background: radial-gradient(circle, rgba(191,191,191,1) 0%, rgba(255,255,255,1) 100%);
+    background: radial-gradient(circle, rgba(191,191,191,1) 0%, rgba(255,255,255,1) 100%)
+    
 }
 
 h1 {
-    padding: 10px
+    padding: 10px;
 }
 iframe{
-    margin-top: 10px ;
-    overflow:hidden;
+    margin-top: 5px; 
+    height: 900px;
+    width: 400px;
+    overflow:visible
 }
+@media (max-width: 500px) {
+       iframe{ height: 210vw;
+        width: 90vw;}
+  }
