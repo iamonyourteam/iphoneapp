@@ -29,10 +29,5 @@ World Clock (Not Started - Practice Using Api? to )
 
 
 
-
-
-
-push - add to end
-pop - remove from end
-shift - remove from start
-unshift - add to start
+api call for lon and lat 
+http://api.timezonedb.com/v2.1/get-time-zone?key=HU2L7DXUGTZ1&format=xml&by=position&lat=40.689247&lng=-74.044502
