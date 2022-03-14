@@ -4,12 +4,8 @@ function worldClockSearchPage() {
     document.querySelector(".cityNamesPage").style.top = "0vh"
 }
 
-function closeWorldClockSearchPage() {
-    document.querySelector(".cityNamesPage").style.top = "100vh"
 
-}
-
-
+let worldClockCities = []
 
 // using Json data to creat list of city names 
 
@@ -24,16 +20,15 @@ let citySearch = function () {
     function removeAllChildNodes(parent) {
         while (parent.firstChild) {
             parent.removeChild(parent.firstChild);
-
-
-
-
         }
     }
 
     removeAllChildNodes(removeFilterNodes)
 
     let searchValue = document.getElementById("search").value.toLowerCase()
+
+
+
     if (searchValue != "") {
         document.querySelector(".cityNamesCont").style.visibility = "hidden"
         document.querySelector(".cityNamesFilterCont").style.visibility = "visible"
@@ -49,6 +44,8 @@ let citySearch = function () {
             let cityf = document.createElement("div");
             cityf.setAttribute("id", `cityf${j}`)
             cityf.setAttribute("class", "cityfName")
+            cityf.setAttribute("onClick", `addCity( ${cityNames.indexOf(cityNamesFilter[j])}  )`)
+
             cityf.innerText = cityNamesFilter[j]
             document.querySelector(".cityNamesFilterCont").appendChild(cityf)
         }
@@ -61,11 +58,6 @@ let citySearch = function () {
 
 
     }
-
-
-
-
-
 }
 
 
@@ -83,7 +75,7 @@ fetch("./worldCities.json")
 
         for (i = 0; i < 26; i++) {
             let alphabetLetter = document.createElement("div");
-            alphabetLetter.setAttribute("id", `alphabetLetter${i}`)
+            alphabetLetter.setAttribute("id", `alphabetLetter${i} `)
             alphabetLetter.setAttribute("class", "alphabetLetter")
             alphabetLetter.innerText = ABC[i]
             document.querySelector(".cityNamesCont").appendChild(alphabetLetter)
@@ -91,8 +83,9 @@ fetch("./worldCities.json")
             for (j = 0; j < data.length; j++) {
                 if (ABC[i] == data[j].city.split("")[0]) {
                     let city = document.createElement("div");
-                    city.setAttribute("id", `city${i}`)
+                    city.setAttribute("id", `city${i} `)
                     city.setAttribute("class", "cityName")
+                    city.setAttribute("onClick", `addCity(${j})`)
                     city.innerText = data[j].city
                     cityNames.push(data[j].city)
                     document.querySelector(".cityNamesCont").appendChild(city)
@@ -104,3 +97,20 @@ fetch("./worldCities.json")
     })
 
 ///
+//CLoses City Search page, Clears search feild and reverts back to all cities// 
+function closeWorldClockSearchPage() {
+    document.querySelector(".cityNamesPage").style.top = "100vh"
+    document.getElementById("search").value = ""
+    citySearch()
+}
+
+function addCity(city) {
+    worldClockCities.push(cityNames[city])
+    console.log(worldClockCities)
+    closeWorldClockSearchPage()
+
+    let addWorldClockCities = document.createElement("div")
+    addWorldClockCities.setAttribute("class", "worldClockCity")
+    addWorldClockCities.innerText = cityNames[city]
+    document.querySelector(".worldClockCities").appendChild(addWorldClockCities)
+}
