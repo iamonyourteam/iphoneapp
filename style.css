@@ -186,6 +186,7 @@ height: 75vh;
 margin-left: -20px;
 padding-left: 20px;
 top:100vh; 
+
 }
 
 .worldClockHeader {
@@ -239,11 +240,13 @@ font-size: .8em;
     border: none;
 }
 
-.cityNamesCont,{
+.cityNamesCont{
     overflow: scroll;
     left: 0;
-    width: 110%;
+    
     height: 68vh;
+    width: 110%;
+    padding-right: 20px;
     
 
 }
@@ -252,7 +255,7 @@ font-size: .8em;
     color: gray;
     padding-top: 2em;
     border-bottom: 1px solid rgb(85, 85, 85);
-    margin-right:2em;
+    margin-right:1em;
 }
 
 .cityName, .cityfName{
@@ -265,6 +268,61 @@ padding: .5em;
 .cityName:hover, .cityfName:hover {
     background-color: rgb(63, 63, 63) ;
 }
+
+
+.worldClockCities {
+    overflow:scroll;
+    height:65vh;
+    width: 115%;
+    padding-right: 40px;
+}
+.WCWraperContainer{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding-top: 40px;
+padding-bottom: 40px;
+border-bottom: 1px solid rgb(85, 85, 85) ;
+
+width: 100%;
+height: 50px;
+}
+.WCCityWrapper{
+display:flex;
+flex-direction: column;
+
+
+}
+
+.WCDay{
+    color: rgb(85, 85, 85)
+}
+
+.WCCity{
+    font-size: 1.5rem;
+}
+
+.WCTimeWrapper{
+    display:flex;
+    align-items:baseline;
+
+}
+
+.WCTime{
+    font-size: 3rem;
+    
+}
+
+.WCAMPM{
+}
+
+
+
+
+
+
+
+
 
  /* ///////////////////////  */
 /*///   Alarm Styles  //// */

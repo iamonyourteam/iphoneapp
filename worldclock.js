@@ -105,12 +105,59 @@ function closeWorldClockSearchPage() {
 }
 
 function addCity(city) {
-    worldClockCities.push(cityNames[city])
-    console.log(worldClockCities)
     closeWorldClockSearchPage()
+    console.log(city)
 
-    let addWorldClockCities = document.createElement("div")
-    addWorldClockCities.setAttribute("class", "worldClockCity")
-    addWorldClockCities.innerText = cityNames[city]
-    document.querySelector(".worldClockCities").appendChild(addWorldClockCities)
+    if (worldClockCities.includes(cityNames[city]) == false) {
+
+        worldClockCities.push(cityNames[city])
+        console.log(worldClockCities)
+
+
+        let addWCWraperContainer = document.createElement("div")
+        addWCWraperContainer.setAttribute("class", "WCWraperContainer")
+        addWCWraperContainer.setAttribute("id", `WCWraperContainer${city}`)
+        document.querySelector(".worldClockCities").appendChild(addWCWraperContainer)
+
+
+        let addWCCityWrapper = document.createElement("div")
+        addWCCityWrapper.setAttribute("class", "WCCityWrapper")
+        addWCCityWrapper.setAttribute("id", `WCCityWrapper${city}`)
+
+        document.querySelector(`#WCWraperContainer${city}`).appendChild(addWCCityWrapper)
+
+
+        let addWCDay = document.createElement("div")
+        addWCDay.setAttribute("class", "WCDay")
+        addWCDay.setAttribute("id", `WCDay${city}`)
+        document.querySelector(`#WCCityWrapper${city}`).appendChild(addWCDay)
+        addWCDay.innerText = "Today"
+
+        let addWCCity = document.createElement("div")
+        addWCCity.setAttribute("class", "WCCity")
+        addWCCity.setAttribute("id", `WCCity${city}`)
+        addWCCity.innerText = cityNames[city]
+        document.querySelector(`#WCCityWrapper${city}`).appendChild(addWCCity)
+
+
+        let addWCTimeWrapper = document.createElement("div")
+        addWCTimeWrapper.setAttribute("class", "WCTimeWrapper")
+        addWCTimeWrapper.setAttribute("id", `WCTimeWrapper${city}`)
+        document.querySelector(`#WCWraperContainer${city}`).appendChild(addWCTimeWrapper)
+
+        let addWCTime = document.createElement("div")
+        addWCTime.setAttribute("class", "WCTime")
+        addWCTime.setAttribute("id", `WCTime${city}`)
+        addWCTime.innerText = "9:99"
+        document.querySelector(`#WCTimeWrapper${city}`).appendChild(addWCTime)
+
+
+        let addWCAMPM = document.createElement("div")
+        addWCAMPM.setAttribute("class", "WCAMPM")
+        addWCAMPM.setAttribute("id", `WCAMPM${city}`)
+        addWCAMPM.innerText = "AM"
+        document.querySelector(`#WCTimeWrapper${city}`).appendChild(addWCAMPM)
+
+    }
 }
+
