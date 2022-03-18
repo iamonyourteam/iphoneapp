@@ -1,5 +1,42 @@
 
 
+// const api_url = "http://api.timezonedb.com/v2.1/get-time-zone?key=HU2L7DXUGTZ1&format=xml&by=position&lat=40.689247&lng=-74.044502"
+var data = []
+
+let getTimeFromPoss = function (lat, lng) {
+    let api_url = `http://api.timezonedb.com/v2.1/get-time-zone?key=HU2L7DXUGTZ1&format=xml&by=position&lat=${lat}&lng=${lng}`
+
+
+
+    let Time = fetch(api_url)
+        .then(response => response.text())
+        .then(data => {
+            const parser = new DOMParser();
+            const xml = parser.parseFromString(data, "application/xml");
+
+
+            const HMS = (xml.all[15].innerHTML.split(" ")[1].split(":"));
+            console.log(HMS);
+            const H24 = HMS[0]
+
+
+
+            const M = HMS[1]
+            const S = HMS[2]
+            console.log(`${H24}:${M}`)
+            return `${H24}:${M}`
+
+        })
+        .catch(console.error);
+    return Time
+}
+
+
+
+
+
+
+
 function worldClockSearchPage() {
     document.querySelector(".cityNamesPage").style.top = "0vh"
 }
@@ -13,6 +50,10 @@ let ABC = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N",
 let cityNames = []
 let cityNamesFilter = []
 let removeFilterNodes = document.querySelector(".cityNamesFilterCont")
+
+let longitude = []
+let latitude = []
+
 
 let citySearch = function () {
     cityNamesFilter = []
@@ -82,6 +123,8 @@ fetch("./worldCities.json")
 
             for (j = 0; j < data.length; j++) {
                 if (ABC[i] == data[j].city.split("")[0]) {
+
+                    //name
                     let city = document.createElement("div");
                     city.setAttribute("id", `city${i} `)
                     city.setAttribute("class", "cityName")
@@ -89,6 +132,13 @@ fetch("./worldCities.json")
                     city.innerText = data[j].city
                     cityNames.push(data[j].city)
                     document.querySelector(".cityNamesCont").appendChild(city)
+
+                    //Lng & Lat
+                    longitude.push(data[j].lng)
+                    latitude.push(data[j].lat)
+
+
+
                 }
             }
 
@@ -103,6 +153,11 @@ function closeWorldClockSearchPage() {
     document.getElementById("search").value = ""
     citySearch()
 }
+
+
+
+
+
 
 function addCity(city) {
     closeWorldClockSearchPage()
@@ -148,16 +203,31 @@ function addCity(city) {
         let addWCTime = document.createElement("div")
         addWCTime.setAttribute("class", "WCTime")
         addWCTime.setAttribute("id", `WCTime${city}`)
-        addWCTime.innerText = "9:99"
+
+
+        getTimeFromPoss(latitude[city], longitude[city]).then(value => { addWCTime.innerText = value })
+
+
+
         document.querySelector(`#WCTimeWrapper${city}`).appendChild(addWCTime)
 
 
         let addWCAMPM = document.createElement("div")
         addWCAMPM.setAttribute("class", "WCAMPM")
         addWCAMPM.setAttribute("id", `WCAMPM${city}`)
-        addWCAMPM.innerText = "AM"
+        getTimeFromPoss(latitude[city], longitude[city]).then(value => {
+
+            if (value.split(":")[0] * 1 < 12) { addWCAMPM.innerText = "AM" }
+            if (value.split(":")[0] * 1 >= 12) { addWCAMPM.innerText = "PM" }
+
+            console.log(value.split(":")[0] * 1)
+        })
+
         document.querySelector(`#WCTimeWrapper${city}`).appendChild(addWCAMPM)
 
     }
+
+    // let yy = await getTimeFromPoss(27.336435, 27.336435)
+    // document.querySelector(`#WCTime${city}`).innerText = yy)
 }
 
