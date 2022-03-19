@@ -3,33 +3,113 @@
 // const api_url = "http://api.timezonedb.com/v2.1/get-time-zone?key=HU2L7DXUGTZ1&format=xml&by=position&lat=40.689247&lng=-74.044502"
 var data = []
 
-let getTimeFromPoss = function (lat, lng) {
+
+
+
+
+function getAPIData(lat, lng) {
+
+    return new Promise((resolve, reject) => {
+        let api_url = `http://api.timezonedb.com/v2.1/get-time-zone?key=HU2L7DXUGTZ1&format=xml&by=position&lat=${lat}&lng=${lng}`
+
+        fetch(api_url).then(response => {
+            return response.text()
+        }).then(data => {
+            resolve(data)
+        }).catch(err => {
+            reject(err)
+        })
+
+    })
+}
+
+function APIData(lat, lng) {
+    let returnData = getAPIData(lat, lng).then(value => {
+
+
+
+        let day = (value.split(`
+`)[16].split("-")[1] * 1)
+
+        let AMPM = ""
+        let HR1 = value.split(" ")[36].split(":")[0] * 1
+        let HR24 = value.split(" ")[36].split(":")[0]
+        let MIN = value.split(" ")[36].split(":")[1]
+
+        if (HR1 > 12) { AMPM = "PM" }
+        if (HR1 < 12) { AMPM = "AM" }
+
+
+        return Promise.resolve([day, HR24, MIN, AMPM])
+    })
+    return returnData
+}
+
+let getDayFromPoss = function (lat, lng) {
     let api_url = `http://api.timezonedb.com/v2.1/get-time-zone?key=HU2L7DXUGTZ1&format=xml&by=position&lat=${lat}&lng=${lng}`
 
 
 
-    let Time = fetch(api_url)
+    let Day = fetch(api_url)
         .then(response => response.text())
         .then(data => {
             const parser = new DOMParser();
             const xml = parser.parseFromString(data, "application/xml");
+            const today = new Date();
+            const localDayNumber = (today.getDate())
+            const cityDatNumber = (xml.all[15].innerHTML.split(" ")[0].split("-")[2] * 1)
 
-
-            const HMS = (xml.all[15].innerHTML.split(" ")[1].split(":"));
-            console.log(HMS);
-            const H24 = HMS[0]
-
-
-
-            const M = HMS[1]
-            const S = HMS[2]
-            console.log(`${H24}:${M}`)
-            return `${H24}:${M}`
-
+            if (cityDatNumber > localDayNumber) { return 1 }
+            if (cityDatNumber == localDayNumber) { return 0 }
+            if (cityDatNumber < localDayNumber) { return -1 }
         })
-        .catch(console.error);
-    return Time
+
+    return Day
 }
+
+
+// let getTimeFromPoss = function (lat, lng,) {
+//     let api_url = `http://api.timezonedb.com/v2.1/get-time-zone?key=HU2L7DXUGTZ1&format=xml&by=position&lat=${lat}&lng=${lng}`
+
+
+
+//     let Time = fetch(api_url)
+//         .then(response => response.text())
+//         .then(data => {
+//             const parser = new DOMParser();
+//             const xml = parser.parseFromString(data, "application/xml");
+
+
+//             const HMS = (xml.all[15].innerHTML.split(" ")[1].split(":"));
+//             console.log(HMS);
+//             const H24 = HMS[0]
+
+
+
+//             const M = HMS[1]
+//             const S = HMS[2]
+//             console.log(`${H24}:${M}`)
+//             return `${H24}:${M}`
+
+//         })
+
+//     // let Day = fetch(api_url)
+//     //     .then(response => response.text())
+//     //     .then(data => {
+//     //         const parser = new DOMParser();
+//     //         const xml = parser.parseFromString(data, "application/xml");
+//     //         const today = new Date();
+//     //         const localDayNumber = (today.getDate())
+//     //         const cityDatNumber = (xml.all[15].innerHTML.split(" ")[0].split("-")[2] * 1)
+
+//     //         if (cityDatNumber > localDayNumber) { return 1 }
+//     //         if (cityDatNumber == localDayNumber) { return 0 }
+//     //         if (cityDatNumber < localDayNumber) { return -1 }
+//     //     })
+
+
+//     return Time
+// }
 
 
 
@@ -168,6 +248,8 @@ function addCity(city) {
         worldClockCities.push(cityNames[city])
         console.log(worldClockCities)
 
+        let cityAPIValue = APIData(latitude[city], longitude[city])
+
 
         let addWCWraperContainer = document.createElement("div")
         addWCWraperContainer.setAttribute("class", "WCWraperContainer")
@@ -186,7 +268,15 @@ function addCity(city) {
         addWCDay.setAttribute("class", "WCDay")
         addWCDay.setAttribute("id", `WCDay${city}`)
         document.querySelector(`#WCCityWrapper${city}`).appendChild(addWCDay)
-        addWCDay.innerText = "Today"
+
+        getDayFromPoss(latitude[city], longitude[city]).then(value => {
+
+            if (value == 1) { addWCDay.innerText = "Tomarrow" }
+            if (value == 0) { addWCDay.innerText = "Today" }
+            if (value == -1) { addWCDay.innerText = "Yesterday" }
+        })
+
+        // addWCDay.innerText = "Today"
 
         let addWCCity = document.createElement("div")
         addWCCity.setAttribute("class", "WCCity")
@@ -205,7 +295,7 @@ function addCity(city) {
         addWCTime.setAttribute("id", `WCTime${city}`)
 
 
-        getTimeFromPoss(latitude[city], longitude[city]).then(value => { addWCTime.innerText = value })
+        // getTimeFromPoss(latitude[city], longitude[city]).then(value => { addWCTime.innerText = value })
 
 
 
@@ -215,13 +305,11 @@ function addCity(city) {
         let addWCAMPM = document.createElement("div")
         addWCAMPM.setAttribute("class", "WCAMPM")
         addWCAMPM.setAttribute("id", `WCAMPM${city}`)
-        getTimeFromPoss(latitude[city], longitude[city]).then(value => {
-
-            if (value.split(":")[0] * 1 < 12) { addWCAMPM.innerText = "AM" }
-            if (value.split(":")[0] * 1 >= 12) { addWCAMPM.innerText = "PM" }
-
-            console.log(value.split(":")[0] * 1)
+        cityAPIValue.then(value => {
+            addWCAMPM.innerText = value[3]
         })
+
+
 
         document.querySelector(`#WCTimeWrapper${city}`).appendChild(addWCAMPM)
 
