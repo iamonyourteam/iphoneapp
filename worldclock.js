@@ -1,28 +1,5 @@
 
 
-// const api_url = "http://api.timezonedb.com/v2.1/get-time-zone?key=HU2L7DXUGTZ1&format=xml&by=position&lat=40.689247&lng=-74.044502"
-var data = []
-
-
-
-
-
-// function getAPIData(lat, lng) {
-
-//     return new Promise((resolve, reject) => {
-//         let api_url = `http://api.timezonedb.com/v2.1/get-time-zone?key=HU2L7DXUGTZ1&format=xml&by=position&lat=${lat}&lng=${lng}`
-
-//         fetch(api_url).then(response => {
-//             return response.text()
-//         }).then(data => {
-//             resolve(data)
-//         }).catch(err => {
-//             reject(err)
-//         })
-
-//     })
-// }
-
 function APIData(city) {
 
     let day = 0
@@ -37,10 +14,6 @@ function APIData(city) {
             let latitude = (data[city].lat);
 
             return ([latitude, longitude]);
-
-
-
-
         })
 
         .then(function (data) {
@@ -67,7 +40,7 @@ function APIData(city) {
             console.log(HR1)
             let HR24 = (data.split("<formatted>")[1].split(" ")[1].split(":")[0])
             console.log(HR24)
-            let MIN = (data.split("<formatted>")[1].split(" ")[1].split(":")[1] * 1)
+            let MIN = (data.split("<formatted>")[1].split(" ")[1].split(":")[1])
             console.log(MIN)
 
             document.querySelector(`#WCTime${city}`).innerText = `${HR1}:${MIN}`
@@ -89,45 +62,6 @@ function APIData(city) {
             if (day < localDayNumber) { document.querySelector(`#WCDay${city}`).innerText = "Yesterday" }
 
         })
-    // .then(function getAPIData(latitude, longitude) {
-    //     console.log(latitude);
-    //     return new Promise((resolve, reject) => {
-    //         let api_url = `http://api.timezonedb.com/v2.1/get-time-zone?key=HU2L7DXUGTZ1&format=xml&by=position&lat=${latitude}&lng=${longitude}`
-
-    //         fetch(api_url).then(response => {
-    //             return response.text()
-    //         }).then(data => {
-    //             console.log(data)
-    //             resolve(data)
-    //         }).catch(err => {
-    //             reject(err)
-    //         })
-
-    //     })
-    // })
-
-    // .then getAPIData(latitude, longitude).then(value => {
-
-
-    //     console.log(latitude)
-    //     console.log(longitude)
-    //     console.log(value)
-
-    //     //     day = (value.split("-")[2] * 1)
-    //     //     console.log(day)
-    //     // let AMPM = ""
-    //     // let HR1 = (value.split(" ")[36].split(":")[0] * 1)
-    //     // let HR24 = (value.split(" ")[36].split(":")[0])
-    //     // let MIN = (value.split(" ")[36].split(":")[1])
-
-    //     // if (HR1 > 12) { AMPM = "PM" }
-    //     // if (HR1 < 12) { AMPM = "AM" }
-
-    //     // document.querySelector(`#WCTime${city}`).innerText = `${HR24}:${MIN}`
-
-    //     // return Promise.resolve([day, HR24, MIN, AMPM])
-
-    // })
 }
 
 let getDayFromPoss = function (lat, lng) {
@@ -151,10 +85,6 @@ let getDayFromPoss = function (lat, lng) {
 
     return Day
 }
-
-
-
-
 
 
 function worldClockSearchPage() {
