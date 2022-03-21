@@ -1,5 +1,5 @@
 
-
+// API Fetch and DOM Edits
 function APIData(city) {
 
     let day = 0
@@ -8,7 +8,7 @@ function APIData(city) {
             return resp.json();
         })
         .then(function (data) {
-            console.log(data[city]);
+
 
             let longitude = (data[city].lng);
             let latitude = (data[city].lat);
@@ -17,14 +17,14 @@ function APIData(city) {
         })
 
         .then(function (data) {
-            console.log(data);
+
 
             let api_url = `http://api.timezonedb.com/v2.1/get-time-zone?key=HU2L7DXUGTZ1&format=xml&by=position&lat=${data[0]}&lng=${data[1]}`
 
             let fethAPI = fetch(api_url).then(response => {
                 return response.text()
             }).then(data => {
-                // console.log(data)
+
                 return (data)
 
             })
@@ -33,29 +33,34 @@ function APIData(city) {
         .then(function (data) {
 
 
-            console.log(data)
-            day = (data.split("<formatted>")[1].split(" ")[0].split("-")[2] * 1)
-            console.log(day)
-            let HR1 = (data.split("<formatted>")[1].split(" ")[1].split(":")[0] * 1)
-            console.log(HR1)
-            let HR24 = (data.split("<formatted>")[1].split(" ")[1].split(":")[0])
-            console.log(HR24)
-            let MIN = (data.split("<formatted>")[1].split(" ")[1].split(":")[1])
-            console.log(MIN)
 
-            document.querySelector(`#WCTime${city}`).innerText = `${HR1}:${MIN}`
+            day = (data.split("<formatted>")[1].split(" ")[0].split("-")[2] * 1)
+            let HR1 = (data.split("<formatted>")[1].split(" ")[1].split(":")[0] * 1)
+
+            let HR12 = ""
+            if ((data.split("<formatted>")[1].split(" ")[1].split(":")[0] * 1) == 0) { HR12 = 12 }
+            else if ((data.split("<formatted>")[1].split(" ")[1].split(":")[0] * 1) > 12) { HR12 = (data.split("<formatted>")[1].split(" ")[1].split(":")[0] - 12) }
+            else (HR12 = data.split("<formatted>")[1].split(" ")[1].split(":")[0] * 1)
+
+
+            let HR24 = (data.split("<formatted>")[1].split(" ")[1].split(":")[0])
+
+            let MIN = (data.split("<formatted>")[1].split(" ")[1].split(":")[1])
+
+
+            document.querySelector(`#WCTime${city}`).innerText = `${HR12}:${MIN}`
 
 
             let AMPM = ""
             if (HR1 >= 12) { AMPM = "PM" }
             if (HR1 < 12) { AMPM = "AM" }
-            console.log(AMPM)
+
 
             document.querySelector(`#WCAMPM${city}`).innerText = AMPM
 
             let today = new Date();
             let localDayNumber = (today.getDate())
-            console.log(localDayNumber)
+
 
             if (day > localDayNumber) { document.querySelector(`#WCDay${city}`).innerText = "Tomarrow" }
             if (day == localDayNumber) { document.querySelector(`#WCDay${city}`).innerText = "Today" }
@@ -64,38 +69,11 @@ function APIData(city) {
         })
 }
 
-let getDayFromPoss = function (lat, lng) {
-    let api_url = `http://api.timezonedb.com/v2.1/get-time-zone?key=HU2L7DXUGTZ1&format=xml&by=position&lat=${lat}&lng=${lng}`
-
-
-
-    let Day = fetch(api_url)
-        .then(response => response.text())
-        .then(data => {
-            const parser = new DOMParser();
-            const xml = parser.parseFromString(data, "application/xml");
-            const today = new Date();
-            const localDayNumber = (today.getDate())
-            const cityDatNumber = (xml.all[15].innerHTML.split(" ")[0].split("-")[2] * 1)
-
-            if (cityDatNumber > localDayNumber) { return 1 }
-            if (cityDatNumber == localDayNumber) { return 0 }
-            if (cityDatNumber < localDayNumber) { return -1 }
-        })
-
-    return Day
-}
-
-
-function worldClockSearchPage() {
-    document.querySelector(".cityNamesPage").style.top = "0vh"
-}
-
-
-let worldClockCities = []
 
 // using Json data to creat list of city names 
 
+let worldClockCities = []
+let worldClockCitiesNumber = []
 let ABC = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"]
 let cityNames = []
 let cityNamesFilter = []
@@ -185,7 +163,11 @@ fetch("./worldCities.json")
     })
 
 ///
-//CLoses City Search page, Clears search feild and reverts back to all cities// 
+//Opens and CLoses City Search page, Clears search feild and reverts back to all cities// 
+
+function worldClockSearchPage() {
+    document.querySelector(".cityNamesPage").style.top = "0vh"
+}
 function closeWorldClockSearchPage() {
     document.querySelector(".cityNamesPage").style.top = "100vh"
     document.getElementById("search").value = ""
@@ -200,6 +182,9 @@ function addCity(city) {
 
         worldClockCities.push(cityNames[city])
         console.log(worldClockCities)
+
+        worldClockCitiesNumber.push(city)
+        console.log(worldClockCitiesNumber)
 
 
 
@@ -240,7 +225,7 @@ function addCity(city) {
         let addWCTime = document.createElement("div")
         addWCTime.setAttribute("class", "WCTime")
         addWCTime.setAttribute("id", `WCTime${city}`)
-        addWCTime.innerText = "9:99"
+        addWCTime.innerText = "00:00"
         document.querySelector(`#WCTimeWrapper${city}`).appendChild(addWCTime)
 
 
@@ -257,4 +242,32 @@ function addCity(city) {
 
     }
 }
+
+let sleep = (time) => {
+    return new Promise(resolve => setTimeout(resolve, time))
+}
+
+te = 0
+let updateCities = async () => {
+
+    if (worldClockCities[0] == undefined) {
+        await sleep(1000)
+        console.log("waiting")
+        updateCities()
+    }
+    else {
+        for (i = 0; i < worldClockCitiesNumber.length; i++) {
+            await sleep(1000)
+            APIData(worldClockCitiesNumber[i])
+        }
+        await sleep(5000)
+        updateCities()
+    }
+}
+
+
+updateCities()
+
+
+
 
