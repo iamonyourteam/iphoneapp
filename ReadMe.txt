@@ -29,5 +29,25 @@ World Clock (Not Started - Practice Using Api? to )
 
 
 
-api call for lon and lat 
-http://api.timezonedb.com/v2.1/get-time-zone?key=HU2L7DXUGTZ1&format=xml&by=position&lat=40.689247&lng=-74.044502
+TODO: 
+
+WorldCLock:
+
+-Edit funciton - remove city
+-Hr Difference
+-Drag and Drop ?
+- menu animation
+
+
+Alarm:
+
+- remove toggle on edit
+- allow editing existing alarms
+-repeat menu implementation
+-bug deleating all alarms 
+-
+
+
+Stopwatch:
+
+Timer:

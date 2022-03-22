@@ -13,8 +13,11 @@
     padding: 0px;
     font-family: 'Lato', sans-serif;
     
+    
 }
-
+body { /* ...or body.dialogShowing */
+    overflow: hidden;
+  }
 .phone {
     float: left;
     width: 40vh;
@@ -272,9 +275,14 @@ padding: .5em;
 
 .worldClockCities {
     overflow:scroll;
-    height:65vh;
+    height:64vh;
     width: 115%;
     padding-right: 40px;
+}
+
+
+.worldClockCities h1  {
+    padding-bottom: 10px;
 }
 .WCWraperContainer{
 display:flex;
@@ -282,6 +290,7 @@ justify-content:space-between;
 align-items:center;
 padding-top: 40px;
 padding-bottom: 40px;
+border-top: 1px solid rgb(85, 85, 85) ;
 border-bottom: 1px solid rgb(85, 85, 85) ;
 
 width: 100%;
@@ -295,6 +304,7 @@ flex-direction: column;
 }
 
 .WCDay{
+    font-size:.8rem;
     color: rgb(85, 85, 85)
 }
 
@@ -314,6 +324,7 @@ flex-direction: column;
 }
 
 .WCAMPM{
+    font-size: 1.5rem;
 }
 
 
