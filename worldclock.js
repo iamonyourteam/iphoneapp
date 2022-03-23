@@ -19,13 +19,15 @@ function APIData(city) {
         .then(function (data) {
 
 
-            let api_url = `https://api.timezonedb.com/v2.1/get-time-zone?key=HU2L7DXUGTZ1&format=xml&by=position&lat=${data[0]}&lng=${data[1]}`
+
+            let api_url = `https://api.ipgeolocation.io/timezone?apiKey=3e4ddb5bb9bc4c5d81fe3de76168047b&lat=${data[0]}&long=${data[1]}`
+
 
             let fethAPI = fetch(api_url).then(response => {
-                return response.text()
+                return response.json()
             }).then(data => {
 
-                return (data)
+                return (data.date_time)
 
             })
             return (fethAPI)
@@ -34,18 +36,22 @@ function APIData(city) {
 
 
 
-            day = (data.split("<formatted>")[1].split(" ")[0].split("-")[2] * 1)
-            let HR1 = (data.split("<formatted>")[1].split(" ")[1].split(":")[0] * 1)
+            day = (data.split(" ")[0].split("-")[2])
+
+            let HR1 = (data.split(" ")[1].split(":")[0] * 1)
 
             let HR12 = ""
-            if ((data.split("<formatted>")[1].split(" ")[1].split(":")[0] * 1) == 0) { HR12 = 12 }
-            else if ((data.split("<formatted>")[1].split(" ")[1].split(":")[0] * 1) > 12) { HR12 = (data.split("<formatted>")[1].split(" ")[1].split(":")[0] - 12) }
-            else (HR12 = data.split("<formatted>")[1].split(" ")[1].split(":")[0] * 1)
+            if ((data.split(" ")[1].split(":")[0]) == 0) { HR12 = 12 }
+            else if ((data.split(" ")[1].split(":")[0]) > 12) { HR12 = (data.split(" ")[1].split(":")[0] - 12) }
+            else (HR12 = data.split(" ")[1].split(":")[0] * 1)
 
 
-            let HR24 = (data.split("<formatted>")[1].split(" ")[1].split(":")[0])
+            let HR24 = (data.split(" ")[1].split(":")[0])
 
-            let MIN = (data.split("<formatted>")[1].split(" ")[1].split(":")[1])
+            let MIN = (data.split(" ")[1].split(":")[1])
+
+
+
 
 
             document.querySelector(`#WCTime${city}`).innerText = `${HR12}:${MIN}`
@@ -132,11 +138,11 @@ fetch("./worldCities.json")
     }
     )
     .then(function (data) {
-        console.log(data);
+
 
 
         //Creating alphabetical breaks between city names//
-        console.log(ABC)
+
 
         for (i = 0; i < 26; i++) {
             let alphabetLetter = document.createElement("div");
@@ -260,7 +266,7 @@ let updateCities = async () => {
             await sleep(1000)
             APIData(worldClockCitiesNumber[i])
         }
-        await sleep(5000)
+        await sleep(1000)
         updateCities()
     }
 }
