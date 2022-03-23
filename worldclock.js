@@ -19,7 +19,7 @@ function APIData(city) {
         .then(function (data) {
 
 
-            let api_url = `http://api.timezonedb.com/v2.1/get-time-zone?key=HU2L7DXUGTZ1&format=xml&by=position&lat=${data[0]}&lng=${data[1]}`
+            let api_url = `https://api.timezonedb.com/v2.1/get-time-zone?key=HU2L7DXUGTZ1&format=xml&by=position&lat=${data[0]}&lng=${data[1]}`
 
             let fethAPI = fetch(api_url).then(response => {
                 return response.text()
