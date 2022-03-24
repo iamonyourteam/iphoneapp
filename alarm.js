@@ -65,7 +65,7 @@ function editAlarms() {
                 document.querySelector(`#toggle${i}`).style.background = "transparent"
                 document.querySelector(`#toggle${i}`).innerText = ">"
                 document.querySelector(`#toggle${i}`).style.color = "white"
-                document.querySelector(`#toggle${i}`).style.marginRight = "-6vw"
+                document.querySelector(`#toggle${i}`).style.marginRight = "0"
 
 
 
