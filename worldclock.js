@@ -274,6 +274,66 @@ let updateCities = async () => {
 
 updateCities()
 
+function editWorldClock() {
 
+    if (document.querySelector("#worldClockEdit").innerHTML === "Edit") {
+
+
+        for (i = 0; i < worldClockCities.length; i++) {
+
+            if (worldClockCities.length == 0) { }
+
+            else {
+                document.querySelector(`#WCWraperContainer${worldClockCitiesNumber[i]}`).style.marginLeft = "5vw"
+                document.querySelector(`#WCWraperContainer${worldClockCitiesNumber[i]}`).style.animationDuration = ".5s"
+                document.querySelector(`#WCWraperContainer${worldClockCitiesNumber[i]}`).style.animationName = "alarmContAnamateRight";
+                document.querySelector(`#WCTime${worldClockCitiesNumber[i]}`).style.opacity = "0%"
+                document.querySelector(`#WCAMPM${worldClockCitiesNumber[i]}`).style.opacity = "0%"
+
+                // //del button
+                // document.querySelector(`#editAlarmTimeContainer${worldClockCitiesNumber[i]}`).style.visibility = "visible"
+                // document.querySelector(`#editAlarmTimeContainer${worldClockCitiesNumber[i]}`).style.opacity = "100%"
+                // document.querySelector(`#editAlarmTimeContainer${worldClockCitiesNumber[i]}`).style.animationDuration = "1s"
+                // document.querySelector(`#editAlarmTimeContainer${worldClockCitiesNumber[i]}`).style.animationName = "alarmButtonRight"
+
+
+
+
+
+            }
+
+
+
+        }
+
+        document.querySelector("#worldClockEdit").innerHTML = "Done"
+    }
+    else {
+
+        for (i = 0; i < worldClockCities.length; i++) {
+            if (worldClockCities.length == 0) { }
+            else {
+                document.querySelector(`#WCWraperContainer${worldClockCitiesNumber[i]}`).style.marginLeft = "0vw"
+                document.querySelector(`#WCWraperContainer${worldClockCitiesNumber[i]}`).style.animationDuration = ".5s"
+                document.querySelector(`#WCWraperContainer${worldClockCitiesNumber[i]}`).style.animationName = "alarmContAnamateLeft";
+                document.querySelector(`#WCTime${worldClockCitiesNumber[i]}`).style.opacity = "100%"
+                document.querySelector(`#WCAMPM${worldClockCitiesNumber[i]}`).style.opacity = "100%"
+
+                // document.querySelector(`#editAlarmTimeContainer${i}`).style.visibility = "hidden"
+                // document.querySelector(`#editAlarmTimeContainer${i}`).style.opacity = "0%"
+                // document.querySelector(`#editAlarmTimeContainer${i}`).style.animationDuration = "1s"
+                // document.querySelector(`#editAlarmTimeContainer${i}`).style.animationName = "alarmButtonLeft"
+
+
+            }
+
+
+        }
+
+        document.querySelector("#worldClockEdit").innerHTML = "Edit"
+    }
+
+
+}
 
 
