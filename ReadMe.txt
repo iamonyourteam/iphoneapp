@@ -41,10 +41,9 @@ WorldCLock:
 
 Alarm:
 
-- remove toggle on edit
 - allow editing existing alarms
 -repeat menu implementation
--bug deleating all alarms 
+ 
 -
 
 

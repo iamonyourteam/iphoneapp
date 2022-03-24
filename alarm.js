@@ -13,7 +13,7 @@ var setAlarmSnooze = true
 var numpadentry = []
 var alarmConfigTemp = []
 var alarmConfig =
-    [{ alarmNumTime: "7:30", alarmAmPm: "AM", alarmTimerbottom: "Timer" },
+    [{}
 
     ]
 
@@ -40,7 +40,7 @@ function editAlarms() {
     if (document.querySelector("#alarmEdit").innerHTML === "Edit") {
 
 
-        for (var i = 0; i < alarmConfig.length; i++) {
+        for (i = 0; i < alarmConfig.length; i++) {
 
             if (document.querySelector(`#alarm${i}`) === null) { }
 
@@ -49,11 +49,26 @@ function editAlarms() {
                 document.querySelector(`#alarm${i}`).style.animationDuration = ".5s"
                 document.querySelector(`#alarm${i}`).style.animationName = "alarmContAnamateRight";
 
-
+                //del button
                 document.querySelector(`#editAlarmTimeContainer${i}`).style.visibility = "visible"
                 document.querySelector(`#editAlarmTimeContainer${i}`).style.opacity = "100%"
                 document.querySelector(`#editAlarmTimeContainer${i}`).style.animationDuration = "1s"
                 document.querySelector(`#editAlarmTimeContainer${i}`).style.animationName = "alarmButtonRight"
+
+                //toggle button remove
+
+                document.querySelector(`#mtoggle${i}`).style.background = "transparent"
+                document.querySelector(`#mtoggle${i}`).style.animationDuration = "12s"
+                document.querySelector(`#mtoggle${i}`).style.animationName = "easeout"
+
+
+                document.querySelector(`#toggle${i}`).style.background = "transparent"
+                document.querySelector(`#toggle${i}`).innerText = ">"
+                document.querySelector(`#toggle${i}`).style.color = "white"
+                document.querySelector(`#toggle${i}`).style.marginRight = "-40px"
+
+
+
             }
 
 
@@ -76,6 +91,16 @@ function editAlarms() {
                 document.querySelector(`#editAlarmTimeContainer${i}`).style.opacity = "0%"
                 document.querySelector(`#editAlarmTimeContainer${i}`).style.animationDuration = "1s"
                 document.querySelector(`#editAlarmTimeContainer${i}`).style.animationName = "alarmButtonLeft"
+
+                document.querySelector(`#mtoggle${i}`).style.removeProperty("background")
+                document.querySelector(`#mtoggle${i}`).style.animationDuration = ".5s"
+                document.querySelector(`#mtoggle${i}`).style.animationName = "easein"
+
+
+                document.querySelector(`#toggle${i}`).style.removeProperty("background")
+                document.querySelector(`#toggle${i}`).innerText = ""
+                document.querySelector(`#toggle${i}`).style.removeProperty("color")
+                document.querySelector(`#toggle${i}`).style.removeProperty("margin-right")
             }
 
 
@@ -150,6 +175,7 @@ function alarmPageSave() {
     let creatNewAlarmToggle = document.createElement("button")
     creatNewAlarmToggle.setAttribute("onclick", `alarmToggle(${alarmConfig.length})`)
     creatNewAlarmToggle.setAttribute("class", "alarmToggleOn")
+    creatNewAlarmToggle.setAttribute("id", `mtoggle${alarmConfig.length}`)
     creatNewButtonSpan.appendChild(creatNewAlarmToggle)
 
     let creatNewToggleNum = document.createElement("div")
@@ -206,14 +232,17 @@ function alarmToggle(n) {
     }
 }
 
-
-alarmConfig = alarmConfig.sort((a, b) => (parseInt(a.alarmNumTime.split(":").join("")) > parseInt(b.alarmNumTime.split(":").join(""))) ? 1 : -1)
-console.table(alarmConfig)
+if (alarmConfig > 0) {
+    alarmConfig = alarmConfig.sort((a, b) => (parseInt(a.alarmNumTime.split(":").join("")) > parseInt(b.alarmNumTime.split(":").join(""))) ? 1 : -1)
+    console.table(alarmConfig)
+}
 
 
 function UpdateAlarmConfig() {
-    alarmConfig = alarmConfig.sort((a, b) => (parseInt(a.alarmNumTime.split(":").join("")) > parseInt(b.alarmNumTime.split(":").join(""))) ? 1 : -1)
-    console.table(alarmConfig)
+    if (alarmConfig > 0) {
+        alarmConfig = alarmConfig.sort((a, b) => (parseInt(a.alarmNumTime.split(":").join("")) > parseInt(b.alarmNumTime.split(":").join(""))) ? 1 : -1)
+        console.table(alarmConfig)
+    }
 
     for (let i = 0; i < alarmConfig.length; i++) {
         if (document.querySelector(`#alarm${i}`) !== null) {

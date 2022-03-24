@@ -377,6 +377,16 @@ flex-direction: column;
     to {opacity: 0%}
   }
 
+  @keyframes easeout {
+      from {opacity: 100%}
+      to {opacity: 0%}
+  }
+  
+  @keyframes easein {
+    from {opacity: 0%}
+    to {opacity: 100%}
+}
+
 .editAlarmTimeContainer{
    
    /*button style*/
