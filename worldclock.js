@@ -292,7 +292,21 @@ let updateCities = async (lastupdatedMin) => {
         if (currentMin > lastupdatedMin) {
             for (i = 0; i < worldClockCitiesNumber.length; i++) {
                 console.log('update')
-                APIData(worldClockCitiesNumber[i])
+
+                if ((document.querySelector(`#WCTime${worldClockCitiesNumber[i]}`).innerText.split(":")[1] * 1 < 59) && (document.querySelector(`#WCTime${worldClockCitiesNumber[i]}`).innerText.split(":")[1] * 1 > 0)) {
+                    console.log(document.querySelector(`#WCTime${worldClockCitiesNumber[i]}`).innerText.split(":")[1] * 1)
+
+                    let h = document.querySelector(`#WCTime${worldClockCitiesNumber[i]}`).innerText.split(":")[0]
+
+
+                    let m = document.querySelector(`#WCTime${worldClockCitiesNumber[i]}`).innerText.split(":")[1] * 1 + 1
+
+                    if (m < 10) { m = `0${m}` }
+
+
+                    document.querySelector(`#WCTime${worldClockCitiesNumber[i]}`).innerText = `${h}:${m}`
+
+                } else { APIData(worldClockCitiesNumber[i]) }
 
             }
         }
