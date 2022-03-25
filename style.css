@@ -293,6 +293,8 @@ padding-bottom: 40px;
 border-top: 1px solid rgb(85, 85, 85) ;
 border-bottom: 1px solid rgb(85, 85, 85) ;
 
+margin-top: -28px;
+
 width: 100%;
 height: 50px;
 }
@@ -302,7 +304,48 @@ flex-direction: column;
 
 
 }
+@keyframes WCAnamateRight {
+    from {margin-left: 0vw;}
+    to {margin-left: 10vw}
+  }
+  
+  @keyframes WCAnamateLeft {
+    from {margin-left: 10vw;}
+    to {margin-left: 0vw}
+  }
 
+@keyframes deleateButtonRight {
+    from {opacity: 0%;}
+    to {opacity: 100%}
+  }
+
+  @keyframes deleateButtonLeft {
+    from {opacity: 100%;}
+    to {opacity: 0%}
+  }
+
+.editDeleate {
+   visibility: hidden;
+    margin-left: .5vw;
+    position: relative;
+    top:20px;
+
+    border: none;
+    background-color: red;
+    border-radius: 50%;
+    color: white;
+    width: 20px;
+    height: 20px;
+
+    /*text style*/
+    padding-right:1px;
+    padding-bottom:14px;
+    text-align: center; 
+    font-weight: bold;
+    font-size: 1em;
+    line-height: 1px;
+    cursor: pointer;
+}
 .WCDay{
     font-size:.8rem;
     color: rgb(85, 85, 85)
@@ -422,11 +465,11 @@ visibility: hidden;
 
 @keyframes alarmContAnamateRight {
     from {margin-left: 0vw;}
-    to {margin-left: 5vw}
+    to {margin-left: 10vw}
   }
   
   @keyframes alarmContAnamateLeft {
-    from {margin-left: 5vw;}
+    from {margin-left: 10vw;}
     to {margin-left: 0vw}
   }
 

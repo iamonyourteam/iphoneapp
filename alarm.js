@@ -45,7 +45,7 @@ function editAlarms() {
             if (document.querySelector(`#alarm${i}`) === null) { }
 
             else {
-                document.querySelector(`#alarm${i}`).style.marginLeft = "5vw"
+                document.querySelector(`#alarm${i}`).style.marginLeft = "10vw"
                 document.querySelector(`#alarm${i}`).style.animationDuration = ".5s"
                 document.querySelector(`#alarm${i}`).style.animationName = "alarmContAnamateRight";
 

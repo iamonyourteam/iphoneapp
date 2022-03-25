@@ -193,12 +193,18 @@ function addCity(city) {
         console.log(worldClockCitiesNumber)
 
 
-
+        let creatNeweditdeleate = document.createElement("button")
+        creatNeweditdeleate.setAttribute("class", "editDeleate")
+        creatNeweditdeleate.setAttribute("id", `editDeleate${city}`)
+        creatNeweditdeleate.setAttribute("onClick", `editDeleate(${city})`)
+        creatNeweditdeleate.textContent = "_"
+        document.querySelector(`.worldClockCities`).appendChild(creatNeweditdeleate)
 
         let addWCWraperContainer = document.createElement("div")
         addWCWraperContainer.setAttribute("class", "WCWraperContainer")
         addWCWraperContainer.setAttribute("id", `WCWraperContainer${city}`)
         document.querySelector(".worldClockCities").appendChild(addWCWraperContainer)
+
 
 
         let addWCCityWrapper = document.createElement("div")
@@ -253,21 +259,46 @@ let sleep = (time) => {
     return new Promise(resolve => setTimeout(resolve, time))
 }
 
-te = 0
-let updateCities = async () => {
+
+function isMinChanged() {
+
+}
+
+
+
+let updateCities = async (lastupdatedMin) => {
+
+
+    let currentMin = 0;
+
+
+
 
     if (worldClockCities[0] == undefined) {
-        await sleep(1000)
+        await sleep(5000)
         console.log("waiting")
         updateCities()
+
     }
     else {
-        for (i = 0; i < worldClockCitiesNumber.length; i++) {
-            await sleep(1000)
-            APIData(worldClockCitiesNumber[i])
+
+        let n = new Date
+        currentMin = n.getMinutes()
+
+
+
+
+
+        if (currentMin > lastupdatedMin) {
+            for (i = 0; i < worldClockCitiesNumber.length; i++) {
+                console.log('update')
+                APIData(worldClockCitiesNumber[i])
+
+            }
         }
-        await sleep(1000)
-        updateCities()
+
+        await sleep(2000)
+        updateCities(currentMin)
     }
 }
 
@@ -284,17 +315,17 @@ function editWorldClock() {
             if (worldClockCities.length == 0) { }
 
             else {
-                document.querySelector(`#WCWraperContainer${worldClockCitiesNumber[i]}`).style.marginLeft = "5vw"
+                document.querySelector(`#WCWraperContainer${worldClockCitiesNumber[i]}`).style.marginLeft = "10vw"
                 document.querySelector(`#WCWraperContainer${worldClockCitiesNumber[i]}`).style.animationDuration = ".5s"
-                document.querySelector(`#WCWraperContainer${worldClockCitiesNumber[i]}`).style.animationName = "alarmContAnamateRight";
+                document.querySelector(`#WCWraperContainer${worldClockCitiesNumber[i]}`).style.animationName = "WCAnamateRight";
                 document.querySelector(`#WCTime${worldClockCitiesNumber[i]}`).style.opacity = "0%"
                 document.querySelector(`#WCAMPM${worldClockCitiesNumber[i]}`).style.opacity = "0%"
 
-                // //del button
-                // document.querySelector(`#editAlarmTimeContainer${worldClockCitiesNumber[i]}`).style.visibility = "visible"
-                // document.querySelector(`#editAlarmTimeContainer${worldClockCitiesNumber[i]}`).style.opacity = "100%"
-                // document.querySelector(`#editAlarmTimeContainer${worldClockCitiesNumber[i]}`).style.animationDuration = "1s"
-                // document.querySelector(`#editAlarmTimeContainer${worldClockCitiesNumber[i]}`).style.animationName = "alarmButtonRight"
+                //del button
+                document.querySelector(`#editDeleate${worldClockCitiesNumber[i]}`).style.visibility = "visible"
+                document.querySelector(`#editDeleate${worldClockCitiesNumber[i]}`).style.opacity = "100%"
+                document.querySelector(`#editDeleate${worldClockCitiesNumber[i]}`).style.animationDuration = "1s"
+                document.querySelector(`#editDeleate${worldClockCitiesNumber[i]}`).style.animationName = "deleateButtonRight"
 
 
 
@@ -315,14 +346,14 @@ function editWorldClock() {
             else {
                 document.querySelector(`#WCWraperContainer${worldClockCitiesNumber[i]}`).style.marginLeft = "0vw"
                 document.querySelector(`#WCWraperContainer${worldClockCitiesNumber[i]}`).style.animationDuration = ".5s"
-                document.querySelector(`#WCWraperContainer${worldClockCitiesNumber[i]}`).style.animationName = "alarmContAnamateLeft";
+                document.querySelector(`#WCWraperContainer${worldClockCitiesNumber[i]}`).style.animationName = "WCAnamateLeft";
                 document.querySelector(`#WCTime${worldClockCitiesNumber[i]}`).style.opacity = "100%"
                 document.querySelector(`#WCAMPM${worldClockCitiesNumber[i]}`).style.opacity = "100%"
 
-                // document.querySelector(`#editAlarmTimeContainer${i}`).style.visibility = "hidden"
-                // document.querySelector(`#editAlarmTimeContainer${i}`).style.opacity = "0%"
-                // document.querySelector(`#editAlarmTimeContainer${i}`).style.animationDuration = "1s"
-                // document.querySelector(`#editAlarmTimeContainer${i}`).style.animationName = "alarmButtonLeft"
+                document.querySelector(`#editDeleate${worldClockCitiesNumber[i]}`).style.visibility = "hidden"
+                document.querySelector(`#editDeleate${worldClockCitiesNumber[i]}`).style.opacity = "0%"
+                document.querySelector(`#editDeleate${worldClockCitiesNumber[i]}`).style.animationDuration = "1s"
+                document.querySelector(`#editDeleate${worldClockCitiesNumber[i]}`).style.animationName = "deleateButtonLeft"
 
 
             }
