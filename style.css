@@ -189,6 +189,8 @@ height: 75vh;
 margin-left: -20px;
 padding-left: 20px;
 top:100vh; 
+transition: top .3s;
+transition-timing-function: linear; 
 
 }
 
@@ -314,17 +316,17 @@ flex-direction: column;
     to {margin-left: 0vw}
   }
 
-@keyframes deleateButtonRight {
+@keyframes deleteButtonRight {
     from {opacity: 0%;}
     to {opacity: 100%}
   }
 
-  @keyframes deleateButtonLeft {
+  @keyframes deleteButtonLeft {
     from {opacity: 100%;}
     to {opacity: 0%}
   }
 
-.editDeleate {
+.editdelete {
    visibility: hidden;
     margin-left: .5vw;
     position: relative;
