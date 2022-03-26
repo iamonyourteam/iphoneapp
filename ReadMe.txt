@@ -31,20 +31,24 @@ World Clock (Not Started - Practice Using Api? to )
 
 TODO: 
 
+update phone clock
+
+
 WorldCLock:
 
--Edit funciton - remove city
+
 -Hr Difference
 -Drag and Drop ?
-- menu animation
+Sample WC? New York
+
 
 
 Alarm:
-
+ - delete edit alarm info after closing window
 - allow editing existing alarms
 -repeat menu implementation
- 
--
+ - not allow min to be larger then 59
+-sample Alarm ?
 
 
 Stopwatch:

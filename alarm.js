@@ -314,10 +314,38 @@ function numpress(a) {
     console.log(a)
     numpadentry.push(a)
     console.log(numpadentry)
-    while (numpadentry.join("") > 1259) {
-        numpadentry.shift()
 
+    if (numpadentry.length > 4) {
+        numpadentry.shift()
     }
+
+    if (numpadentry.length == 4) {
+        if (numpadentry.join("") * 1 > 1259) {
+            numpadentry.shift()
+        }
+    }
+
+
+
+    if (numpadentry.length == 3) {
+        if (numpadentry.join("") * 1 > 959) {
+            numpadentry.shift()
+        }
+        if (numpadentry[1] > 5) {
+            numpadentry.shift()
+        }
+    }
+
+
+
+    if (numpadentry.length > 2) {
+        if (numpadentry[0] + numpadentry[1] + numpadentry[2] == 0) {
+            numpadentry.shift()
+        }
+    }
+
+
+
     console.log(numpadentry)
 
 
