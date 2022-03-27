@@ -1,26 +1,34 @@
 ////Curent time////
 
-let d = new Date();
-d.getHours();
-d.getMinutes();
 
-let mn = 0
-let hr = 0
+let phoneTime = async () => {
 
-if (d.getHours() > 12) { hr = d.getHours() - 12 } else if (d.getHours() === 0) { hr = d.getHours() + 12 } else { hr = d.getHours() }
+    let d = new Date();
+    d.getHours();
+    d.getMinutes();
+
+    let mn = 0
+    let hr = 0
+
+    if (d.getHours() > 12) { hr = d.getHours() - 12 } else if (d.getHours() === 0) { hr = d.getHours() + 12 } else { hr = d.getHours() }
 
 
-if (d.getMinutes() < 10) {
-    mn = `0${d.getMinutes()}`
+    if (d.getMinutes() < 10) {
+        mn = `0${d.getMinutes()}`
+    }
+    else { mn = d.getMinutes() }
+
+
+    let currentTime = `${hr}:${mn}`
+
+
+    document.getElementById("time").innerHTML = currentTime
+
+    await sleep(5000)
+
+    phoneTime()
 }
-else { mn = d.getMinutes() }
-
-
-let currentTime = `${hr}:${mn}`
-
-
-document.getElementById("time").innerHTML = currentTime
-
+phoneTime()
 
 
 

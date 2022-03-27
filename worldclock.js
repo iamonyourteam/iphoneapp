@@ -421,3 +421,14 @@ function editWorldClock() {
 }
 
 
+
+// Default World Clock "New York"
+let dc = async () => {
+    await sleep(1000)
+    addCity(432)
+
+    addCity(7)
+
+}
+
+dc()

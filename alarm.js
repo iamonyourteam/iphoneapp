@@ -1,7 +1,7 @@
 
 
 //// Variables ////
-var setAlarmTime = "0000"
+var setAlarmTime = "9:00"
 var setAlarmAMPM = "AM"
 var setAlarmRepeat = "Never"
 var setAlarmLabel = "Alarm"
@@ -647,3 +647,66 @@ function AOSPSnooze() {
     }
 
 }
+
+
+
+
+function defualtAlarm() {
+    // Creating Default Alarm On App Load
+
+    let creatNeweditAlarmTimeContainer = document.createElement("button")
+    creatNeweditAlarmTimeContainer.setAttribute("class", "editAlarmTimeContainer")
+    creatNeweditAlarmTimeContainer.setAttribute("id", `editAlarmTimeContainer${alarmConfig.length}`)
+    creatNeweditAlarmTimeContainer.setAttribute("onClick", `editAlarmButton(${alarmConfig.length})`)
+    creatNeweditAlarmTimeContainer.textContent = "_"
+    document.getElementById("alarmTimeCont").appendChild(creatNeweditAlarmTimeContainer)
+
+    let creatNewAlarmCont = document.createElement("div");
+    creatNewAlarmCont.setAttribute("class", "alarmCont")
+    creatNewAlarmCont.setAttribute("id", `alarm${alarmConfig.length}`)
+    document.getElementById("alarmTimeCont").appendChild(creatNewAlarmCont)
+
+    let creatNewAlarmTopCont = document.createElement("div");
+    creatNewAlarmTopCont.setAttribute("class", "alarmTopCont")
+    creatNewAlarmCont.appendChild(creatNewAlarmTopCont)
+
+    let creatNewAlarmTime = document.createElement("span")
+    creatNewAlarmTime.setAttribute("class", "alarmtime")
+    creatNewAlarmTopCont.appendChild(creatNewAlarmTime)
+
+    let creatNewAlarmNumTime = document.createElement("span")
+    creatNewAlarmNumTime.setAttribute("class", "alarmNumTime")
+    creatNewAlarmNumTime.textContent = "9:00"
+    creatNewAlarmTime.appendChild(creatNewAlarmNumTime)
+
+    let creatNewAlarmAmPm = document.createElement("span")
+    creatNewAlarmAmPm.setAttribute("class", "alarmAmPm")
+    creatNewAlarmAmPm.textContent = "AM"
+    creatNewAlarmTime.appendChild(creatNewAlarmAmPm)
+
+    let creatNewButtonSpan = document.createElement("span")
+    creatNewAlarmTopCont.appendChild(creatNewButtonSpan)
+
+    let creatNewAlarmToggle = document.createElement("button")
+    creatNewAlarmToggle.setAttribute("onclick", `alarmToggle(${alarmConfig.length})`)
+    creatNewAlarmToggle.setAttribute("class", "alarmToggleOn")
+    creatNewAlarmToggle.setAttribute("id", `mtoggle${alarmConfig.length}`)
+    creatNewButtonSpan.appendChild(creatNewAlarmToggle)
+
+    let creatNewToggleNum = document.createElement("div")
+    creatNewToggleNum.setAttribute("class", "alarmToggleBallOn")
+    creatNewToggleNum.setAttribute("id", `toggle${alarmConfig.length}`)
+    creatNewAlarmToggle.appendChild(creatNewToggleNum)
+
+    let creatNewAlarmTimerbottom = document.createElement("div");
+    creatNewAlarmTimerbottom.setAttribute("class", "alarmTimerbottom")
+    creatNewAlarmTimerbottom.textContent = "Timer"
+    creatNewAlarmCont.appendChild(creatNewAlarmTimerbottom)
+    ////
+    alarmConfig.push(
+        { alarmNumTime: `${setAlarmTime}`, alarmAmPm: `${setAlarmAMPM}`, alarmTimerbottom: `${setAlarmLabel}` }
+    )
+    UpdateAlarmConfig()
+
+}
+defualtAlarm()
