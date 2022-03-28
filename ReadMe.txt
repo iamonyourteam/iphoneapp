@@ -17,10 +17,13 @@ Timer (2nd subproject) -
 	Timer countdown visulizer
 	Paused time is accounted for in estimated time 
 
-Alarm Clock (3rd subprject - Work In Progress)
+Alarm Clock (3rd subprject)
+Adding and removing Items from the DOM
 
-World Clock (Not Started - Practice Using Api? to )
 
+
+World Clock (4th subprject)
+Asing and API to get Time information based on json data of longitude and latitude
 
 
 
